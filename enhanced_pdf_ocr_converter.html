@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced PDF OCR Converter - Tables & Text</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.0.4/dist/tesseract.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="https://unpkg.com/docx@7.1.0/build/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 30px;
+        }
+
+        /* Processing Options Section */
+        .options-section {
+            display: none;
+            background: #f0f4ff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .options-group {
+            margin-bottom: 20px;
+        }
+
+        .options-group h3 {
+            color: #333;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .option-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .option-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+
+        .option-btn:hover {
+            background: #f0f4ff;
+        }
+
+        .option-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Margin Controls */
+        .margin-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .margin-input {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .margin-input label {
+            font-size: 14px;
+            color: #666;
+            min-width: 50px;
+        }
+
+        .margin-input input {
+            width: 60px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Upload Section */
+        .upload-section {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background: #f8f9ff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+
+        .upload-section:hover {
+            border-color: #764ba2;
+            background: #f0f2ff;
+        }
+
+        .upload-section.dragover {
+            background: #e8ebff;
+            border-color: #764ba2;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .upload-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin-top: 15px;
+        }
+
+        .upload-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .pages-section {
+            display: none;
+            margin-bottom: 30px;
+        }
+
+        .pages-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .pages-header h2 {
+            color: #333;
+        }
+
+        .select-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .select-btn {
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .select-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .pages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 15px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+        }
+
+        .page-item {
+            position: relative;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 3px solid transparent;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .page-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .page-item.selected {
+            border-color: #667eea;
+        }
+
+        .page-canvas {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .page-number {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background: rgba(102, 126, 234, 0.9);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        .page-checkbox {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .process-section {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .process-button {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .process-button:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .process-button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .progress-section {
+            display: none;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .progress-status {
+            text-align: center;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .results-section {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f8ff;
+            border-radius: 10px;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .download-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .download-button {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        .download-button.csv {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+
+        .download-button.csv:hover {
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .text-preview {
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 20px;
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        .table-preview {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+
+        .table-preview table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .table-preview th,
+        .table-preview td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table-preview th {
+            background: #f8f9fa;
+            font-weight: bold;
+        }
+
+        .info-icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 16px;
+            font-size: 12px;
+            cursor: help;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #555;
+            color: #fff;
+            text-align: left;
+            padding: 8px;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 12px;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .features-list li {
+            padding: 8px 0;
+            color: #666;
+        }
+
+        .features-list li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Enhanced PDF OCR Converter</h1>
+            <p>Convert PDFs to Word documents or CSV with advanced table detection</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Upload Section -->
+            <div class="upload-section" id="uploadSection">
+                <div class="upload-icon">📁</div>
+                <h2>Drop your PDF here or click to browse</h2>
+                <p style="color: #666; margin-top: 10px;">Supports both text and image-based PDFs</p>
+                <input type="file" id="fileInput" class="file-input" accept=".pdf">
+                <button class="upload-button" onclick="document.getElementById('fileInput').click()">
+                    Choose PDF File
+                </button>
+                <ul class="features-list">
+                    <li>Advanced table detection with grid/no-grid options</li>
+                    <li>Zero-margin processing to capture all content</li>
+                    <li>Export tables to CSV format</li>
+                    <li>Preserves document structure and formatting</li>
+                    <li>Exports to Microsoft Word format (.docx)</li>
+                </ul>
+            </div>
+
+            <!-- Processing Options Section -->
+            <div class="options-section" id="optionsSection">
+                <div class="options-group">
+                    <h3>
+                        📊 Table Detection Mode
+                        <span class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltiptext">Choose how tables should be detected and processed in your PDF</span>
+                        </span>
+                    </h3>
+                    <div class="option-buttons">
+                        <button class="option-btn" data-mode="no-table" onclick="setTableMode('no-table')">
+                            📝 No Table (Text Only)
+                        </button>
+                        <button class="option-btn active" data-mode="table-grid" onclick="setTableMode('table-grid')">
+                            📋 Table with Grid Lines
+                        </button>
+                        <button class="option-btn" data-mode="table-no-grid" onclick="setTableMode('table-no-grid')">
+                            📄 Table without Grid
+                        </button>
+                        <button class="option-btn" data-mode="auto" onclick="setTableMode('auto')">
+                            🔍 Auto-Detect
+                        </button>
+                    </div>
+                </div>
+
+                <div class="options-group">
+                    <h3>
+                        📐 Page Margins (pixels)
+                        <span class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltiptext">Set to 0 for zero margins to capture all content at edges</span>
+                        </span>
+                    </h3>
+                    <div class="margin-controls">
+                        <div class="margin-input">
+                            <label>Top:</label>
+                            <input type="number" id="marginTop" value="0" min="0" max="100">
+                        </div>
+                        <div class="margin-input">
+                            <label>Right:</label>
+                            <input type="number" id="marginRight" value="0" min="0" max="100">
+                        </div>
+                        <div class="margin-input">
+                            <label>Bottom:</label>
+                            <input type="number" id="marginBottom" value="0" min="0" max="100">
+                        </div>
+                        <div class="margin-input">
+                            <label>Left:</label>
+                            <input type="number" id="marginLeft" value="0" min="0" max="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="options-group">
+                    <h3>
+                        🔧 OCR Settings
+                        <span class="tooltip">
+                            <span class="info-icon">?</span>
+                            <span class="tooltiptext">Advanced settings for OCR processing</span>
+                        </span>
+                    </h3>
+                    <div class="option-buttons">
+                        <button class="option-btn active" data-quality="high" onclick="setOCRQuality('high')">
+                            🎯 High Quality
+                        </button>
+                        <button class="option-btn" data-quality="fast" onclick="setOCRQuality('fast')">
+                            ⚡ Fast Processing
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Selection Section -->
+            <div class="pages-section" id="pagesSection">
+                <div class="pages-header">
+                    <h2>Select Pages to Process</h2>
+                    <div class="select-buttons">
+                        <button class="select-btn" onclick="selectAllPages()">Select All</button>
+                        <button class="select-btn" onclick="deselectAllPages()">Deselect All</button>
+                    </div>
+                </div>
+                <div class="pages-grid" id="pagesGrid"></div>
+            </div>
+
+            <!-- Process Button Section -->
+            <div class="process-section" id="processSection">
+                <button class="process-button" id="processButton" onclick="processSelectedPages()">
+                    🚀 Process Selected Pages
+                </button>
+                <p style="color: #666; margin-top: 10px;">
+                    <span id="selectedCount">0</span> pages selected
+                </p>
+            </div>
+
+            <!-- Progress Section -->
+            <div class="progress-section" id="progressSection">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%">0%</div>
+                </div>
+                <div class="progress-status" id="progressStatus">Initializing...</div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection">
+                <div class="results-header">
+                    <h2>Extracted Content</h2>
+                    <div class="download-buttons">
+                        <button class="download-button" onclick="downloadWordDocument()">
+                            📄 Download as Word
+                        </button>
+                        <button class="download-button csv" id="csvButton" onclick="downloadCSV()" style="display:none;">
+                            📊 Download as CSV
+                        </button>
+                        <button class="download-button" onclick="downloadText()">
+                            📝 Download as Text
+                        </button>
+                    </div>
+                </div>
+                <div class="text-preview" id="textPreview"></div>
+                <div class="table-preview" id="tablePreview" style="display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Set PDF.js worker
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+        // Global variables
+        let pdfDocument = null;
+        let selectedPages = new Set();
+        let extractedText = "";
+        let extractedTables = [];
+        let fileName = "";
+        
+        // Processing options
+        let tableMode = 'table-grid'; // 'no-table', 'table-grid', 'table-no-grid', 'auto'
+        let ocrQuality = 'high'; // 'high' or 'fast'
+        let margins = {
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0
+        };
+
+        // Set table detection mode
+        function setTableMode(mode) {
+            tableMode = mode;
+            document.querySelectorAll('.option-btn[data-mode]').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.option-btn[data-mode="${mode}"]`).classList.add('active');
+        }
+
+        // Set OCR quality
+        function setOCRQuality(quality) {
+            ocrQuality = quality;
+            document.querySelectorAll('.option-btn[data-quality]').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.option-btn[data-quality="${quality}"]`).classList.add('active');
+        }
+
+        // Update margins
+        document.getElementById('marginTop').addEventListener('change', (e) => {
+            margins.top = parseInt(e.target.value) || 0;
+        });
+        document.getElementById('marginRight').addEventListener('change', (e) => {
+            margins.right = parseInt(e.target.value) || 0;
+        });
+        document.getElementById('marginBottom').addEventListener('change', (e) => {
+            margins.bottom = parseInt(e.target.value) || 0;
+        });
+        document.getElementById('marginLeft').addEventListener('change', (e) => {
+            margins.left = parseInt(e.target.value) || 0;
+        });
+
+        // Drag and drop functionality
+        const uploadSection = document.getElementById('uploadSection');
+        const fileInput = document.getElementById('fileInput');
+
+        uploadSection.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadSection.classList.add('dragover');
+        });
+
+        uploadSection.addEventListener('dragleave', (e) => {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+        });
+
+        uploadSection.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadSection.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0 && files[0].type === 'application/pdf') {
+                handleFile(files[0]);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        async function handleFile(file) {
+            fileName = file.name.replace('.pdf', '');
+            const fileReader = new FileReader();
+            
+            fileReader.onload = async function(e) {
+                const typedarray = new Uint8Array(e.target.result);
+                
+                try {
+                    pdfDocument = await pdfjsLib.getDocument(typedarray).promise;
+                    displayPages();
+                    document.getElementById('optionsSection').style.display = 'block';
+                } catch (error) {
+                    alert('Error loading PDF: ' + error.message);
+                }
+            };
+            
+            fileReader.readAsArrayBuffer(file);
+        }
+
+        async function displayPages() {
+            const pagesGrid = document.getElementById('pagesGrid');
+            pagesGrid.innerHTML = '';
+            selectedPages.clear();
+            
+            const numPages = pdfDocument.numPages;
+            
+            for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+                const page = await pdfDocument.getPage(pageNum);
+                const scale = 0.5;
+                const viewport = page.getViewport({ scale });
+                
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+                
+                // Render with zero margins for preview
+                await page.render({
+                    canvasContext: context,
+                    viewport: viewport
+                }).promise;
+                
+                const pageItem = document.createElement('div');
+                pageItem.className = 'page-item';
+                pageItem.dataset.pageNum = pageNum;
+                
+                const pageNumber = document.createElement('div');
+                pageNumber.className = 'page-number';
+                pageNumber.textContent = `Page ${pageNum}`;
+                
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.className = 'page-checkbox';
+                checkbox.checked = true;
+                checkbox.onclick = (e) => {
+                    e.stopPropagation();
+                    togglePageSelection(pageNum);
+                };
+                
+                pageItem.appendChild(canvas);
+                pageItem.appendChild(pageNumber);
+                pageItem.appendChild(checkbox);
+                
+                canvas.className = 'page-canvas';
+                
+                pageItem.onclick = () => {
+                    checkbox.checked = !checkbox.checked;
+                    togglePageSelection(pageNum);
+                };
+                
+                pagesGrid.appendChild(pageItem);
+                selectedPages.add(pageNum);
+                pageItem.classList.add('selected');
+            }
+            
+            document.getElementById('pagesSection').style.display = 'block';
+            document.getElementById('processSection').style.display = 'block';
+            updateSelectedCount();
+        }
+
+        function togglePageSelection(pageNum) {
+            const pageItem = document.querySelector(`[data-page-num="${pageNum}"]`);
+            const checkbox = pageItem.querySelector('.page-checkbox');
+            
+            if (selectedPages.has(pageNum)) {
+                selectedPages.delete(pageNum);
+                pageItem.classList.remove('selected');
+            } else {
+                selectedPages.add(pageNum);
+                pageItem.classList.add('selected');
+            }
+            
+            updateSelectedCount();
+        }
+
+        function selectAllPages() {
+            const pageItems = document.querySelectorAll('.page-item');
+            pageItems.forEach(item => {
+                const pageNum = parseInt(item.dataset.pageNum);
+                selectedPages.add(pageNum);
+                item.classList.add('selected');
+                item.querySelector('.page-checkbox').checked = true;
+            });
+            updateSelectedCount();
+        }
+
+        function deselectAllPages() {
+            const pageItems = document.querySelectorAll('.page-item');
+            pageItems.forEach(item => {
+                const pageNum = parseInt(item.dataset.pageNum);
+                selectedPages.delete(pageNum);
+                item.classList.remove('selected');
+                item.querySelector('.page-checkbox').checked = false;
+            });
+            updateSelectedCount();
+        }
+
+        function updateSelectedCount() {
+            document.getElementById('selectedCount').textContent = selectedPages.size;
+            document.getElementById('processButton').disabled = selectedPages.size === 0;
+        }
+
+        async function processSelectedPages() {
+            if (selectedPages.size === 0) {
+                alert('Please select at least one page to process');
+                return;
+            }
+            
+            document.getElementById('progressSection').style.display = 'block';
+            document.getElementById('processButton').disabled = true;
+            document.getElementById('resultsSection').style.display = 'none';
+            
+            extractedText = "";
+            extractedTables = [];
+            const sortedPages = Array.from(selectedPages).sort((a, b) => a - b);
+            
+            for (let i = 0; i < sortedPages.length; i++) {
+                const pageNum = sortedPages[i];
+                const progress = Math.round(((i + 1) / sortedPages.length) * 100);
+                
+                updateProgress(progress, `Processing page ${pageNum} of ${sortedPages.length}...`);
+                
+                const ocrResult = await ocrPage(pageNum);
+                
+                if (tableMode !== 'no-table' && ocrResult.table) {
+                    extractedTables.push({
+                        pageNum: pageNum,
+                        data: ocrResult.table
+                    });
+                }
+                
+                extractedText += ocrResult.text + "\n\n";
+            }
+            
+            updateProgress(100, 'Processing complete!');
+            displayResults();
+            document.getElementById('processButton').disabled = false;
+        }
+
+        async function ocrPage(pageNum) {
+            const page = await pdfDocument.getPage(pageNum);
+            const scale = ocrQuality === 'high' ? 4 : 2; // Higher scale for better OCR accuracy
+            const viewport = page.getViewport({ scale });
+            
+            // Create canvas with margins consideration
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            
+            // Add extra space for margins
+            const totalWidth = viewport.width + margins.left + margins.right;
+            const totalHeight = viewport.height + margins.top + margins.bottom;
+            
+            canvas.width = totalWidth;
+            canvas.height = totalHeight;
+            
+            // Set white background
+            context.fillStyle = 'white';
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Save the context state
+            context.save();
+            
+            // Translate to account for margins
+            context.translate(margins.left, margins.top);
+            
+            // Render PDF page with adjusted viewport
+            await page.render({
+                canvasContext: context,
+                viewport: viewport,
+                intent: 'display'
+            }).promise;
+            
+            // Restore context
+            context.restore();
+            
+            // Configure Tesseract based on table mode
+            let tesseractConfig = {
+                logger: info => {
+                    if (info.status === 'recognizing text') {
+                        const subProgress = Math.round(info.progress * 100);
+                        document.getElementById('progressStatus').textContent = 
+                            `Page ${pageNum}: Recognizing text... ${subProgress}%`;
+                    }
+                }
+            };
+            
+            // Add PSM mode for better table detection
+            if (tableMode === 'table-grid' || tableMode === 'table-no-grid') {
+                tesseractConfig.tessedit_pageseg_mode = '6'; // Assume uniform block of text
+            }
+            
+            // Perform OCR
+            const result = await Tesseract.recognize(
+                canvas,
+                'eng',
+                tesseractConfig
+            );
+            
+            // Process the result based on table mode
+            let processedResult = {
+                text: `=== Page ${pageNum} ===\n\n`,
+                table: null
+            };
+            
+            if (tableMode === 'no-table') {
+                // Simple text extraction
+                processedResult.text += formatTextOnly(result.data);
+            } else if (tableMode === 'table-grid' || tableMode === 'table-no-grid' || tableMode === 'auto') {
+                // Try to detect and extract tables
+                const tableData = extractTableData(result.data, tableMode);
+                if (tableData && tableData.rows.length > 0) {
+                    processedResult.table = tableData;
+                    processedResult.text += formatTableAsText(tableData);
+                } else {
+                    processedResult.text += formatTextOnly(result.data);
+                }
+            }
+            
+            return processedResult;
+        }
+
+        function extractTableData(ocrData, mode) {
+            const lines = ocrData.lines || [];
+            const text = ocrData.text || '';
+            
+            // Simple table detection based on consistent spacing/alignment
+            const textLines = text.split('\n').filter(line => line.trim());
+            
+            if (textLines.length < 2) return null;
+            
+            // Try to detect columns by analyzing spacing patterns
+            const rows = [];
+            const columnDelimiters = detectColumnDelimiters(textLines);
+            
+            if (mode === 'auto') {
+                // Auto-detect if this looks like a table
+                const hasMultipleColumns = columnDelimiters.length > 0;
+                const hasConsistentStructure = checkTableStructure(textLines);
+                
+                if (!hasMultipleColumns || !hasConsistentStructure) {
+                    return null;
+                }
+            }
+            
+            // Extract table rows
+            for (let line of textLines) {
+                if (!line.trim()) continue;
+                
+                let columns = [];
+                if (columnDelimiters.length > 0) {
+                    // Split by detected column positions
+                    let lastPos = 0;
+                    for (let delimiter of columnDelimiters) {
+                        columns.push(line.substring(lastPos, delimiter).trim());
+                        lastPos = delimiter;
+                    }
+                    columns.push(line.substring(lastPos).trim());
+                } else {
+                    // Fall back to splitting by multiple spaces or tabs
+                    columns = line.split(/\s{2,}|\t+/).map(col => col.trim());
+                }
+                
+                if (columns.length > 1 || (columns.length === 1 && columns[0])) {
+                    rows.push(columns);
+                }
+            }
+            
+            // Normalize columns
+            if (rows.length > 0) {
+                const maxCols = Math.max(...rows.map(row => row.length));
+                rows.forEach(row => {
+                    while (row.length < maxCols) {
+                        row.push('');
+                    }
+                });
+            }
+            
+            return { rows };
+        }
+
+        function detectColumnDelimiters(lines) {
+            // Analyze first few lines to detect consistent column positions
+            const sampleLines = lines.slice(0, Math.min(10, lines.length));
+            const positions = [];
+            
+            // Find positions with consistent spaces across multiple lines
+            if (sampleLines.length > 1) {
+                const minLength = Math.min(...sampleLines.map(l => l.length));
+                
+                for (let pos = 1; pos < minLength - 1; pos++) {
+                    let isDelimiter = true;
+                    let spaceCount = 0;
+                    
+                    for (let line of sampleLines) {
+                        if (pos < line.length) {
+                            // Check if this position has multiple spaces in most lines
+                            if (line[pos] === ' ' && line[pos-1] !== ' ') {
+                                spaceCount++;
+                            }
+                        }
+                    }
+                    
+                    if (spaceCount >= sampleLines.length * 0.7) {
+                        positions.push(pos);
+                    }
+                }
+            }
+            
+            return positions;
+        }
+
+        function checkTableStructure(lines) {
+            // Check if lines have similar structure (potential table)
+            if (lines.length < 2) return false;
+            
+            const columnCounts = lines.map(line => 
+                line.split(/\s{2,}|\t+/).filter(col => col.trim()).length
+            );
+            
+            // Check if most rows have the same number of columns
+            const mostCommonCount = mode(columnCounts);
+            const consistentRows = columnCounts.filter(count => count === mostCommonCount).length;
+            
+            return consistentRows >= lines.length * 0.6 && mostCommonCount > 1;
+        }
+
+        function mode(array) {
+            const frequency = {};
+            let maxFreq = 0;
+            let mode = array[0];
+            
+            for (let item of array) {
+                frequency[item] = (frequency[item] || 0) + 1;
+                if (frequency[item] > maxFreq) {
+                    maxFreq = frequency[item];
+                    mode = item;
+                }
+            }
+            
+            return mode;
+        }
+
+        function formatTextOnly(ocrData) {
+            const text = ocrData.text || '';
+            const lines = text.split('\n');
+            const formattedLines = [];
+            
+            for (let line of lines) {
+                const trimmed = line.trim();
+                if (trimmed) {
+                    formattedLines.push(trimmed);
+                } else if (formattedLines.length > 0 && formattedLines[formattedLines.length - 1] !== '') {
+                    formattedLines.push('');
+                }
+            }
+            
+            return formattedLines.join('\n');
+        }
+
+        function formatTableAsText(tableData) {
+            if (!tableData || !tableData.rows || tableData.rows.length === 0) {
+                return '';
+            }
+            
+            const rows = tableData.rows;
+            const columnWidths = [];
+            
+            // Calculate column widths
+            for (let i = 0; i < rows[0].length; i++) {
+                const maxWidth = Math.max(...rows.map(row => (row[i] || '').length));
+                columnWidths.push(maxWidth);
+            }
+            
+            // Format as aligned text
+            const formattedRows = rows.map(row => {
+                return row.map((cell, i) => {
+                    return (cell || '').padEnd(columnWidths[i], ' ');
+                }).join(' | ');
+            });
+            
+            // Add separator after header (if likely)
+            if (formattedRows.length > 1) {
+                const separator = columnWidths.map(w => '-'.repeat(w)).join('-+-');
+                formattedRows.splice(1, 0, separator);
+            }
+            
+            return formattedRows.join('\n');
+        }
+
+        function updateProgress(percent, status) {
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+            document.getElementById('progressStatus').textContent = status;
+        }
+
+        function displayResults() {
+            const preview = document.getElementById('textPreview');
+            const tablePreview = document.getElementById('tablePreview');
+            const csvButton = document.getElementById('csvButton');
+            
+            // Display text
+            const lines = extractedText.split('\n');
+            let html = '';
+            
+            for (let line of lines) {
+                if (line.startsWith('=== Page')) {
+                    html += `<div style="font-weight: bold; color: #667eea; margin: 20px 0;">${line}</div>`;
+                } else if (line.trim()) {
+                    html += `<div>${escapeHtml(line)}</div>`;
+                } else {
+                    html += '<br>';
+                }
+            }
+            
+            preview.innerHTML = html;
+            
+            // Display tables if any
+            if (extractedTables.length > 0) {
+                csvButton.style.display = 'inline-block';
+                
+                let tableHtml = '<h3>Extracted Tables:</h3>';
+                for (let table of extractedTables) {
+                    tableHtml += `<h4>Page ${table.pageNum}:</h4>`;
+                    tableHtml += '<table>';
+                    
+                    for (let i = 0; i < table.data.rows.length; i++) {
+                        const row = table.data.rows[i];
+                        tableHtml += '<tr>';
+                        for (let cell of row) {
+                            const tag = i === 0 ? 'th' : 'td';
+                            tableHtml += `<${tag}>${escapeHtml(cell)}</${tag}>`;
+                        }
+                        tableHtml += '</tr>';
+                    }
+                    
+                    tableHtml += '</table>';
+                }
+                
+                tablePreview.innerHTML = tableHtml;
+                tablePreview.style.display = 'block';
+            } else {
+                csvButton.style.display = 'none';
+                tablePreview.style.display = 'none';
+            }
+            
+            document.getElementById('resultsSection').style.display = 'block';
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        async function downloadWordDocument() {
+            try {
+                const { Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, PageBreak, Table, TableRow, TableCell } = docx;
+                
+                const children = [];
+                
+                // Add title
+                children.push(
+                    new Paragraph({
+                        text: fileName || 'Converted Document',
+                        heading: HeadingLevel.TITLE,
+                        alignment: AlignmentType.CENTER,
+                        spacing: { after: 400 }
+                    })
+                );
+                
+                // Process text and tables
+                const lines = extractedText.split('\n');
+                let currentPage = null;
+                
+                for (let i = 0; i < lines.length; i++) {
+                    const line = lines[i];
+                    
+                    if (line.startsWith('=== Page')) {
+                        const pageNum = line.match(/\d+/)[0];
+                        currentPage = parseInt(pageNum);
+                        
+                        if (i > 0) {
+                            children.push(new Paragraph({
+                                children: [new PageBreak()]
+                            }));
+                        }
+                        
+                        children.push(
+                            new Paragraph({
+                                text: `Page ${pageNum}`,
+                                heading: HeadingLevel.HEADING_1,
+                                spacing: { before: 240, after: 240 }
+                            })
+                        );
+                        
+                        // Add table for this page if exists
+                        const pageTable = extractedTables.find(t => t.pageNum === currentPage);
+                        if (pageTable && pageTable.data.rows.length > 0) {
+                            const tableRows = pageTable.data.rows.map((row, rowIndex) => {
+                                return new TableRow({
+                                    children: row.map(cell => {
+                                        return new TableCell({
+                                            children: [new Paragraph({
+                                                children: [new TextRun({
+                                                    text: cell || '',
+                                                    bold: rowIndex === 0
+                                                })]
+                                            })]
+                                        });
+                                    })
+                                });
+                            });
+                            
+                            children.push(new Table({
+                                rows: tableRows
+                            }));
+                        }
+                    } else if (line.trim()) {
+                        children.push(
+                            new Paragraph({
+                                text: line,
+                                spacing: { after: 120 }
+                            })
+                        );
+                    }
+                }
+                
+                const doc = new Document({
+                    sections: [{
+                        children: children
+                    }]
+                });
+                
+                const blob = await Packer.toBlob(doc);
+                saveAs(blob, `${fileName || 'document'}_converted.docx`);
+                
+            } catch (error) {
+                console.error('Error creating Word document:', error);
+                alert('Error creating Word document. Please try downloading as text instead.');
+            }
+        }
+
+        function downloadCSV() {
+            if (extractedTables.length === 0) {
+                alert('No tables found to export');
+                return;
+            }
+            
+            // Combine all tables
+            let allRows = [];
+            
+            for (let table of extractedTables) {
+                allRows.push([`Page ${table.pageNum}`]);
+                allRows = allRows.concat(table.data.rows);
+                allRows.push([]); // Empty row between tables
+            }
+            
+            // Convert to CSV using PapaParse
+            const csv = Papa.unparse(allRows);
+            
+            // Download
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            saveAs(blob, `${fileName || 'document'}_tables.csv`);
+        }
+
+        function downloadText() {
+            const blob = new Blob([extractedText], { type: 'text/plain;charset=utf-8' });
+            saveAs(blob, `${fileName || 'document'}_converted.txt`);
+        }
+    </script>
+</body>
+</html>
