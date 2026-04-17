@@ -7,11 +7,12 @@ Parish or Place: London Borough of Kensington
 & Chelsea
 
 Title No:
-Property: 20 Hornton Street, Flat 1,
+
+Property: Flat 1, 20 Hornton Street,
 London W8
 
 THIS UNDERLEASE is made the
-       day of       One thousand nine
+      day of       One thousand nine
 hundred and seventy three BETWEEN RIENZI
 FELIX MORITZ FERNANDO of 120 Stuart Tower, Maida Vale,
 London W9 (hereinafter called "the Lessor") of the
@@ -23,7 +24,7 @@ called "the Lessees") of the other part
 NOW THIS DEED WITNESSETH as
 follows:
 
-IN this Lease and the Schedules hereto the
+1. IN this Lease and the Schedules hereto the
 following expressions shall where the context so admits
 have the meanings hereby given respectively
 
@@ -46,7 +47,5 @@ Phillimore and Simon James Mosley of the one part and
 the Lessor of the other part
 
 (iv) "the demised premises" shall mean those parts of
-which are hereby demised and are
+the Lessor's property which are hereby demised and are
 described in the First Schedule hereto
-
-the Lessor's property
