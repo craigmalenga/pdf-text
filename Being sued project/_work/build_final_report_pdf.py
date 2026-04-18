@@ -92,13 +92,17 @@ blockquote {
     padding: 10px 14px;
     margin: 1em 0;
 }
+.page-break { page-break-before: always; }
+table { page-break-inside: avoid; }
+h2 { page-break-after: avoid; }
+h3 { page-break-after: avoid; }
 """
 
 COVER_HTML = """
 <div class="cover">
 <div class="title">Defence Strategy Report</div>
 <div class="subtitle">Naissance UK Ltd v. Curatela Fallimento<br>Societa' Agricola Gavioli S.r.l.</div>
-<div class="subtitle" style="margin-top:1.2em;font-size:11pt;">Tribunale di Siena &mdash; Fallimento n. 18/2018</div>
+<div class="subtitle" style="margin-top:1.2em;font-size:11pt;">Tribunale di Siena &mdash; Fallimento n. 35/2018</div>
 <div class="meta">
 <p><b>Prepared for:</b> Grahame McGirr</p>
 <p><b>Amount in dispute:</b> EUR 57,536.75 + interest + costs</p>
