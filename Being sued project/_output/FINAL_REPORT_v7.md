@@ -235,13 +235,13 @@ clarifying the cost picture. These added material new information:
   clause 4's parenthetical cites €1,188,438.29; only the latter
   reconciles arithmetically with the €572,438.29 residual).
 - **A third FX wire** — €30,000 to Argo Ge.Re.Cre. on 05.06.2018.
-  Your WhatsApp clarified that **this wire is the same payment as
-  one of the two pre-auction cheques** (the €30k cheque), not an
+  Your WhatsApp clarified that **this wire is the FX execution of
+  one of the two cheques you paid** (the €30k cheque), not an
   additional outflow. So the total documented outflows are
-  €57,000 + €20,000 + €30,000 + €45,000 = **€152,000**, not
-  €182,000 as might otherwise look on the face of it.
-- **Cheque images** for €30,000 and €45,000 — with the reasons
-  for each payment shown.
+  €57,000 + €20,000 + €30,000 + €45,000 = **€152,000**.
+- **Cheque images** for the €30k and €45k cost cheques (together
+  making up your €75k cost tranche) — with the reasons for each
+  payment shown.
 - **A cost-breakdown spreadsheet** totalling €57,110 for the Gavioli
   proceedings — which matches the €57,000 wire of 26.04.2018 almost
   exactly.
@@ -374,11 +374,6 @@ breakdown:
 Realistic expectation: one of the two lines lands, reducing the
 claim by perhaps €3,000–€8,000. This is modest, but it is honest
 and it carries no backfire risk.
-
-*(Earlier drafts of this report also carried a narrative about a
-€30,000 "refund" line. At Grahame's express direction, and in
-light of a closer reading of the Ricorso's own arithmetic, that
-narrative is not pursued.)*
 
 ### 5.4 Pre-auction offers confirm the €616k price was fair
 
@@ -1047,25 +1042,17 @@ replied on 18.04.2026 (WhatsApp 20:25, 20:32). His answers have
 been folded into the analysis above; this section records them
 for completeness.
 
-### Q1 — The "€30,000 refund" narrative
+### Q1 — The two cheques (€75k cost tranche)
 
-**Answer:** Grahame's clear instruction was that this line of
-argument is a red herring and is not to be pursued. The €30,000
-paid by Naissance to the procedure is one of the two cheques
-(€30k + €45k = €75k) that make up the €75,000 cost tranche; it
-is counted as a cost out, not as a receipt in.
+**Answer:** €30,000 + €45,000 = €75,000. Confirmed. Both are
+outflows from Naissance. One of the forwarded emails carries
+cleared images; the OCR-garbled "CINQUANTAMILA" reading is
+irrelevant.
 
-**Implication for the report:** all references to the €30,000
-as a "refund", "double-count" or "factual challenge" have been
-removed. The defence will not run this point.
-
-### Q2 — The two cheques
-
-**Answer:** €30,000 + €45,000 = €75,000. Confirmed. One of the
-emails carries cleared images; the OCR-garbled "CINQUANTAMILA"
-reading is irrelevant.
-
-**Implication:** cheque totals are now settled at €75k.
+**Implication:** the €75k cost tranche is settled and counted
+within Naissance's €132k of documented recovery costs. Nothing
+in the trustee's arithmetic about "refunds" of any of those
+amounts is pursued by the defence.
 
 ### Q3 — The €630,000 pre-auction transaction
 
