@@ -730,50 +730,59 @@ target outcome: settlement at €30–40k all-in.**
 
 ## 8. Confidence — what is solid, what needs Belardi's sign-off
 
-**Verified against the source documents directly:**
+**Verified against the source documents directly (and through the
+anti-collusion critique):**
 
 - The claim arithmetic (€629,975.04 − €572,438.29 = €57,536.75).
-- The case reference (R.G. 2505/2025; Fallimento n. 35/2018 R.G.).
+- **The composition of €629,975.04: €616,000 + €13,975.04 only.**
+  The €30,000 is NOT in this figure; it has been netted off by
+  the trustee. (This is the correction that came out of the
+  anti-collusion critique.)
+- The case reference (R.G. 2505/2025; Fallimento n. 35/2018 R.G.;
+  bankruptcy declaration judgment n. 37/2018).
 - The defendant (Naissance UK Ltd, not Grahame personally).
-- The cost outflows (€57k + €20k + €30k [= cheque] + €45k [cheque]
-  = €152k, with the €30k wire and €30k cheque confirmed by your
-  WhatsApp as the same payment).
-- The market-value evidence (three pre-auction data points).
 - The Istanza's internal inconsistency (clause 3 vs clause 4).
+- The FX wires (€57k on 26.04.2018, €20k on 01.05.2018, €30k on
+  05.06.2018 — the last corresponding to one of the cheques, per
+  your confirmation).
+- The pre-auction offers at €550k and €620k (documented in
+  third-party emails); the €630k "accepted transaction" is on
+  your recollection, not a third-party document.
 
 **Needs Belardi's written confirmation before the defence is
 filed:**
 
-- Full text of **Cass. 23482/2018** and **Cass. 12673/2022** — we
-  have taken them at face value because they are pleaded by the
-  trustee; nobody on our side has pulled the judgments.
-- The procedural vehicle and filing deadline (above).
-- Whether the **€30,000 accounting** in the trustee's Ricorso
-  attachments confirms the double-count narrative.
-- His own **numeric probability estimate** on each of the four
-  tracks, so you can make an informed settlement call.
+- **Full text** of Cass. 23482/2018 and Cass. 12673/2022 — and his
+  honest view on whether the facts can be distinguished. Without
+  real factual distinguishing, the finality argument fails.
+- The procedural vehicle (*memoria difensiva* vs *comparsa di
+  costituzione e risposta*) under the rito semplificato.
+- Confirmation of the 04.04.2019 hearing attendance list — was the
+  curator there, or notified?
+- His own **numeric probability estimate** on each live point
+  (the €3,932, the €4,761.47, factual distinguishing, settlement).
 
-**Residual risks that the recommended strategy does not
-eliminate:**
+**Residual risks the recommended strategy does not eliminate:**
 
-- The trustee could **pivot to revocatoria fallimentare** (art. 67
-  L.F. / 166 CCII) or to **indebito oggettivo** (art. 2033 c.c.)
-  at the hearing. The defence is drafted to be robust to such a
-  pivot, but it can't be pre-empted completely.
-- **Art. 2467 c.c. postergazione** (if Naissance were treated as a
-  financing shareholder) is not expected to apply to a foreign
-  corporate assignee of a bank credit, but it is worth asking
-  Belardi to exclude it formally.
-- The **admission order of 2019** is res judicata and will not be
-  reopened. Any defence that depends on reopening it fails.
+- The trustee could reply to the €3,932 attack by pointing out that
+  sums received without concorsual title are exactly *indebito
+  oggettivo* under art. 111-bis L.F. (and Cass. 17590/2019). This
+  is a plausible counter.
+- The 2019 admission decree is *res judicata endofallimentare* —
+  any argument that depends on reopening it fails by definition.
+- Art. 56 L.F. blocks compensazione between Naissance's pre-
+  bankruptcy residual credit and the trustee's post-bankruptcy
+  restitution claim.
+- The trustee could plead violation of *par condicio creditorum*
+  (art. 2741 c.c.) against any residual-based counterclaim.
 
-**Confidence level:** **moderate on outcome, moderate-to-high on
-facts.** The facts have been traced back to the Ricorso, the
-Istanza, the FX confirmations, the cheque images, and your own
-WhatsApp confirmations. The strategy is as good as the information
-available supports. Belardi's sign-off on the four procedural and
-case-law points above is what will move confidence from moderate
-to high.
+**Confidence level:** **lower than the previous draft.** The facts
+are well-traced; the strategy has been stress-tested. But the
+earlier draft overstated the strength of the €30,000 argument, and
+the true defensive ground is narrower than that draft suggested.
+Belardi's written view on the live quantum levers and the
+distinguishing of Cassazione will move confidence up or down
+materially.
 
 ---
 
@@ -941,3 +950,88 @@ probable good outcome. Acting on the earlier, more optimistic
 numbers would have been a mistake.
 
 ---
+
+---
+
+## 10. Questions for you (Grahame) before the email goes to Belardi
+
+Five short questions. Each is something only you can answer, and
+each would materially change the recommendation if the answer came
+back differently. Short replies are fine.
+
+### Q1. The €30,000 — what actually happened at the 2019 distribution?
+
+The trustee's own figures already net the €30,000 advance off (see
+§5.3 above). That means the Ricorso is treating you as having got
+the advance back as a refund — not as a separate enrichment.
+
+- Do your records (bank statements, Naissance accounts,
+  Fiorilli correspondence from 2019) show receipt of **€10,043.04**
+  at the distribution (the trustee's figure, net), or a
+  larger amount that was later reduced?
+- Are you able to confirm you actually received the €30,000 back
+  in 2019, and when?
+
+If the €30,000 was not actually refunded, the whole picture
+changes and we have a real gross-vs-net argument. If it was
+refunded, the trustee is arithmetically right and we should not
+plead the double-count.
+
+### Q2. The two cheques — what do they actually show?
+
+There is a mismatch between the source materials and your
+WhatsApp clarification:
+
+- The OCR of one cheque image shows the word **"CINQUANTAMILA"**
+  (€50,000).
+- Your WhatsApp of 18.04.2026 at 19:29 says the two cheques are
+  **"fo 75 k. 30 and 45"** (i.e. €30,000 + €45,000).
+
+Could you confirm the actual face values and, if possible, send
+clearer photos of both cheques (front and back)? This matters
+for whether we can put a specific cost figure in the pleading.
+
+### Q3. Is there any third-party document for the €630,000
+accepted pre-auction transaction?
+
+The €550,000 and €620,000 pre-auction expressions of interest are
+documented in third-party emails (Marco Gavioli via Gordana Lupi).
+The **€630,000 accepted transaction** so far appears only in your
+own 18.04.2026 email. Is there any contract, correspondence with
+Argo, court record, or communication with the would-be buyer that
+evidences the €630,000 acceptance independently? If yes, the
+market-value story is much stronger.
+
+### Q4. Did Fiorilli ever explain the €577,199.76 figure in 2018?
+
+The 2018 Istanza asked for admission at €577,199.76, not at the
+full €1,188,438.29. Did Fiorilli discuss that choice with you at
+the time? Is there any email or note from 2018 explaining why?
+
+If he explained it as a deliberate residual calculation, the
+"errore materiale" argument weakens. If he did not, or if his
+explanation was ambiguous, the argument is stronger. Any
+contemporaneous document is valuable.
+
+### Q5. Your walkaway — confirm the €45,000 ceiling
+
+Given the revised outlook (full loss 45–55%; target settlement
+€30–40k; worst-case exposure €70–85k), please confirm privately
+to me that:
+
+- **Opening settlement offer of €20–25k** is acceptable as a
+  starting position;
+- **Target landing of €30–40k** is acceptable as a successful
+  outcome;
+- **Walkaway ceiling of €45,000** remains your absolute maximum
+  (above which we proceed to hearing and accept the full-loss
+  risk).
+
+If any of those need to change, please say so before the email
+goes to Belardi.
+
+---
+
+*A one-page reply covering all five is enough. The email to
+Belardi can then go out the same day.*
+
