@@ -44,7 +44,9 @@ HTML_CONTENT = """<!DOCTYPE html>
 
 <p>Thank you for your email of 16 April and for your availability.</p>
 
-<p>After careful and further reflection on the documentation filed by the trustee, as well as on the case law framework cited (Cass. 28.09.2018 n. 23482 and 20.04.2022 n. 12673), I wish to provide you with clear and operational guidance regarding the defence strategy I intend to adopt, also considering the imminent deadlines (costituzione due by 4 May and hearing set for 14 May 2026).</p>
+<p>By way of preamble: the Trustee of the Bankruptcy of Agricola Gavioli S.r.l. in liquidation (case n. 35/2018 R.G. Tribunale di Siena, Dott. Stefano Scarpellini as Trustee) has filed a ricorso under arts. 281-decies and undecies c.p.c. seeking an order against Naissance (UK) Limited for restitution of <b>&euro;57,536.75</b> plus interest and costs. The hearing is listed for 14 May 2026 and the costituzione deadline is 4 May 2026.</p>
+
+<p>After careful and further reflection on the documentation filed by the trustee, as well as on the case law framework cited (Cass. 28.09.2018 n. 23482 and 20.04.2022 n. 12673), I wish to provide you with clear and operational guidance regarding the defence strategy I intend to adopt.</p>
 
 <hr>
 

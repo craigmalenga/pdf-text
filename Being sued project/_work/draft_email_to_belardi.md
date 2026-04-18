@@ -10,7 +10,9 @@ Egregio Avv. Belardi,
 
 La ringrazio per la Sua email del 16 aprile u.s. e per la Sua disponibilità.
 
-Dopo un'attenta e ulteriore riflessione sulla documentazione depositata dalla curatela, nonché sull'impianto giurisprudenziale richiamato (Cass. 28.09.2018 n. 23482 e 20.04.2022 n. 12673), desidero fornirLe indicazioni chiare e operative circa la linea difensiva che intendo assumere, anche in considerazione dell'imminenza dei termini (costituzione entro il 4 maggio p.v. e udienza fissata per il 14 maggio 2026).
+Premesso che la Curatela del Fallimento Agricola Gavioli S.r.l. in liquidazione (n. 35/2018 R.G. Tribunale di Siena, Dott. Stefano Scarpellini quale Curatore) ha depositato ricorso ex artt. 281-decies e undecies c.p.c. chiedendo la condanna di Naissance (UK) Limited alla restituzione della somma di **€. 57.536,75** oltre interessi e spese, con udienza fissata per il 14 maggio 2026 e termine di costituzione al 4 maggio p.v.,
+
+Dopo un'attenta e ulteriore riflessione sulla documentazione depositata dalla curatela, nonché sull'impianto giurisprudenziale richiamato (Cass. 28.09.2018 n. 23482 e 20.04.2022 n. 12673), desidero fornirLe indicazioni chiare e operative circa la linea difensiva che intendo assumere.
 
 ---
 
