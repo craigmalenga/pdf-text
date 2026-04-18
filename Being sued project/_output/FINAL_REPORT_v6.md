@@ -373,6 +373,29 @@ trustee relies on. It gives Belardi's "*errore materiale*"
 (clerical error) argument genuine substance — more substance than
 a first reading suggests.
 
+**Grahame's confirmation of 18.04.2026 strengthens this further.**
+He has confirmed (WhatsApp 20:32) that he had **no direct contact
+with Avv. Fiorilli** at the time of the 2018 Istanza — the
+instruction and all communication passed through Argo
+Ge.Re.Cre. Fiorilli was never asked by Grahame to request
+admission at €577,199.76 rather than at the full €1,188,438.29,
+and Fiorilli never explained the choice to Grahame after the
+fact. Naissance therefore cannot be taken to have knowingly
+accepted the €577,199.76 figure as a deliberate residual
+calculation; it was a number the drafting lawyer produced,
+internally inconsistent on its face, without client instruction
+or confirmation.
+
+That narrows the trustee's answer. The trustee cannot say
+"your own lawyer chose €577,199.76 deliberately, so you are
+bound by it" if it is established that there was no client
+instruction behind the figure. The route remains procedurally
+difficult — the 2019 admission order is still *res judicata
+endofallimentare* (see §6.3 and §6.4 below) — but the errore
+materiale argument now has both an arithmetic hook (clause 3 vs
+clause 4) and a procedural hook (the client never
+instructed / approved the reduced figure).
+
 ### 5.3 The €30,000 "refund" — factual challenge, not a double-count
 
 The single most important factual question in this case is what
