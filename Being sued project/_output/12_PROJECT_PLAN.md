@@ -104,34 +104,48 @@ The earlier critique rounds converged too quickly because every agent
 was briefed from the drifted `FINAL_REPORT.md` and reasoned inside
 that frame. ChatGPT found the drift in seconds because it was reading
 the source documents directly, not my report. The v2 critique round
-must be structurally different:
+must be structurally different. **Agents read the already-extracted
+text** (docx and `.raw.txt` OCR files already in the repo) — they do
+not re-run OCR.
 
-- **Agents read the source OCR documents directly** (Ricorso, Istanza,
-  Belardi emails, Fiorilli emails, FX receipts, late-additions),
-  not the v2 report. They are given the v2 report's conclusions
-  *after* forming their own view.
-- **Each agent has a different primary lens, not overlapping**:
-  (a) **Arithmetic auditor** — reconcile every euro in the report
-      against the source documents; flag any figure that can't be
-      traced
-  (b) **Italian procedural / Cassazione check** — verify the two
-      cited cases say what they are said to say; verify the
-      procedural vehicle and deadline
-  (c) **Two-minute first reader** (ChatGPT analogue) — read only
-      the Ricorso and Istanza, write the case in 200 words, flag
-      what the report misses
-  (d) **Trustee's counsel** — take the trustee's side, attack every
-      defence line
-  (e) **Plain-English commercial reader** — would Grahame's cousin's
-      friend understand this and act on it? Where does it read like
-      lawyer-speak covering a weak case?
-- **Grading rule**: agent is explicitly told that finding overlap
-  with prior agents is worth nothing; novel issues only.
-- **No agent is allowed to cite the v2 report as authority** — only
-  the source documents.
-- **Red-team round** at the end: one agent's mandate is "assume the
-  report is wrong somewhere important; where?". If it finds nothing,
-  its brief was bad, re-run.
+**Structure — 7 agents running in parallel:**
+
+**Per-deliverable reconcilers (5 agents, one per source docx):**
+Each reads ONE output docx from `_output/01..05_*.docx` and checks
+it line-by-line against the corresponding source OCR in
+`_work/ocr/*.txt` or `_work/late_additions/*.raw.txt`. Narrow
+mandate, auditable: "does this docx agree with the source?"
+- Agent D1 — `01_Advice_lawyer_emails.docx` vs source OCR
+- Agent D2 — `02_Email1_position_and_Istanza.docx` vs source OCR
+- Agent D3 — `03_FX_Receipts_payments.docx` vs source OCR + late
+  additions emails 3 / 8
+- Agent D4 — `04_Other_AI_strategy.docx` vs source OCR
+- Agent D5 — `05_Trustee_Ricorso_lawsuit.docx` vs source OCR
+
+**Lens-based critics (3 agents, each a different angle on the v2
+report and the late additions, not the prior agents' outputs):**
+- Agent L1 — **Arithmetic auditor**: reconcile every euro in
+  `FINAL_REPORT_v2.md` against the source OCR (Ricorso, Istanza,
+  FX, late additions). Flag any figure that can't be traced.
+- Agent L2 — **Trustee's counsel**: take the trustee's side, attack
+  every defence line in `FINAL_REPORT_v2.md`. Reads only source
+  documents, not the prior analysis.
+- Agent L3 — **Two-minute first reader** (ChatGPT analogue): reads
+  the Ricorso and Istanza OCR only, writes the case in 200 words,
+  then reads `FINAL_REPORT_v2.md` and flags what the report misses
+  or gets wrong.
+
+**Grading rules for all agents:**
+- Novel issues only. Overlap with prior agents counts as zero.
+- No agent is allowed to cite `FINAL_REPORT_v2.md` as authority —
+  only source documents.
+- Each must produce: (i) a one-line bottom-line verdict, (ii) a
+  prioritised list of material issues, (iii) cited passages from
+  source files for each claim.
+
+**After Stage 6B**: consolidate findings and either (a) apply fixes
+or (b) annotate the v2 report with the residual open issues
+transparently for Belardi.
 
 ### Stage 7 — Deliver
 - [ ] Push final state
@@ -143,6 +157,17 @@ must be structurally different:
 
 ## Progress log
 
-- **Stage 1 start**: plan written. Self-assessment done — original
-  analysis is sound; narrative rewrite drifted. About to commit.
+- **Stage 1 done** (commit 33decec): plan + self-assessment.
+- **Stage 2 done** (commit ca6411a): all 13 late-addition PDFs
+  extracted (pdftotext + tesseract OCR eng+ita; email 8 parts 1–5
+  parsed as RFC 822 since they are raw emails mislabelled .pdf).
+- **Stage 3 done** (commit d653fd7): `13_Late_Additions_Analysis.md`
+  produced; three material findings — Istanza internal inconsistency
+  upgrades Belardi's clerical-error argument; evidenced outflows now
+  ~€182k (was €77k); €30,000 refund is almost certainly the same
+  €30k Naissance wired on 05.06.2018, making the trustee's inclusion
+  of it double-counting (drops claim from €57,536.75 → €27,536.75).
+- **Stage 4 in progress**: building `FINAL_REPORT_v2.md` on the
+  `LEGAL_ANALYSIS.md` spine, with the 3 late-addition findings and
+  the landscape 4-strategy pros/cons/probability comparison page.
 
