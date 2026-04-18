@@ -1119,85 +1119,92 @@ numbers would have been a mistake.
 
 ---
 
-## 10. Questions for you (Grahame) before the email goes to Belardi
+## 10. Grahame's answers to the earlier questions — what is now settled and what is still open
 
-Five short questions. Each is something only you can answer, and
-each would materially change the recommendation if the answer came
-back differently. Short replies are fine.
+Five questions were put to Grahame in the previous draft. He
+replied on 18.04.2026 (WhatsApp 20:25, 20:32). His answers have
+been folded into the analysis above; this section records them
+for completeness.
 
-### Q1. The €30,000 — what actually happened at the 2019 distribution?
+### Q1 — What actually happened at the 2019 distribution?
 
-The trustee's own figures already net the €30,000 advance off (see
-§5.3 above). That means the Ricorso is treating you as having got
-the advance back as a refund — not as a separate enrichment.
+**Answer:** The €30,000 double-count framing is a "red herring".
+The €30,000 is simply one of the two cheques Grahame paid out
+(€30k + €45k = €75k); he did not receive €30,000 back in 2019.
 
-- Do your records (bank statements, Naissance accounts,
-  Fiorilli correspondence from 2019) show receipt of **€10,043.04**
-  at the distribution (the trustee's figure, net), or a
-  larger amount that was later reduced?
-- Are you able to confirm you actually received the €30,000 back
-  in 2019, and when?
+**Implication for the report:** §5.3 now reframes the €30,000 as
+a **factual challenge** to the trustee's accounting, not a
+double-count argument. The defence should put the trustee to
+proof that the alleged €30,000 refund actually happened.
 
-If the €30,000 was not actually refunded, the whole picture
-changes and we have a real gross-vs-net argument. If it was
-refunded, the trustee is arithmetically right and we should not
-plead the double-count.
+### Q2 — The two cheques
 
-### Q2. The two cheques — what do they actually show?
+**Answer:** €30,000 + €45,000 = €75,000. Confirmed. One of the
+emails carries cleared images; the OCR-garbled "CINQUANTAMILA"
+reading is irrelevant.
 
-There is a mismatch between the source materials and your
-WhatsApp clarification:
+**Implication:** cheque totals are now settled at €75k.
 
-- The OCR of one cheque image shows the word **"CINQUANTAMILA"**
-  (€50,000).
-- Your WhatsApp of 18.04.2026 at 19:29 says the two cheques are
-  **"fo 75 k. 30 and 45"** (i.e. €30,000 + €45,000).
+### Q3 — The €630,000 pre-auction transaction
 
-Could you confirm the actual face values and, if possible, send
-clearer photos of both cheques (front and back)? This matters
-for whether we can put a specific cost figure in the pleading.
+**Answer:** The €630,000 acceptance never happened. No evidence
+exists. The two valid data points are the €550k and €620k
+offers, both sent in Marco Gavioli's emails via Gordana Lupi.
 
-### Q3. Is there any third-party document for the €630,000
-accepted pre-auction transaction?
+**Implication:** all references to €630,000 have been removed
+from the report. The market-value case rests on the €550k and
+€620k offers plus the €616k auction clearing price — still a
+tight cluster of data points supporting fairness.
 
-The €550,000 and €620,000 pre-auction expressions of interest are
-documented in third-party emails (Marco Gavioli via Gordana Lupi).
-The **€630,000 accepted transaction** so far appears only in your
-own 18.04.2026 email. Is there any contract, correspondence with
-Argo, court record, or communication with the would-be buyer that
-evidences the €630,000 acceptance independently? If yes, the
-market-value story is much stronger.
+### Q4 — Fiorilli and the €577,199.76 figure
 
-### Q4. Did Fiorilli ever explain the €577,199.76 figure in 2018?
+**Answer:** Fiorilli never explained the €577,199.76 figure to
+Grahame. Grahame had **no direct contact with Fiorilli** —
+instruction and communication went through Argo Ge.Re.Cre.;
+Fiorilli "dealt on [his] behalf".
 
-The 2018 Istanza asked for admission at €577,199.76, not at the
-full €1,188,438.29. Did Fiorilli discuss that choice with you at
-the time? Is there any email or note from 2018 explaining why?
+**Implication:** this materially strengthens the errore
+materiale argument. Section 5.2 now records that Naissance
+cannot be taken to have knowingly accepted the reduced figure
+because there was no client instruction behind it. This gives
+the argument both an arithmetic hook and a procedural hook
+(even though, per §6.3, the 2019 admission decree remains
+*res judicata endofallimentare* and cannot be reopened on
+errore-materiale grounds alone).
 
-If he explained it as a deliberate residual calculation, the
-"errore materiale" argument weakens. If he did not, or if his
-explanation was ambiguous, the argument is stronger. Any
-contemporaneous document is valuable.
+### Q5 — The walkaway ceiling
 
-### Q5. Your walkaway — confirm the €45,000 ceiling
+**Answer:** Grahame rejects the walkaway framing as "nonsense"
+because it does not include the €130k+ he has already paid in
+recovery costs.
 
-Given the revised outlook (full loss 45–55%; target settlement
-€30–40k; worst-case exposure €70–85k), please confirm privately
-to me that:
+**Implication:** this is addressed head-on in new Section 9.
+The report now explains honestly that (a) the €130k / €152k
+already paid does not legally offset the trustee's claim
+(art. 56 L.F. blocks it), but (b) it is Naissance's strongest
+equitable argument and best settlement lever, and (c) the
+walkaway number exists as pure risk management — because if the
+case goes to hearing and is lost (45–55% probability on the
+Cassazione case law), the additional cash out is €75–85k on top
+of the €152k already paid. Settlement at €30–40k caps the
+downside. Grahame may decide the risk is worth taking; the
+report does not make that call for him.
 
-- **Opening settlement offer of €20–25k** is acceptable as a
-  starting position;
-- **Target landing of €30–40k** is acceptable as a successful
-  outcome;
-- **Walkaway ceiling of €45,000** remains your absolute maximum
-  (above which we proceed to hearing and accept the full-loss
-  risk).
+### Open items — things still to be clarified with Belardi
 
-If any of those need to change, please say so before the email
-goes to Belardi.
+These are not questions for Grahame; they are items Belardi must
+answer before the pleading is finalised:
 
----
-
-*A one-page reply covering all five is enough. The email to
-Belardi can then go out the same day.*
+1. **Full text of Cass. 23482/2018 and Cass. 12673/2022** — and
+   an honest assessment of whether the facts of Naissance's
+   case can be distinguished.
+2. **Procedural vehicle** — *memoria difensiva* vs *comparsa di
+   costituzione e risposta* under the rito semplificato.
+3. **Art. 24 L.F. / Art. 3 c.2 L. 218/95** — is there a live
+   jurisdictional point on a UK-defendant basis, or is the
+   bankruptcy-court competence cast-iron?
+4. **Interest start date** — from judicial demand (30.12.2025)
+   or from the informal *diffide* (01.07.2025)?
+5. **Settlement authority** — Belardi's honest view of the range
+   the curator would accept, and what lever most moves him.
 
