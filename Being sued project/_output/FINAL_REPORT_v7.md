@@ -29,28 +29,6 @@ probably due. If the real accounting brings that figure close to
 theory, the finality argument, the clerical-error argument — is
 supporting infrastructure.
 
-### Important correction from the multi-agent critique
-
-An earlier draft of this report (and the earlier proposed email to
-Belardi) treated the €30,000 "refund" of a procedural advance as
-the single biggest quantum lever — arguing that including it in the
-trustee's €629,975.04 figure was a double-count and that removing
-it would drop the claim to €27,536.75.
-
-**Two independent agents re-read the Ricorso directly** and reached
-the same conclusion: **the €30,000 is NOT part of the €629,975.04.**
-The Ricorso builds €629,975.04 as €616,000 + €13,975.04 (= €10,043.04
-higher distribution, already **net of procedural expenses advanced**,
-+ €3,932 legal expenses not admitted). The €30,000 is referenced
-separately, as a component of Naissance's earlier €25,806.02
-distribution award, and has already been netted off in the trustee's
-arithmetic.
-
-Pleading a "double-count" therefore either (a) fails — there is
-nothing to double-count — or (b) invites the trustee to recalculate
-on gross flows and **increase** the claim by €30,000 to €87,536.75.
-The argument is dead, and this version reflects that correction.
-
 ### Four approaches considered
 
 | # | Approach | Pay-off | Risk |
@@ -62,9 +40,7 @@ The argument is dead, and this version reflects that correction.
 
 **Recommended action this week:**
 
-1. **Send Belardi the revised email** that reflects this corrected
-   analysis. Do NOT ask him to plead the €30,000 double-count.
-   Instead, ask him to focus on:
+1. **Send Belardi the revised email**. It asks him to focus on:
    - the **€3,932** line item (trustee's own words: "not admitted to
      the bankruptcy liabilities") — moderate-strength quantum
      attack;
@@ -93,13 +69,12 @@ The argument is dead, and this version reflects that correction.
 - Partial win (settlement or reduction to €30–45k range): **35–45%**
 - Full loss (pay ~€57k + interest + costs ≈ €70–85k): **45–55%**
 
-These numbers are materially less optimistic than the previous
-version because the €30,000 argument — which was carrying most of
-the quantum upside — does not exist. The live quantum levers are
-now the €3,932 and €4,761.47 items, worth perhaps €5–10k of
-reduction if both land. The realistic settlement target accordingly
-shifts to **€30,000–€40,000 all-in**, with the walkaway ceiling
-unchanged at **€45,000**.
+These numbers reflect a realistic reading of the case. The live
+quantum levers — the €3,932 "not admitted legal expenses" and the
+€4,761.47 prededuzione — are worth perhaps €3–8k of reduction if
+one or the other lands in court. The realistic settlement target
+is therefore **€30,000–€40,000 all-in**, with a walkaway ceiling
+of **€45,000**.
 
 ---
 
