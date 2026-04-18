@@ -33,7 +33,7 @@ supporting infrastructure.
 
 | # | Approach | Pay-off | Risk |
 |---|---|---|---|
-| A | Your own instinct — "I paid €132k to recover an asset worth €620k on a €1.188m credit — I'm ~€700k underwater" | Commercially correct; strongest settlement lever | Art. 56 L.F. and art. 2741 c.c. block it as a formal counterclaim; used as equitable frame + settlement lever, not as statutory defence |
+| A | "I'm already €80k short on the bankruptcy's own admitted numbers (€572k + €132k vs €620k). Asking for another €57k is commercially perverse" | Built only on figures the trustee accepts; strongest settlement lever | Art. 56 L.F. and art. 2741 c.c. block it as formal set-off; used as equitable frame + settlement lever, not as statutory defence |
 | B | ChatGPT's reading — "distribution was final, claim is weak" | Simple to plead | Cass. 23482/2018 and 12673/2022 explicitly say the distribution was *provisional*; loses head-on |
 | C | Belardi's line — "clerical error in the Istanza" + Fiorilli fallback | Real legal hook | The 2019 admission decree is *res judicata endofallimentare* (Cass. 4708/2020 + SS.UU. 4309/2010), so a typo in the 2018 application cannot reopen it |
 | D | **Recommended (revised)** — narrow quantum challenge (€3,932 + €4,761.47) + factual distinguishing of the two Cassazione cases + errore-materiale as supporting context + parallel settlement at €30–40k target | Most realistic path to a good outcome | Upside is modest; settlement is now the most likely good outcome |
@@ -422,57 +422,47 @@ own strengths, weaknesses, and an independent estimate of the
 probability of a good outcome if it is pursued as the primary
 strategy.
 
-### 6.1 Approach A — Your own instinct ("I spent €132k to recover an asset worth €620k on a credit of €1.188m — I'm ~€700k underwater")
+### 6.1 Approach A — "I'm already €80k short on the bankruptcy's own numbers — it's commercially perverse to ask for another €57k"
 
 **The position**
 
-Naissance acquired a credit of **€1,188,438.29** in 2017. The best
-genuine pre-auction offer on the underlying asset was **€620,000**
-(12.09.2017). Naissance paid **€132,000** out-of-pocket to run the
-recovery. So on the best market view of the asset, the net
-recovery was roughly **€488,000** against a face-value credit of
-€1,188,438.29 — meaning Naissance is **roughly €700,000 underwater**
-on this recovery. The trustee is now asking for another €57,536.75
-back on top of that shortfall.
+Use only numbers that the bankruptcy itself has accepted. The
+court admitted Naissance to the passivo for a residual mortgage
+claim of **€572,438.29** (Ricorso §3, not in dispute). Naissance
+paid **€132,000** in documented out-of-pocket recovery costs.
+Naissance's admitted / documented exposure is therefore
+**~€700,000**. The highest pre-auction offer on the asset was
+**€620,000**. So even at the highest price the market itself put
+on the asset, Naissance is still **€80k short** of being made
+whole. Asking for another €57,536.75 back on top turns an €80k
+shortfall into a ~€140k shortfall. The estate has lost nothing;
+only Naissance is out of pocket.
 
-**Why this is the right way to think about the case.** This is the
-commercial reality. It is what any non-lawyer would instinctively
-see, and Grahame has stated it plainly. The trustee's arithmetic
-treats €629,975.04 as "received", but that figure itself exceeds
-every pre-auction market indication of the asset's value (€550k,
-€620k) and so already includes a tail that the market itself does
-not attribute to the asset. Naissance never got "more than
-€572,438.29"; it got, net, materially less than that once genuine
-costs and market value are counted.
+This is the case in one paragraph, using only figures the
+trustee already accepts. It does not depend on the €1.188m face
+value and it does not depend on what Naissance paid for the
+credit in 2017.
 
-**Why it cannot carry the whole defence on its own — three reasons.**
+**Where it lands legally vs commercially.**
 
-1. **Art. 56 L.F. statutory set-off does not reach.** Compensation
-   in bankruptcy requires both debts to exist before the
-   bankruptcy declaration and to be certain, liquid, and payable.
-   The trustee's restitution claim arose **after** the bankruptcy
-   and from the distribution plan itself.
-2. **The residual €572,438.29 mortgage claim ranks pari passu**
-   with other unsecured creditors in the residual chirografario
-   distribution. It does not function as a euro-for-euro offset.
-3. **Pleading this as a formal counterclaim risks a *par condicio
-   creditorum* objection** under art. 2741 c.c. — the trustee
-   will argue it amounts to paying Naissance at 100 cents while
-   other chirografari are paid pro rata.
+- **Legally** — Art. 56 L.F. blocks statutory compensation (the
+  trustee's claim is post-bankruptcy; Naissance's costs and the
+  €572k residual are pre-bankruptcy). A formal counterclaim for
+  the shortfall would invite a *par condicio creditorum*
+  objection under art. 2741 c.c. Approach A therefore cannot be
+  pleaded as a statutory set-off and cannot on its own defeat the
+  claim in court.
+- **Commercially and equitably** — it can and should be pleaded
+  as the **frame** inside which the technical points are argued
+  and the settlement conversation is run. A Siena judge on this
+  file can be told, as context: Naissance is already €80k short
+  on the bankruptcy's own admitted numbers.
 
-**What this argument is good for.** It is the **equitable frame**
-within which Belardi's technical points are heard. It is the
-**strongest single settlement lever**: the curator cannot
-realistically expect a 100% recovery from a counterparty already
-€700k short on the underlying credit. And it is — importantly —
-a point the court can hear, even if not formally set off.
-
-**Probability of winning if pleaded as the sole defence: <10%**
-(it has no statutory route).
-**Probability if pleaded correctly as the equitable frame +
-settlement lever alongside Approach D: materially strengthens
-the settlement conversation, plausibly €10–15k of additional
-discount.**
+**Probability if pleaded as the sole defence: <10%** — no
+statutory route.
+**Probability if pleaded as the equitable frame alongside
+Approach D + used as the decisive settlement lever: materially
+moves the curator**, plausibly €10–15k of additional discount.
 
 ### 6.2 Approach B — ChatGPT's line ("the distribution plan is final, the claim is weak")
 
@@ -870,31 +860,32 @@ expectation.
 <tbody>
 <tr>
 <td>A</td>
-<td><b>Your own instinct</b><br>"I paid &euro;132k to recover an asset worth &euro;620k on a &euro;1.188m credit &mdash; I'm ~&euro;700k underwater"</td>
+<td><b>Commercial reality</b><br>"Already &euro;80k short on the bankruptcy's own numbers. Another &euro;57k is commercially perverse."</td>
 <td>
 <ul>
-<li>Credit acquired 2017 for face value of <b>&euro;1,188,438.29</b></li>
-<li>Best genuine pre-auction market view: <b>&euro;620,000</b></li>
-<li>Documented recovery costs: <b>&euro;132,000</b></li>
-<li>Net recovery: <b>~&euro;488,000</b> against a &euro;1.188m credit</li>
-<li><b>Shortfall ~&euro;700,000</b> on the underlying credit</li>
-<li>Trustee's &euro;629,975.04 itself exceeds every pre-auction offer, indicating non-market-value tail</li>
-<li>Strongest single settlement lever</li>
+<li>Residual mortgage claim admitted by bankruptcy: <b>&euro;572,438.29</b> (Ricorso, not in dispute)</li>
+<li>Documented out-of-pocket recovery costs: <b>&euro;132,000</b> (wires + cheques)</li>
+<li>Total exposure admitted / documented: <b>~&euro;700,000</b></li>
+<li>Highest genuine pre-auction offer on the asset: <b>&euro;620,000</b></li>
+<li><b>Shortfall at best market view: ~&euro;80,000</b></li>
+<li>If trustee wins: shortfall grows to ~&euro;140,000</li>
+<li>Built only on figures the trustee already accepts &mdash; no reliance on &euro;1.188m or on 2017 acquisition price</li>
+<li>Estate has lost nothing; only Naissance is out of pocket</li>
 </ul>
 </td>
 <td>
 <ul>
 <li>Art. 56 L.F. set-off out of reach &mdash; trustee's claim arose post-bankruptcy</li>
-<li>Residual &euro;572k ranks <i>pari passu</i> &mdash; not a euro-for-euro offset</li>
 <li>A formal counterclaim for the shortfall would trigger <i>par condicio creditorum</i> objections under art. 2741 c.c.</li>
 <li>Cannot carry the defence alone as a matter of statutory law</li>
+<li>Must be pleaded as equitable frame, not as set-off</li>
 </ul>
 </td>
 <td>
 <b>&lt;10%</b> as sole defence<br><br>
 As equitable frame + settlement lever alongside Approach D: materially strengthens settlement, plausibly <b>~&euro;10&ndash;15k</b> of additional discount
 </td>
-<td><b>Equitable frame + settlement lever.</b></td>
+<td><b>Equitable frame + decisive settlement lever.</b></td>
 </tr>
 <tr>
 <td>B</td>
