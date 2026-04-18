@@ -1,0 +1,205 @@
+================================================================
+FX RECEIPTS SUMMARY - Naissance / Thomas Exchange UK
+Wire transfers to ARGO GE.RE.CRE. S.R.L. (Italy)
+Alleged costs re: Gavioli bankruptcy / foreclosure case
+================================================================
+
+SOURCE FILES ANALYSED (5 emails):
+  1. fx_receipts_RE__FEB_18_Personal_Bank_Statement.txt
+  2. fx_receipts_RE__FEB_18_Personal_Bank_Statement1.txt
+  3. fx_receipts_RE__FEB_18_Personal_Bank_Statement2.txt
+  4. fx_receipts_RE__FEB_18_Personal_Bank_Statement3.txt
+  5. fx_receipts_RE__FEB_18_Personal_Bank_Statement4.txt
+
+All emails are in English. No Italian content required translation
+(beneficiary name "ARGO GE.RE.CRE. - SRL" is a proper noun of an
+Italian company name; "GE.RE.CRE." = Gestione Recupero Crediti
+i.e. "Credit Recovery Management").
+
+================================================================
+EMAIL-BY-EMAIL EXTRACTION
+================================================================
+
+--- Email 1 (file: ...Statement.txt) ---
+Date/Time: Thu, 26 Apr 2018 11:54:32 +0000 (thread from 12:42-12:54 BST)
+Parties:
+  - Sender (of FX confirmation): Ricky Ratnam <ricky.ratnam@tefx.co.uk>
+    (Thomas Exchange UK, 25 Euston Road, London NW1 2SD)
+  - Payer / Instructing party: Grahame McGirr, Director, Naissance.co.uk
+    (20 Hornton Street, London W8 4NR)
+  - Beneficiary: ARGO GE.RE.CRE. - SRL
+    IBAN: IT23T0311103226000000005200
+    BIC: BLOPIT22 (Banca Popolare di Bari / similar Italian bank)
+Amount / Currency: EUR 57,000.00 ("Fifty seven thousand Euros only")
+Value date: "value today" = 26 April 2018
+Reference / Purpose: Not stated in email (only beneficiary details
+  and instruction to pay).
+Relevance to Gavioli case: Beneficiary ARGO GE.RE.CRE. is an Italian
+  credit-recovery / judicial-auction management company. A payment
+  of this size to such an entity is consistent with auction / legal
+  procedural costs in an Italian foreclosure proceeding.
+
+--- Email 2 (file: ...Statement1.txt) ---
+Date/Time: Tue, 01 May 2018 12:40:31 +0000 (reply in thread; original
+  instruction sent 1 May 2018 at 10:42 BST)
+Parties:
+  - Sender: Ricky Ratnam (Thomas Exchange UK)
+  - Payer / Instructing party: Grahame McGirr (Naissance)
+  - Beneficiary: ARGO GE.RE.CRE. - SRL
+    IBAN IT23T0311103226000000005200, BIC BLOPIT22
+Amount / Currency: EUR 20,000.00 ("Twenty thousand Euros only")
+Value date: "Value today" = 1 May 2018
+FX rate quoted by Ricky: EUR/GBP 1.1160
+Reference / Purpose: Not stated.
+Relevance: Second payment to same Italian credit-recovery beneficiary
+  just 5 days after the EUR 57,000 wire; consistent with ongoing
+  costs in the Gavioli foreclosure.
+
+--- Email 3 (file: ...Statement2.txt) ---
+Date/Time: Tue, 01 May 2018 12:53:57 +0000
+Parties:
+  - Sender: Ricky Ratnam (Thomas Exchange UK) - "Receipts attached"
+  - Payer: Grahame McGirr
+Content: Grahame confirms payment of the GBP funding for the EUR
+  20,000 wire:
+    - GBP 16,241.38 from Grahame
+    - GBP 1,000.00 from "Rob Morreti" (sic; likely Rob Moretti)
+      "as I hit my account limit today"
+  (Combined = GBP 17,241.38 - see next email; implied total around
+  GBP 17,933.15 at rate 1.1160, i.e. the sterling cost of the
+  EUR 20,000 + fees)
+Attachment: img20180501_13522959.pdf (FX receipt)
+Relevance: Confirms the EUR 20,000 transfer actually completed and
+  identifies a co-funder, Rob Moretti.
+
+--- Email 4 (file: ...Statement3.txt) ---
+Date/Time: Tue, 01 May 2018 13:22:06 +0000
+Parties:
+  - Sender: Ricky Ratnam (Thomas Exchange UK)
+  - Payer: Grahame McGirr
+Content: Ricky reconciles the funding:
+  "Total amount GBP 17,933.15. I have received from you GBP 17,241.38
+   balance GBP 691.77. Please can you transfer that amount."
+Relevance: Confirms the total sterling cost of the EUR 20,000 wire
+  (GBP 17,933.15 at 1.1160 incl. charges). No new EUR wire.
+
+--- Email 5 (file: ...Statement4.txt) ---
+Date/Time: Tue, 01 May 2018 15:02:33 +0000
+Parties:
+  - Sender: Ricky Ratnam (Thomas Exchange UK)
+  - Payer: Grahame McGirr
+Content: "Thanks." - Ricky acknowledges receipt of Grahame's
+  commitment to transfer the outstanding GBP 691.77 balance.
+Relevance: Closes out the 1 May 2018 EUR 20,000 transaction.
+
+================================================================
+SUMMARY TABLE OF ACTUAL EUR WIRE TRANSFERS
+================================================================
+
+| Date        | Amount EUR  | Currency | Beneficiary            | Purpose stated       |
+|-------------|-------------|----------|------------------------|----------------------|
+| 26 Apr 2018 |  57,000.00  | EUR      | ARGO GE.RE.CRE. SRL    | Not stated           |
+| 01 May 2018 |  20,000.00  | EUR      | ARGO GE.RE.CRE. SRL    | Not stated           |
+|-------------|-------------|----------|------------------------|----------------------|
+| TOTAL       |  77,000.00  | EUR      |                        |                      |
+
+GBP legs observed (funding side, same 1 May 2018 wire):
+  GBP 16,241.38 from Grahame McGirr (personal)
+  GBP  1,000.00 from Rob Morreti/Moretti
+  GBP    691.77 balance still to transfer
+  ------------------------------------------
+  GBP 17,933.15 total GBP cost of the EUR 20,000 wire
+
+================================================================
+RUNNING TOTAL vs CLAIMED AMOUNTS
+================================================================
+
+Claimed by Naissance:
+  - EUR 57,100 in "legal / auction / procedural" costs
+  - EUR 75,000 in "further payments" (stated as EUR 30k + EUR 45k)
+  - Total claimed: EUR 132,100+
+
+Evidenced by these 5 emails:
+  - EUR 57,000 on 26 Apr 2018 to ARGO GE.RE.CRE. SRL
+  - EUR 20,000 on 01 May 2018 to ARGO GE.RE.CRE. SRL
+  - Total evidenced: EUR 77,000
+
+Gap analysis:
+  - The EUR 57,000 wire is very close to (but not identical to) the
+    claimed EUR 57,100 figure. The EUR 100 difference could be an FX
+    bank charge or a rounding/retelling discrepancy; in substance
+    this leg is corroborated.
+  - The claimed EUR 75,000 (30k + 45k) is NOT supported by these
+    emails. Only EUR 20,000 is evidenced on 1 May 2018, and no
+    EUR 30k or EUR 45k wire appears in this set of 5 files.
+  - Shortfall against claim: EUR 132,100 - EUR 77,000 = EUR 55,100
+    unaccounted for by this email set.
+
+================================================================
+CASE TIMELINE (relevant dates extracted, 2017-2019)
+================================================================
+  - 26 April 2018 12:42 BST - McGirr instructs TEFX to pay EUR 57,000
+    to ARGO GE.RE.CRE. SRL (BLOPIT22) value same day.
+  - 26 April 2018 12:54 BST - TEFX (Ricky Ratnam) acknowledges.
+  - 01 May 2018 10:42 BST  - McGirr instructs TEFX to pay EUR 20,000
+    to same beneficiary, value same day.
+  - 01 May 2018 13:40 BST  - TEFX quotes rate 1.1160.
+  - 01 May 2018 13:51 BST  - McGirr confirms GBP 16,241.38 from him
+    + GBP 1,000 from Rob Morreti paid.
+  - 01 May 2018 13:53 BST  - TEFX sends receipts (attachment).
+  - 01 May 2018 14:22 BST  - TEFX reconciliation: GBP 17,933.15 total,
+    GBP 691.77 still owed.
+  - 01 May 2018 15:02 BST  - TEFX acknowledges balance transfer.
+
+No 2017 or 2019 dates appear in this email set. All activity is
+within a 6-day window (26 Apr - 1 May 2018).
+
+================================================================
+KEY ACTORS / ENTITIES
+================================================================
+  - Naissance.co.uk, London (20 Hornton Street, W8 4NR)
+    - Grahame McGirr, Director (gmcgirr@naissance.co.uk,
+      +44-7930-473-842)
+  - Thomas Exchange UK (FX house)
+    - Ricky Ratnam (ricky.ratnam@tefx.co.uk, 25 Euston Road,
+      London NW1 2SD, 0203 911 3811)
+  - Beneficiary: ARGO GE.RE.CRE. - SRL (Italy)
+    - IBAN: IT23T0311103226000000005200
+    - BIC:  BLOPIT22 (Banca Popolare di Bari)
+    - "GE.RE.CRE." = Gestione Recupero Crediti (Credit Recovery
+      Management) - a firm that typically handles judicial/auction
+      credit-recovery procedures in Italy.
+  - Co-funder on 1 May 2018 wire: "Rob Morreti" (Rob Moretti)
+    contributed GBP 1,000.
+
+================================================================
+CONCLUSION - DOES THIS EVIDENCE SUPPORT EUR 130,000+ IN COSTS?
+================================================================
+NO - not on its own. These five emails taken together evidence
+only EUR 77,000 of actual outward wires (EUR 57,000 + EUR 20,000),
+both sent in late April / early May 2018 to the same Italian
+credit-recovery beneficiary ARGO GE.RE.CRE. SRL.
+
+- The EUR 57,000 wire substantially corroborates the claimed
+  "EUR 57,100 legal/auction/procedural costs" leg (with a de
+  minimis EUR 100 discrepancy likely attributable to bank fees
+  or imprecise recollection).
+- The claimed EUR 75,000 (EUR 30k + EUR 45k) second tranche is
+  NOT evidenced here. Only a single EUR 20,000 wire appears on
+  1 May 2018, which does not match either 30k or 45k.
+- No payments outside the 26 Apr - 1 May 2018 window are shown,
+  so nothing in this set speaks to 2017 or 2019 activity.
+- The emails do NOT state any purpose on the payment instruction
+  (no reference to "Gavioli", "foreclosure", "auction", "legal
+  fees", court case number, etc.). Relevance to the Gavioli
+  matter is inferential, based on the identity of the beneficiary
+  (an Italian credit-recovery firm) rather than on any stated
+  reference line.
+
+Accordingly, to substantiate the full ~EUR 130,000+ claim,
+additional documentary evidence would be required - e.g. further
+FX/bank receipts for the missing ~EUR 55,100, invoices or legal
+bills from ARGO GE.RE.CRE. or Italian counsel tying the wires to
+the Gavioli foreclosure, and any wires dated in 2017 or 2019 if
+such are said to have occurred.
+================================================================
