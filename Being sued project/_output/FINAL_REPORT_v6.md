@@ -373,57 +373,85 @@ trustee relies on. It gives Belardi's "*errore materiale*"
 (clerical error) argument genuine substance — more substance than
 a first reading suggests.
 
-### 5.3 The €30,000 is already netted off by the trustee — the "double-count" argument does not work
+### 5.3 The €30,000 "refund" — factual challenge, not a double-count
 
-**Previous drafts of this analysis, and an earlier draft of the
-email to Belardi, treated the €30,000 as the single biggest quantum
-attack point.** That was based on a misreading of the Ricorso. The
-anti-collusion critique surfaced the error and it has been corrected.
+The single most important factual question in this case is what
+the €30,000 in the trustee's arithmetic actually represents.
 
-The actual position is:
+**What the Ricorso says.** At folio 3, the Ricorso states that
+Naissance received "sums equal to the value of the property
+assignment (€616,000.00), increased by €13,975.04 (of which
+€10,043.04 as a higher amount distributed, **net of procedural
+expenses advanced**, and €3,932.00 as legal expenses not admitted
+to the bankruptcy liabilities), for a total amount of €629,975.04".
+Separately, in describing an earlier €25,806.02 distribution
+award to Naissance, the Ricorso says that award included "the
+residual amount of €30,000.00 paid by [Naissance] for procedural
+expenses" — i.e. the trustee's characterisation is that Naissance
+paid €30,000 into the procedure and received the same €30,000 back
+at the 2019 distribution as a refund.
 
-- The Ricorso at folio 3 states that Naissance received "sums equal
-  to the value of the property assignment (€616,000.00), increased
-  by €13,975.04 (of which €10,043.04 as a higher amount distributed,
-  **net of procedural expenses advanced**, and €3,932.00 as legal
-  expenses not admitted to the bankruptcy liabilities), for a total
-  amount of €629,975.04".
-- The €10,043.04 is already **net** of the €30,000 advance. In
-  other words the trustee has added the full higher distribution
-  (€40,043.04 gross) and then subtracted the €30,000 advance
-  Naissance had paid in, leaving €10,043.04 net.
-- The €30,000 is referenced separately in the Ricorso, as a
-  component of an earlier €25,806.02 distribution award. It is
-  not in the €629,975.04.
+**Grahame's position (WhatsApp, 18.04.2026 20:32).** The €30,000
+is one of two cheques he paid OUT (the other being the €45,000
+cheque), totalling the €75,000 cost tranche. **He did not receive
+€30,000 back in 2019.** The €30k "refund" the trustee asserts is,
+on Grahame's account, a line item that never happened.
 
-**There is nothing to double-count.** If we plead a "double-count",
-either (a) the trustee replies "we have already netted the €30,000
-off — there is no double-count", and the argument fails; or worse,
-(b) the trustee recalculates on gross flows, adds the €30,000 back
-in, and raises the claim to €87,536.75. **Pleading this argument
-could therefore make the claim worse, not better.**
+**Implication.** The earlier-draft "double-count" framing was
+therefore wrong in both directions. There is no double-count
+because, on Grahame's account, there was no €30k refund to
+double-count in the first place. But there is a live
+**factual challenge** to make: the Ricorso's own "net of
+procedural expenses advanced" arithmetic depends on the €30,000
+having been refunded, and if that is factually untrue the
+trustee's €10,043.04 "higher amount distributed" figure is
+understated by €30,000 — or the €30,000 was never received at all
+and the trustee's story of Naissance's receipts is internally
+inconsistent. Either way, **the defence should put the trustee
+to proof** that the €30,000 was actually refunded to Naissance on
+the 2019 distribution, with bank records, treasury reports, or
+the distribution plan itself.
 
-That means the only live quantum levers in the trustee's
-€629,975.04 are:
+- **If the trustee cannot substantiate the €30,000 refund**, a
+  material part of his accounting falls away. Best-case effect
+  on claim: the €10,043.04 figure stops being defensible on its
+  stated "net of advanced expenses" basis, and the claim
+  narrative weakens materially.
+- **If the trustee can substantiate it** (i.e. produce evidence
+  that €30,000 was actually paid back to Naissance on
+  04.04.2019), Grahame has a separate internal problem — either
+  his recollection is wrong, or there is a 2019 receipt in
+  Naissance's records he hasn't located. Either way the €30,000
+  then stands as the trustee describes and the claim arithmetic
+  is as stated.
 
-- **€3,932.00** — legal expenses the trustee himself classifies as
-  "not admitted to the bankruptcy liabilities". The *defence*
-  argument is that this sum, by the trustee's own characterisation,
-  sits outside the bankruptcy's formal ranking and so cannot be the
-  subject of an *ex lege* restitution. Moderate-strength. The
-  *trustee's* counter (which we must anticipate) is that Naissance
-  received the €3,932 without concorsual title — which is the
-  literal definition of *indebito oggettivo* and is therefore
-  exactly what must be returned.
+This reframing matches Grahame's own view (WhatsApp: "this 30k
+double count is a complete red herring") but for a tighter legal
+reason: the correct argument is not *double-count*, it is
+*factual challenge to the trustee's accounting*.
+
+**Other quantum levers in the trustee's €629,975.04:**
+
+- **€3,932.00** — legal expenses the trustee himself classifies
+  as "not admitted to the bankruptcy liabilities". The defence
+  argument is that this sum sits outside the bankruptcy's formal
+  ranking and so cannot be the subject of an *ex lege*
+  restitution. Moderate-strength. The trustee's counter
+  (which we must anticipate) is that receipt without concorsual
+  title is exactly what *indebito oggettivo* looks like — and
+  is therefore exactly what must be returned.
 - **€4,761.47** — the prededuzione for legal fees that the G.D.
-  excluded at 2019 admission. Discretionary equitable offset. Weak
-  but worth pleading.
+  excluded at 2019 admission. Discretionary equitable offset.
+  Weak but worth pleading.
 
-In cumulative terms, if both land, the claim drops from €57,536.75
-to roughly €48,843.28. Realistically one of the two will land —
-reducing the claim by perhaps €3,000–€8,000. This is materially
-less upside than the €30,000 argument would have represented if it
-had worked.
+If the €30,000 factual challenge succeeds and both smaller items
+land, the claim narrative is materially undermined. Realistic
+expectation: one of the three lines lands, reducing the claim by
+perhaps €5,000–€15,000. This is less upside than the earlier-
+draft "double-count as automatic win" framing claimed, but it is
+more honest and — importantly — the €30k challenge carries no
+backfire risk (no gross-up exposure), because it is a factual
+challenge rather than a legal one.
 
 ### 5.4 Pre-auction offers confirm the €616k price was fair
 
