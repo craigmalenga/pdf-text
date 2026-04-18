@@ -190,4 +190,71 @@ In `Being sued project/_output/`:
 
 ---
 
-*Last updated: 18.04.2026 during the v7 preparation.*
+*Last updated: during v8 preparation after Grahame's call-in feedback.*
+
+---
+
+## v8 update (latest)
+
+After a phone call from Grahame in which he was plainly angry with
+the v7 framing, v8 was produced to reflect his instructions. Key
+changes from v7:
+
+1. **The headline commercial argument is no longer "€700k underwater
+   on the €1.188m face value".** It is now: *"I am already €80k
+   short on the bankruptcy's own admitted numbers &mdash; €572,438.29
+   residual + €132,000 costs = ~€700,000 exposure, vs the highest
+   genuine pre-auction offer of €620,000 = €80k short. If the trustee
+   wins, I am €140k short. The estate has lost nothing; only
+   Naissance is out of pocket."*
+
+   This framing is tighter than v7's and avoids the agent-B
+   "acquisition-price" vulnerability: it does NOT rely on the €1.188m
+   face value and does NOT rely on what Naissance paid Argo for the
+   credit in 2017.
+
+2. **All €30k-argument residue stripped.** The final parenthetical
+   about "FX execution of one of the cheques" is also gone.
+
+3. **§9 fully rewritten** around the cleaner €572 + €132 = €700 vs
+   €620 = €80k short framing.
+
+4. **Approach A in §6.1, the landscape table A row, and the exec
+   summary A row** all rewritten to the new framing.
+
+5. **"Arithmetic is clean / correct" language softened** to
+   "internally consistent but built on an inflated €629,975.04
+   received figure that exceeds every pre-auction offer".
+
+6. **Belardi email rebuilt as v8 English PDF
+   (`27_Draft_email_to_Belardi_v8_ENGLISH.pdf`)** &mdash; tight,
+   decisive, non-circular, 3 pages. This is the primary deliverable
+   Grahame can send once approved.
+
+## Canonical current deliverables (after v8)
+
+- **`26_FINAL_REPORT_v8.pdf`** &mdash; latest report, 20 pages.
+- **`27_Draft_email_to_Belardi_v8_ENGLISH.pdf`** &mdash; latest
+  instruction email for Belardi (English; Italian to follow on
+  Grahame's approval).
+- `HANDOVER.md` (this file) &mdash; session-resume brief.
+- `12_PROJECT_PLAN.md` &mdash; full history of versions.
+- `21_Stage_6B_Critique_Findings.md` &mdash; anti-collusion round 1
+  findings (v7 superseded).
+- `28_Stage_6C_Critique_v7.md` &mdash; focused 3-agent review of v7
+  that prompted v8 (to be written separately if needed).
+
+All earlier versions (v1&ndash;v7 reports, v3/v7 emails) are retained
+in the output folder for audit trail but are SUPERSEDED.
+
+## Open items (pending user / Grahame decisions)
+
+- Approval of the English v8 email. Grahame needs to read it and
+  approve before the Italian version is produced.
+- Any further instruction on the walkaway ceiling (currently €45k).
+  Grahame has not reduced it, but has expressed unease with any
+  settlement framing.
+- Whether Grahame can locate any document evidencing the 2017
+  cession price (what Naissance actually paid Argo). If yes, the
+  €1.188m framing can be reinstated; if no, v8's cleaner
+  €572+€132 vs €620 framing is the right one and should stand.
