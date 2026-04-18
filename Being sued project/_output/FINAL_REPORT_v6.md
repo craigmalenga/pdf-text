@@ -958,6 +958,8 @@ What the report recommends is:
 
 ---
 
+<div class="landscape-page"></div>
+
 ### Final comparison — the four approaches side-by-side
 
 <table class="compare">
