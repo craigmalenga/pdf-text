@@ -372,41 +372,57 @@ trustee relies on. It gives Belardi's "*errore materiale*"
 (clerical error) argument genuine substance — more substance than
 a first reading suggests.
 
-### 5.3 The €30,000 "refund" is almost certainly double-counted — and this is the single biggest quantum lever, but it is not automatic
+### 5.3 The €30,000 is already netted off by the trustee — the "double-count" argument does not work
 
-The trustee includes **€30,000** in his €629,975.04 "received" figure,
-calling it a "refund of procedural expense advance previously paid
-by Naissance". The documentary record shows:
+**Previous drafts of this analysis, and an earlier draft of the
+email to Belardi, treated the €30,000 as the single biggest quantum
+attack point.** That was based on a misreading of the Ricorso. The
+anti-collusion critique surfaced the error and it has been corrected.
 
-- On **05.06.2018** Naissance issued a €30,000 cheque — executed as
-  an FX wire to Argo Ge.Re.Cre. the same day (same payment, not two
-  separate outflows).
-- The 04.04.2019 distribution plan returned €30,000 to Naissance.
+The actual position is:
 
-Those are almost certainly the same €30,000 — money out in 2018,
-same money back in 2019. In pure economic terms, it is not a
-payment from the estate to Naissance. The strong argument is that
-including it in the restitution claim is **double-counting**.
+- The Ricorso at folio 3 states that Naissance received "sums equal
+  to the value of the property assignment (€616,000.00), increased
+  by €13,975.04 (of which €10,043.04 as a higher amount distributed,
+  **net of procedural expenses advanced**, and €3,932.00 as legal
+  expenses not admitted to the bankruptcy liabilities), for a total
+  amount of €629,975.04".
+- The €10,043.04 is already **net** of the €30,000 advance. In
+  other words the trustee has added the full higher distribution
+  (€40,043.04 gross) and then subtracted the €30,000 advance
+  Naissance had paid in, leaving €10,043.04 net.
+- The €30,000 is referenced separately in the Ricorso, as a
+  component of an earlier €25,806.02 distribution award. It is
+  not in the €629,975.04.
 
-**This is the single biggest quantum point.** If it lands, the claim
-drops from **€57,536.75 to €27,536.75** — more than half gone
-without winning anything else.
+**There is nothing to double-count.** If we plead a "double-count",
+either (a) the trustee replies "we have already netted the €30,000
+off — there is no double-count", and the argument fails; or worse,
+(b) the trustee recalculates on gross flows, adds the €30,000 back
+in, and raises the claim to €87,536.75. **Pleading this argument
+could therefore make the claim worse, not better.**
 
-**Important honesty note, though.** The trustee has an available
-counter-argument: "yes, it was a refund of Naissance's own money,
-but it was still *money received through the procedure*, so for
-ranking purposes it forms part of the total sums distributed". The
-real legal question therefore becomes:
+That means the only live quantum levers in the trustee's
+€629,975.04 are:
 
-> *Is restitution under art. 110 L.F. / art. 2033 c.c. calculated
-> on gross flows through the procedure, or on the net economic
-> benefit to the creditor?*
+- **€3,932.00** — legal expenses the trustee himself classifies as
+  "not admitted to the bankruptcy liabilities". The *defence*
+  argument is that this sum, by the trustee's own characterisation,
+  sits outside the bankruptcy's formal ranking and so cannot be the
+  subject of an *ex lege* restitution. Moderate-strength. The
+  *trustee's* counter (which we must anticipate) is that Naissance
+  received the €3,932 without concorsual title — which is the
+  literal definition of *indebito oggettivo* and is therefore
+  exactly what must be returned.
+- **€4,761.47** — the prededuzione for legal fees that the G.D.
+  excluded at 2019 admission. Discretionary equitable offset. Weak
+  but worth pleading.
 
-That question is not trivial, and is judge-dependent. The
-€30,000 double-count argument is **very strong but not guaranteed**.
-It should be treated as a high-probability quantum reduction, not a
-certainty. Belardi must put this point front and centre, with full
-authority on how Italian courts treat the gross-vs-net question.
+In cumulative terms, if both land, the claim drops from €57,536.75
+to roughly €48,843.28. Realistically one of the two will land —
+reducing the claim by perhaps €3,000–€8,000. This is materially
+less upside than the €30,000 argument would have represented if it
+had worked.
 
 ### 5.4 Pre-auction offers confirm the €616k price was fair
 
