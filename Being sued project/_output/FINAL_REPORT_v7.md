@@ -33,7 +33,7 @@ supporting infrastructure.
 
 | # | Approach | Pay-off | Risk |
 |---|---|---|---|
-| A | Your own instinct — "I'm owed €1.188m, only got back half" | Emotionally compelling | Blocked by Art. 56 L.F. as a formal plea; only useful as a private settlement lever |
+| A | Your own instinct — "I paid €132k to recover an asset worth €620k on a €1.188m credit — I'm ~€700k underwater" | Commercially correct; strongest settlement lever | Art. 56 L.F. and art. 2741 c.c. block it as a formal counterclaim; used as equitable frame + settlement lever, not as statutory defence |
 | B | ChatGPT's reading — "distribution was final, claim is weak" | Simple to plead | Cass. 23482/2018 and 12673/2022 explicitly say the distribution was *provisional*; loses head-on |
 | C | Belardi's line — "clerical error in the Istanza" + Fiorilli fallback | Real legal hook | The 2019 admission decree is *res judicata endofallimentare* (Cass. 4708/2020 + SS.UU. 4309/2010), so a typo in the 2018 application cannot reopen it |
 | D | **Recommended (revised)** — narrow quantum challenge (€3,932 + €4,761.47) + factual distinguishing of the two Cassazione cases + errore-materiale as supporting context + parallel settlement at €30–40k target | Most realistic path to a good outcome | Upside is modest; settlement is now the most likely good outcome |
@@ -422,52 +422,57 @@ own strengths, weaknesses, and an independent estimate of the
 probability of a good outcome if it is pursued as the primary
 strategy.
 
-### 6.1 Approach A — Your own instinct ("I'm owed €1.188m, I only got back about half")
+### 6.1 Approach A — Your own instinct ("I spent €132k to recover an asset worth €620k on a credit of €1.188m — I'm ~€700k underwater")
 
 **The position**
 
-Naissance acquired a credit of **€1,188,438.29** through the 2017
-double assignment. Against that, only about half has ever been
-recovered — **€616,000** via the 2018 property assignment and
-roughly **€130,000** via the subsequent distribution. The residual
-**€572,438.29** admitted to the bankruptcy is still unpaid. How,
-on those facts, can the trustee now claim €57,536.75 back as a
-"surplus"? The estate still owes *you* several hundred thousand
-euros.
+Naissance acquired a credit of **€1,188,438.29** in 2017. The best
+genuine pre-auction offer on the underlying asset was **€620,000**
+(12.09.2017). Naissance paid **€132,000** out-of-pocket to run the
+recovery. So on the best market view of the asset, the net
+recovery was roughly **€488,000** against a face-value credit of
+€1,188,438.29 — meaning Naissance is **roughly €700,000 underwater**
+on this recovery. The trustee is now asking for another €57,536.75
+back on top of that shortfall.
 
-**Why this feels right — and commercially, it is.** Most non-lawyers
-would reach exactly the same conclusion. It is a legitimate point.
+**Why this is the right way to think about the case.** This is the
+commercial reality. It is what any non-lawyer would instinctively
+see, and Grahame has stated it plainly. The trustee's arithmetic
+treats €629,975.04 as "received", but that figure itself exceeds
+every pre-auction market indication of the asset's value (€550k,
+€620k) and so already includes a tail that the market itself does
+not attribute to the asset. Naissance never got "more than
+€572,438.29"; it got, net, materially less than that once genuine
+costs and market value are counted.
 
-**Why it cannot be the primary legal defence — four reasons.**
+**Why it cannot carry the whole defence on its own — three reasons.**
 
-1. **Italian insolvency law treats the two accounts separately.**
-   The surplus-restitution duty under Cass. 23482/2018 operates on
-   a specific accounting exercise (foreclosure proceeds vs admitted
-   secured claim). Whether the guarantor is globally made whole on
-   its underlying mortgage credit is a different question, answered
-   through the residual *chirografario* (unsecured) ranking — which
-   pays cents on the euro, not euro-for-euro.
-2. **Art. 56 L.F. statutory set-off does not reach.** Compensation
-   in bankruptcy requires both debts to exist before the bankruptcy
-   declaration and to be certain, liquid, and payable. The
-   trustee's restitution claim arose **after** the bankruptcy and
-   from the distribution plan itself.
-3. **The admitted €572k mortgage claim ranks pari passu** with
-   other unsecured creditors in the residual distribution. It does
-   not function as a euro-for-euro offset against a specific
-   surplus-restitution duty.
-4. **Pleading this as the headline defence signals misunderstanding
-   of Italian insolvency mechanics** and risks losing the judge's
-   sympathy for the genuinely strong quantum arguments in Approach D.
+1. **Art. 56 L.F. statutory set-off does not reach.** Compensation
+   in bankruptcy requires both debts to exist before the
+   bankruptcy declaration and to be certain, liquid, and payable.
+   The trustee's restitution claim arose **after** the bankruptcy
+   and from the distribution plan itself.
+2. **The residual €572,438.29 mortgage claim ranks pari passu**
+   with other unsecured creditors in the residual chirografario
+   distribution. It does not function as a euro-for-euro offset.
+3. **Pleading this as a formal counterclaim risks a *par condicio
+   creditorum* objection** under art. 2741 c.c. — the trustee
+   will argue it amounts to paying Naissance at 100 cents while
+   other chirografari are paid pro rata.
 
-**What this argument IS good for.** It is an **excellent settlement
-lever** ("if you press us for €57k we will formally reassert a
-€572k residual"), and a legitimate **equitable plea** supporting
-the main defence.
+**What this argument is good for.** It is the **equitable frame**
+within which Belardi's technical points are heard. It is the
+**strongest single settlement lever**: the curator cannot
+realistically expect a 100% recovery from a counterparty already
+€700k short on the underlying credit. And it is — importantly —
+a point the court can hear, even if not formally set off.
 
-**Probability of winning if pleaded as primary defence: <10%.**
-**Probability if pleaded correctly as counterclaim/settlement lever
-alongside Approach D: adds ~€10–15k of settlement discount.**
+**Probability of winning if pleaded as the sole defence: <10%**
+(it has no statutory route).
+**Probability if pleaded correctly as the equitable frame +
+settlement lever alongside Approach D: materially strengthens
+the settlement conversation, plausibly €10–15k of additional
+discount.**
 
 ### 6.2 Approach B — ChatGPT's line ("the distribution plan is final, the claim is weak")
 
@@ -900,31 +905,31 @@ What the report recommends is:
 <tbody>
 <tr>
 <td>A</td>
-<td><b>Your own instinct</b><br>"I'm owed &euro;1.188m, only got back ~half"</td>
+<td><b>Your own instinct</b><br>"I paid &euro;132k to recover an asset worth &euro;620k on a &euro;1.188m credit &mdash; I'm ~&euro;700k underwater"</td>
 <td>
 <ul>
-<li>Facts documented &amp; accepted by trustee</li>
-<li>Credit of <b>&euro;1,188,438.29</b> (2017 assignment)</li>
-<li>Only <b>&euro;616k</b> auction + <b>~&euro;130k</b> riparto recovered</li>
-<li><b>&euro;572,438.29</b> admitted to stato passivo, still unpaid</li>
-<li>Strong equitable force &amp; common-sense appeal</li>
-<li>Excellent settlement lever</li>
+<li>Credit acquired 2017 for face value of <b>&euro;1,188,438.29</b></li>
+<li>Best genuine pre-auction market view: <b>&euro;620,000</b></li>
+<li>Documented recovery costs: <b>&euro;132,000</b></li>
+<li>Net recovery: <b>~&euro;488,000</b> against a &euro;1.188m credit</li>
+<li><b>Shortfall ~&euro;700,000</b> on the underlying credit</li>
+<li>Trustee's &euro;629,975.04 itself exceeds every pre-auction offer, indicating non-market-value tail</li>
+<li>Strongest single settlement lever</li>
 </ul>
 </td>
 <td>
 <ul>
-<li>Italian insolvency law treats surplus-restitution as <b>separate</b> accounting from guarantor's make-whole position</li>
 <li>Art. 56 L.F. set-off out of reach &mdash; trustee's claim arose post-bankruptcy</li>
-<li>Admitted &euro;572k ranks <i>pari passu</i> &mdash; not a euro-for-euro offset</li>
-<li>Pleading as primary defence signals misunderstanding of Italian insolvency mechanics</li>
-<li>Risks losing judge's sympathy for the Track 2 quantum arguments</li>
+<li>Residual &euro;572k ranks <i>pari passu</i> &mdash; not a euro-for-euro offset</li>
+<li>A formal counterclaim for the shortfall would trigger <i>par condicio creditorum</i> objections under art. 2741 c.c.</li>
+<li>Cannot carry the defence alone as a matter of statutory law</li>
 </ul>
 </td>
 <td>
-<b>&lt;10%</b> as primary<br><br>
-Adds <b>~&euro;10&ndash;15k</b> of settlement discount if used as counterclaim alongside Approach D
+<b>&lt;10%</b> as sole defence<br><br>
+As equitable frame + settlement lever alongside Approach D: materially strengthens settlement, plausibly <b>~&euro;10&ndash;15k</b> of additional discount
 </td>
-<td><b>Counterclaim / settlement lever only.</b></td>
+<td><b>Equitable frame + settlement lever.</b></td>
 </tr>
 <tr>
 <td>B</td>
