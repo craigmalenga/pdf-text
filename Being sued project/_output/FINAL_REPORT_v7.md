@@ -396,85 +396,35 @@ materiale argument now has both an arithmetic hook (clause 3 vs
 clause 4) and a procedural hook (the client never
 instructed / approved the reduced figure).
 
-### 5.3 The €30,000 "refund" — factual challenge, not a double-count
+### 5.3 Quantum levers in the trustee's €629,975.04
 
-The single most important factual question in this case is what
-the €30,000 in the trustee's arithmetic actually represents.
-
-**What the Ricorso says.** At folio 3, the Ricorso states that
-Naissance received "sums equal to the value of the property
-assignment (€616,000.00), increased by €13,975.04 (of which
-€10,043.04 as a higher amount distributed, **net of procedural
-expenses advanced**, and €3,932.00 as legal expenses not admitted
-to the bankruptcy liabilities), for a total amount of €629,975.04".
-Separately, in describing an earlier €25,806.02 distribution
-award to Naissance, the Ricorso says that award included "the
-residual amount of €30,000.00 paid by [Naissance] for procedural
-expenses" — i.e. the trustee's characterisation is that Naissance
-paid €30,000 into the procedure and received the same €30,000 back
-at the 2019 distribution as a refund.
-
-**Grahame's position (WhatsApp, 18.04.2026 20:32).** The €30,000
-is one of two cheques he paid OUT (the other being the €45,000
-cheque), totalling the €75,000 cost tranche. **He did not receive
-€30,000 back in 2019.** The €30k "refund" the trustee asserts is,
-on Grahame's account, a line item that never happened.
-
-**Implication.** The earlier-draft "double-count" framing was
-therefore wrong in both directions. There is no double-count
-because, on Grahame's account, there was no €30k refund to
-double-count in the first place. But there is a live
-**factual challenge** to make: the Ricorso's own "net of
-procedural expenses advanced" arithmetic depends on the €30,000
-having been refunded, and if that is factually untrue the
-trustee's €10,043.04 "higher amount distributed" figure is
-understated by €30,000 — or the €30,000 was never received at all
-and the trustee's story of Naissance's receipts is internally
-inconsistent. Either way, **the defence should put the trustee
-to proof** that the €30,000 was actually refunded to Naissance on
-the 2019 distribution, with bank records, treasury reports, or
-the distribution plan itself.
-
-- **If the trustee cannot substantiate the €30,000 refund**, a
-  material part of his accounting falls away. Best-case effect
-  on claim: the €10,043.04 figure stops being defensible on its
-  stated "net of advanced expenses" basis, and the claim
-  narrative weakens materially.
-- **If the trustee can substantiate it** (i.e. produce evidence
-  that €30,000 was actually paid back to Naissance on
-  04.04.2019), Grahame has a separate internal problem — either
-  his recollection is wrong, or there is a 2019 receipt in
-  Naissance's records he hasn't located. Either way the €30,000
-  then stands as the trustee describes and the claim arithmetic
-  is as stated.
-
-This reframing matches Grahame's own view (WhatsApp: "this 30k
-double count is a complete red herring") but for a tighter legal
-reason: the correct argument is not *double-count*, it is
-*factual challenge to the trustee's accounting*.
-
-**Other quantum levers in the trustee's €629,975.04:**
+The trustee's figure of €629,975.04 breaks down as €616,000
+(property assignment) + €13,975.04 extra sums (= €10,043.04
+"higher amount distributed, net of procedural expenses advanced"
++ €3,932.00 "legal expenses not admitted to the bankruptcy
+liabilities"). There are two live quantum points inside that
+breakdown:
 
 - **€3,932.00** — legal expenses the trustee himself classifies
   as "not admitted to the bankruptcy liabilities". The defence
   argument is that this sum sits outside the bankruptcy's formal
   ranking and so cannot be the subject of an *ex lege*
-  restitution. Moderate-strength. The trustee's counter
-  (which we must anticipate) is that receipt without concorsual
-  title is exactly what *indebito oggettivo* looks like — and
-  is therefore exactly what must be returned.
+  restitution. Moderate-strength. The trustee's counter (which
+  we must anticipate) is that receipt without concorsual title
+  is exactly what *indebito oggettivo* looks like — and is
+  therefore exactly what must be returned.
 - **€4,761.47** — the prededuzione for legal fees that the G.D.
   excluded at 2019 admission. Discretionary equitable offset.
   Weak but worth pleading.
 
-If the €30,000 factual challenge succeeds and both smaller items
-land, the claim narrative is materially undermined. Realistic
-expectation: one of the three lines lands, reducing the claim by
-perhaps €5,000–€15,000. This is less upside than the earlier-
-draft "double-count as automatic win" framing claimed, but it is
-more honest and — importantly — the €30k challenge carries no
-backfire risk (no gross-up exposure), because it is a factual
-challenge rather than a legal one.
+Realistic expectation: one of the two lines lands, reducing the
+claim by perhaps €3,000–€8,000. This is modest, but it is honest
+and it carries no backfire risk.
+
+*(Earlier drafts of this report also carried a narrative about a
+€30,000 "refund" line. At Grahame's express direction, and in
+light of a closer reading of the Ricorso's own arithmetic, that
+narrative is not pursued.)*
 
 ### 5.4 Pre-auction offers confirm the €616k price was fair
 
