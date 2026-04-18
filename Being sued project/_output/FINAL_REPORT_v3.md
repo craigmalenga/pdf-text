@@ -51,3 +51,69 @@ We have four realistic ways to respond. In summary:
 - Full loss (pay ~€57k + interest + costs ≈ €70–85k): **30–40%**
 
 ---
+
+## 2. What has happened — the story so far
+
+### 2.1 The underlying credit (2010–2017)
+
+In December 2010, **Banca CRAS** (Credito Cooperativo Toscano-Senese)
+granted a mortgage loan to **Agricola Gavioli S.r.l.**, secured by a
+first-rank voluntary mortgage over the Chianciano Terme property on
+Strada Statale 146.
+
+In July 2017, the credit was sold twice on the same day:
+
+1. **Banca CRAS → Argo Ge.Re.Cre. S.r.l.**
+2. **Argo Ge.Re.Cre. → Naissance (UK) Ltd**
+
+Naissance thereby acquired a credit of **€1,188,438.29** against
+Agricola Gavioli. The credit chain is **acknowledged by the trustee
+in the current lawsuit** — it is not in dispute.
+
+### 2.2 Foreclosure and bankruptcy (2018–2019)
+
+- **28.02.2018**: foreclosure auction of the Chianciano property
+  (RGE 187/2015 at Tribunale di Siena). Base price €616,000.
+- **30.05.2018**: Agricola Gavioli declared bankrupt (Fallimento
+  n. 35/2018; curator Dott. Stefano Scarpellini).
+- **26.06.2018**: decree of transfer — the property is assigned to
+  Naissance for €616,000.
+- **14.12.2018**: Avv. Paolo Fiorilli, then Naissance's lawyer in
+  Rome, files the **Istanza di Ammissione al Passivo** asking the
+  bankruptcy to admit Naissance's residual claim.
+- **2019**: the Delegated Judge admits Naissance for **€572,438.29**
+  as a secured mortgage claim (the €4,761.47 prededuzione for legal
+  fees is excluded).
+- **04.04.2019**: the distribution plan of the foreclosure
+  (progetto di distribuzione) is approved by the Enforcement Judge
+  at a hearing. **Not challenged by the trustee or any creditor,
+  and not impugned within the statutory window.**
+
+### 2.3 The trustee's demand (2025)
+
+- **02.05.2025** and **03.06.2025**: the trustee and his lawyer
+  send formal demands (*diffide*) to Naissance at its London
+  address and to Fiorilli in Rome. Naissance does not respond.
+- **01.07.2025**: legal interest begins to accrue on the disputed
+  sum.
+- **18.10.2025**: the Delegated Judge authorises the curator to sue.
+- **30.12.2025**: Avv. Fabio Finetti, on behalf of the Curatela,
+  files a *Ricorso ex artt. 281-decies and undecies c.p.c.* at
+  Tribunale di Siena, seeking **€57,536.75** plus interest and costs.
+- **31.12.2025**: first hearing fixed for 12.03.2026.
+- **07.01.2026**: hearing postponed to **14.05.2026 at 10:00**.
+  Costituzione (filing of the defence) due at least 10 days before —
+  i.e. by **04.05.2026**.
+
+### 2.4 Lawyers involved
+
+| Role | Person |
+|---|---|
+| Defendant's director | Grahame McGirr |
+| Defendant's current lawyer | Avv. Primo Belardi, Chianciano Terme |
+| Defendant's 2018 lawyer | Avv. Paolo Fiorilli, Rome |
+| Claimant's lawyer | Avv. Fabio Finetti, Siena |
+| Claimant (Curatore) | Dott. Stefano Scarpellini, Siena |
+| Judge | Dott. Marianna Serrao |
+
+---
