@@ -11,8 +11,11 @@
 
 A trustee (Curatore) appointed by the **Tribunale di Siena** in the
 bankruptcy of **Società Agricola Gavioli S.r.l.** (Fallimento n. 18/2018)
-has filed a **Ricorso** against **Naissance UK Ltd** seeking
-**€57,536.75** plus interest and costs.
+has filed a **Ricorso** (ex art. 281-decies / undecies c.p.c.) against
+**Naissance (UK) Ltd** seeking **€57,536.75** plus interest and costs.
+The case reference is Fallimento n. **35/2018 R.G.** Tribunale di Siena.
+The hearing is listed for **14 May 2026** and the deadline to file the
+written defence (costituzione) is **04 May 2026**.
 
 **Key verified facts (cross-checked against the OCR'd Ricorso):**
 
@@ -21,10 +24,11 @@ has filed a **Ricorso** against **Naissance UK Ltd** seeking
 | Defendant | Naissance UK Ltd |
 | Bankrupt debtor | Società Agricola Gavioli S.r.l. |
 | Court | Tribunale di Siena |
-| Case no. | Fallimento 18/2018 |
+| Case no. | Fallimento 35/2018 R.G. |
 | Claim amount | **€57,536.75** (not €85k as earlier assumed) |
-| Trustee | Dott. Fabio Scarpellini (Curatore) / Avv. Finetti |
-| Hearing / response date | **04.05.2026** (16 days from this report) |
+| Trustee | Dott. Stefano Scarpellini (Curatore) / Avv. Finetti |
+| Costituzione deadline | **04 May 2026** (16 days from this report) |
+| Hearing | 14 May 2026 (Judge Marianna Serrao) |
 | Legal basis cited | Cass. Civ. 23482/2018 and 12673/2022, art. 41 TUB |
 
 **The trustee's argument in plain English:** when the secured creditor
