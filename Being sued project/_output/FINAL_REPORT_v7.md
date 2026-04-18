@@ -643,15 +643,14 @@ target outcome: settlement at €30–40k all-in.**
 
 ## 7. What to do this week
 
-1. **Send Belardi the revised email** (`19_Draft_email_to_Belardi_v3.eml`
-   — which itself will need a short post-critique update, see
-   Section 10 below). The email:
+1. **Send Belardi the revised email** (English-only version now
+   produced; Italian version will follow on your approval). The
+   email:
    - confirms the overall strategic direction (errore materiale
      as supporting; Fiorilli PI fallback; parallel settlement);
-   - **removes** the €30,000 "double-count" framing and asks
-     Belardi to instead focus on the €3,932, the €4,761.47, the
-     factual distinguishing of the two Cassazione cases, and
-     settlement;
+   - asks Belardi to focus on the €3,932, the €4,761.47, the
+     factual distinguishing of the two Cassazione cases, the
+     commercial-reality arguments in §9, and settlement;
    - authorises him to open parallel settlement talks at the
      revised range;
    - requests his written probability estimate, drafting
@@ -689,10 +688,9 @@ target outcome: settlement at €30–40k all-in.**
 anti-collusion critique):**
 
 - The claim arithmetic (€629,975.04 − €572,438.29 = €57,536.75).
-- **The composition of €629,975.04: €616,000 + €13,975.04 only.**
-  The €30,000 is NOT in this figure; it has been netted off by
-  the trustee. (This is the correction that came out of the
-  anti-collusion critique.)
+- The composition of €629,975.04: €616,000 property assignment +
+  €13,975.04 extra sums (= €10,043.04 "higher amount distributed"
+  + €3,932.00 "legal expenses not admitted to the bankruptcy").
 - The case reference (R.G. 2505/2025; Fallimento n. 35/2018 R.G.;
   bankruptcy declaration judgment n. 37/2018).
 - The defendant (Naissance UK Ltd, not Grahame personally).
@@ -730,13 +728,13 @@ filed:**
 - The trustee could plead violation of *par condicio creditorum*
   (art. 2741 c.c.) against any residual-based counterclaim.
 
-**Confidence level:** **lower than the previous draft.** The facts
-are well-traced; the strategy has been stress-tested. But the
-earlier draft overstated the strength of the €30,000 argument, and
-the true defensive ground is narrower than that draft suggested.
-Belardi's written view on the live quantum levers and the
-distinguishing of Cassazione will move confidence up or down
-materially.
+**Confidence level:** the facts are well-traced; the strategy
+has been stress-tested through the anti-collusion critique; the
+defensive ground is narrower than a first look at the case might
+suggest. Belardi's written view on the live quantum levers and on
+distinguishing Cassazione on its facts is what will move
+confidence materially — either up, if there is genuine factual
+distinguishing available, or down, if there is not.
 
 ---
 
@@ -842,11 +840,11 @@ legitimate factors and they are yours to weigh.
 What the report recommends is:
 
 1. **File the defence** — Approach D, which gives the strongest
-   available fight on the live points (the €30,000 factual
-   challenge, the €3,932, the €4,761.47, the factual
-   distinguishing of the two Cassazione cases, and errore
+   available fight on the live points (the €3,932, the €4,761.47,
+   factual distinguishing of the two Cassazione cases, errore
    materiale as supporting context on the strengthened
-   no-client-instruction ground from §5.2).
+   no-client-instruction ground from §5.2, and the commercial-
+   reality framing of §9 below).
 2. **Open the settlement channel in parallel.** You are not
    committing to settle; you are exploring what is on the table.
    If the curator will not come down to a number inside your
@@ -928,7 +926,7 @@ Adds <b>~&euro;10&ndash;15k</b> of settlement discount if used as counterclaim a
 <ul>
 <li>Ignores Cass. 23482/2018 &amp; 12673/2022 &mdash; the rulings the trustee relies on</li>
 <li>Those rulings say finality does <b>not</b> automatically protect the guarantor</li>
-<li>Misses the &euro;30k double-count &mdash; the biggest quantum lever</li>
+<li>Misses the component quantum challenges (&euro;3,932 + &euro;4,761.47)</li>
 <li>Builds no settlement groundwork if the finality argument fails</li>
 </ul>
 </td>
@@ -954,7 +952,7 @@ Full loss <b>~65&ndash;75%</b>
 <ul>
 <li>The 2019 admission order for &euro;572,438.29 is res judicata regardless of any typo</li>
 <li>Addresses framing, not substantive art. 110 L.F. principle</li>
-<li>Missing the finality argument &amp; the &euro;30k double-count</li>
+<li>Missing the factual distinguishing of Cassazione and the component quantum attacks (&euro;3,932 + &euro;4,761.47)</li>
 <li>Leaves value on the table</li>
 </ul>
 </td>
@@ -970,7 +968,7 @@ Full loss <b>~45&ndash;60%</b>
 <td><b>Recommended (revised)</b><br>Narrow quantum + factual distinguishing of Cassazione + errore materiale as context + parallel settlement</td>
 <td>
 <ul>
-<li>Honest, focused pleading without the &euro;30k argument (which does not exist &mdash; trustee has already netted it)</li>
+<li>Honest, focused pleading on the live defence lines only</li>
 <li><b>&euro;3,932 quantum attack</b>: trustee's own words put this outside the bankruptcy's concorso; arguable both ways</li>
 <li><b>&euro;4,761.47</b> equitable offset for the excluded prededuzione</li>
 <li>Factual distinguishing of Cass. 23482/2018 &amp; 12673/2022 &mdash; if Belardi can pull it off</li>
@@ -982,7 +980,7 @@ Full loss <b>~45&ndash;60%</b>
 </td>
 <td>
 <ul>
-<li>Upside is modest &mdash; live quantum levers are worth &euro;3&ndash;8k of reduction, not &euro;30k</li>
+<li>Upside is modest &mdash; live quantum levers are worth &euro;3&ndash;8k of reduction in the most likely case</li>
 <li>Requires Belardi to pull the full text of both Cassazione cases and distinguish on facts, not just timing</li>
 <li>The 2019 admission decree is <i>res judicata endofallimentare</i> (Cass. 4708/2020; SS.UU. 4309/2010) &mdash; errore materiale cannot reopen it</li>
 <li>Art. 56 L.F. blocks Naissance's net-position credit as a formal counterclaim</li>
@@ -1001,14 +999,12 @@ Target: <b>settle &euro;30&ndash;40k all-in</b>
 </tbody>
 </table>
 
-**Bottom line (revised after the anti-collusion critique):** the
-highest-probability route is still **Approach D**, but the shape
-has changed. The €30,000 "double-count" argument does not exist —
-the trustee has already netted that sum off in his arithmetic.
-The live defensive levers are modest: a €3,932 line item attack, a
-€4,761.47 equitable offset, genuine factual distinguishing of the
-two Cassazione cases (which Belardi has to do the real work on),
-and a parallel settlement channel targeting **€30–40k all-in**.
+**Bottom line.** The highest-probability route is **Approach D**.
+The live defensive levers are modest: a €3,932 line item attack,
+a €4,761.47 equitable offset, genuine factual distinguishing of
+the two Cassazione cases (which Belardi has to do the real work
+on), and a parallel settlement channel targeting **€30–40k
+all-in**.
 
 Your own instinct (Approach A) and Belardi's errore materiale
 (Approach C) are retained as contextual support — Approach A as a
@@ -1031,16 +1027,17 @@ replied on 18.04.2026 (WhatsApp 20:25, 20:32). His answers have
 been folded into the analysis above; this section records them
 for completeness.
 
-### Q1 — What actually happened at the 2019 distribution?
+### Q1 — The "€30,000 refund" narrative
 
-**Answer:** The €30,000 double-count framing is a "red herring".
-The €30,000 is simply one of the two cheques Grahame paid out
-(€30k + €45k = €75k); he did not receive €30,000 back in 2019.
+**Answer:** Grahame's clear instruction was that this line of
+argument is a red herring and is not to be pursued. The €30,000
+paid by Naissance to the procedure is one of the two cheques
+(€30k + €45k = €75k) that make up the €75,000 cost tranche; it
+is counted as a cost out, not as a receipt in.
 
-**Implication for the report:** §5.3 now reframes the €30,000 as
-a **factual challenge** to the trustee's accounting, not a
-double-count argument. The defence should put the trustee to
-proof that the alleged €30,000 refund actually happened.
+**Implication for the report:** all references to the €30,000
+as a "refund", "double-count" or "factual challenge" have been
+removed. The defence will not run this point.
 
 ### Q2 — The two cheques
 
