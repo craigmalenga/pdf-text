@@ -590,98 +590,99 @@ with the curator.
 **Probability estimate:** full win ~15–20%, partial win ~25–35%,
 full loss ~45–60%. **Right direction, needs layering.**
 
-### 6.4 Approach D — Recommended (three focused battlegrounds + Belardi's errore materiale as supporting + parallel settlement)
+### 6.4 Approach D — Recommended (narrow quantum + factual distinguishing of Cassazione + errore materiale as context + parallel settlement)
 
-**The position**
+**The position (revised after the anti-collusion critique)**
 
 A focused defence filed as a single memoria by 04.05.2026,
 organised around the one question that actually matters: *did
 Naissance receive more than €572,438.29 through the procedure?*
-Three battlegrounds are run together as the core of the defence,
-with Belardi's clerical-error argument and a parallel settlement
-channel as supporting infrastructure.
+The approach is narrower than the previous draft proposed, because
+the €30,000 argument does not exist.
 
-**The three core battlegrounds:**
+**What the defence actually has to work with:**
 
-- **Battleground 1 — The €30,000 accounting treatment (the
-  headline quantum point).** Same €30k went out in June 2018 and
-  came back at the 2019 distribution. The legal question is
-  whether art. 110 L.F. / art. 2033 c.c. restitution is calculated
-  on gross flows or net economic benefit. Belardi must plead this
-  front and centre, with full authority on how Italian courts
-  treat gross-vs-net in this context. **If this lands, claim drops
-  from €57,536.75 to €27,536.75.** It is a very strong argument
-  but judge-dependent — not a slam dunk.
+- **Quantum attack 1 — the €3,932.** The trustee's own pleading
+  classifies this as "legal expenses not admitted to the bankruptcy
+  liabilities". The defence argues that sums outside the formal
+  concorso cannot be the subject of *ex lege* restitution under
+  art. 110 L.F. / art. 2033 c.c. Moderate-strength. Trustee's
+  counter is that receipt without concorsual title is exactly what
+  *indebito* looks like, so this is exactly what must be returned
+  (art. 111-bis L.F.; Cass. 17590/2019). Plausible argument on each
+  side.
+- **Quantum attack 2 — the €4,761.47.** The G.D. excluded this
+  prededuzione in 2019. The defence pleads it as an equitable
+  offset: Naissance bore €4,761.47 of legal fees in the foreclosure
+  proceeding that it should not now be penalised for. Weak /
+  discretionary; the court may or may not take it into account.
+- **Factual distinguishing of Cass. 23482/2018 and 12673/2022.**
+  The defence cannot invoke the finality of the 04.04.2019
+  distribution plan in the abstract — those two Supreme Court
+  cases say the distribution is provisional pending bankruptcy
+  ranking, exactly the ground the trustee stands on. Belardi must
+  pull the full text of each case and identify factual differences
+  (e.g. in those cases the curator intervened in time in the
+  enforcement proceeding; here he did not). Without genuine
+  factual distinction, this pillar fails.
+- **Errore materiale (contextual support, not decree-reopener).**
+  The Istanza's clause 3 (€1,118,438.29) vs clause 4
+  (€1,188,438.29) inconsistency is real and visible. It can be
+  pleaded to soften the judge's view of the €572,438.29 admission
+  — to argue that the bankruptcy took a strict literal reading of
+  an arithmetically-flawed application. **But it cannot reopen
+  the 2019 admission order**: that order is *res judicata
+  endofallimentare* (Cass. 4708/2020; Cass. SS.UU. 4309/2010),
+  and the 30-day windows to challenge under art. 98 L.F. are
+  long closed.
+- **Interest start date.** The trustee claims legal interest from
+  01.07.2025 (after his informal *diffide*). Under Italian law,
+  interest on restitution of this type should run from the
+  judicial demand (the 30.12.2025 Ricorso), not from an informal
+  letter. Minor but legitimate.
 
-- **Battleground 2 — The rigidity of the €572,438.29 admission.**
-  The 2019 admission order is res judicata in formal terms. But
-  the Istanza's clause 3 vs clause 4 inconsistency
-  (€1,118,438.29 vs €1,188,438.29) and the fact that all the
-  *attached* documents in the bankruptcy file consistently show
-  €1,188,438.29 raise a legitimate question about the weight of
-  that admission in a restitution context. The finality of the
-  04.04.2019 distribution plan fits here too — but crucially, the
-  defence cannot rely on timing alone. Belardi must **distinguish
-  Cass. 23482/2018 and 12673/2022 on their facts**, not simply
-  invoke finality as a standalone principle; those cases
-  explicitly hold that foreclosure distributions are provisional
-  pending final ranking.
+**Deliberately NOT in the pleading:**
 
-- **Battleground 3 — Component-by-component challenge to the
-  trustee's €629,975.04 arithmetic.** Beyond the €30,000, two
-  further lines:
-  - **€3,932** that the trustee himself classifies as "legal
-    expenses not admitted to the bankruptcy liabilities" — by
-    definition outside the concorso and therefore outside the
-    restitution duty (moderate-strength).
-  - **€4,761.47 prededuzione** wrongly excluded by the G.D. in
-    2019, to be raised as an equitable offset (weak / discretionary;
-    the court may or may not entertain it).
-
-  **These three quantum items do not stack cleanly.** Realistic
-  expectation is that the €30,000 lands (probably — subject to the
-  gross-vs-net question), and one of the two smaller items lands.
-  The claim realistically ends up in the **€25,000–€35,000 range**,
-  not in the sub-€20k range that naive stacking suggests.
+- **€30,000 "double-count" attack** — does not exist; pleading it
+  risks inviting the trustee to gross-up and raise the claim by
+  €30,000.
+- **Compensazione ex art. 56 L.F.** — blocked because the
+  trustee's claim is post-bankruptcy and the Naissance credit is
+  pre-bankruptcy. Also violates *par condicio creditorum* under
+  art. 2741 c.c. Keep the "we are net creditors of €572k" frame
+  as a **private settlement lever only**, not in the court file.
+- **Reopening the 2019 admission decree** — procedurally foreclosed.
 
 **Supporting infrastructure:**
 
-- **Belardi's errore materiale (supporting, not headline).** The
-  Istanza's clause 3 vs clause 4 inconsistency helps attack the
-  weight of the admission under Battleground 2. Use as a strand,
-  not as the primary plea.
 - **Parallel settlement channel.** Authorise Belardi to open it as
-  soon as the costituzione is filed. Opening: **€15–20k**. Target:
-  **€25–35k**. Walkaway: **€45k**.
-- **Fiorilli PEC diffida prepared this month.** Not pleaded in this
-  proceeding, but drafted now so it can go out if limitation
-  matters. This is your recovery path if the main case is lost —
-  timing matters.
+  soon as the costituzione is filed. Opening: **€20–25k**. Target:
+  **€30–40k**. Walkaway: **€45k**.
+- **Fiorilli PEC diffida prepared this month.** Draft it now to
+  preserve the limitation clock on any future professional-
+  negligence claim. Do not serve it yet.
 
 **Pros.**
 
-- Directly engages Cass. 23482/2018 and 12673/2022 on their facts
-  rather than ducking them.
-- Built around the one question that matters legally, not a
-  sprawling theory war.
-- The €30,000 double-count alone is a potential >50% quantum win.
-- Rooted in documentary evidence already on the record.
-- Settlement channel gives a second route to a good outcome.
+- Honestly engages the trustee's case rather than overclaiming.
+- Narrow pleading is harder for the trustee to counter
+  opportunistically.
+- Settlement channel gives the main route to a good outcome.
+- Preserves Fiorilli PI option without compromising the 2019
+  admission's res judicata status.
 
 **Cons.**
 
-- More expensive to run than Belardi-as-is.
-- Requires Belardi to research how Italian courts treat gross-
-  vs-net restitution under art. 2033 c.c. / art. 110 L.F. in this
-  specific context.
-- Requires Belardi to pull the full text of both Cassazione cases
-  and genuinely distinguish them on their facts.
-- Requires you to commit the walkaway ceiling (€45k) privately.
-- Not a silver bullet — a material loss tail remains.
+- Upside is modest — the live quantum attack is worth €3–8k of
+  reduction, not the €30k the earlier draft claimed.
+- Belardi has to do real work distinguishing the Cassazione cases
+  on their facts. If he can't, the defence weakens materially.
+- Settlement is now the most likely good outcome; a full win
+  requires factual distinguishing to succeed, which is low-probability.
 
-**Probability estimate (grounded, incorporating external review):
-full win 10–20%, partial win 50–60%, full loss 25–35%. Realistic
-target outcome: settlement or ruling at €25–35k all-in.**
+**Probability estimate (revised after the anti-collusion critique):
+full win 5–10%, partial win 35–45%, full loss 45–55%. Realistic
+target outcome: settlement at €30–40k all-in.**
 
 ---
 
