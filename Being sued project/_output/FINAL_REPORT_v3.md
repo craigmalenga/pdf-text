@@ -320,3 +320,203 @@ fairness narrative around the auction price, and (b) it informs
 the €30k double-counting attack.
 
 ---
+
+## 6. The four approaches in detail
+
+Each of the four possible ways to respond is set out below with its
+own strengths, weaknesses, and an independent estimate of the
+probability of a good outcome if it is pursued as the primary
+strategy.
+
+### 6.1 Approach A — Your own instinct ("I'm owed €1.188m, I only got back about half")
+
+**The position**
+
+Naissance acquired a credit of **€1,188,438.29** through the 2017
+double assignment. Against that, only about half has ever been
+recovered — **€616,000** via the 2018 property assignment and
+roughly **€130,000** via the subsequent distribution. The residual
+**€572,438.29** admitted to the bankruptcy is still unpaid. How,
+on those facts, can the trustee now claim €57,536.75 back as a
+"surplus"? The estate still owes *you* several hundred thousand
+euros.
+
+**Why this feels right — and commercially, it is.** Most non-lawyers
+would reach exactly the same conclusion. It is a legitimate point.
+
+**Why it cannot be the primary legal defence — four reasons.**
+
+1. **Italian insolvency law treats the two accounts separately.**
+   The surplus-restitution duty under Cass. 23482/2018 operates on
+   a specific accounting exercise (foreclosure proceeds vs admitted
+   secured claim). Whether the guarantor is globally made whole on
+   its underlying mortgage credit is a different question, answered
+   through the residual *chirografario* (unsecured) ranking — which
+   pays cents on the euro, not euro-for-euro.
+2. **Art. 56 L.F. statutory set-off does not reach.** Compensation
+   in bankruptcy requires both debts to exist before the bankruptcy
+   declaration and to be certain, liquid, and payable. The
+   trustee's restitution claim arose **after** the bankruptcy and
+   from the distribution plan itself.
+3. **The admitted €572k mortgage claim ranks pari passu** with
+   other unsecured creditors in the residual distribution. It does
+   not function as a euro-for-euro offset against a specific
+   surplus-restitution duty.
+4. **Pleading this as the headline defence signals misunderstanding
+   of Italian insolvency mechanics** and risks losing the judge's
+   sympathy for the genuinely strong quantum arguments in Approach D.
+
+**What this argument IS good for.** It is an **excellent settlement
+lever** ("if you press us for €57k we will formally reassert a
+€572k residual"), and a legitimate **equitable plea** supporting
+the main defence.
+
+**Probability of winning if pleaded as primary defence: <10%.**
+**Probability if pleaded correctly as counterclaim/settlement lever
+alongside Approach D: adds ~€10–15k of settlement discount.**
+
+### 6.2 Approach B — ChatGPT's line ("the distribution plan is final, the claim is weak")
+
+**The position**
+
+The €616,000 property assignment happened in June 2018. The
+distribution plan was approved by the Enforcement Judge on
+04.04.2019 without challenge and was never impugned. Six years
+later, the trustee cannot reopen it. The claim is weak; settlement
+shouldn't be necessary.
+
+**Pros.**
+
+- Correctly identifies that the **finality of the 04.04.2019
+  distribution plan** is a real legal principle and is the right
+  place to attack.
+- Simple to plead; low legal-fee footprint.
+- Correctly instinctive that Naissance is the senior secured
+  creditor and that the trustee's gross-difference approach is
+  oversimplified.
+
+**Cons.**
+
+- **Ignores Cass. 23482/2018 and 12673/2022** — the exact Supreme
+  Court rulings the trustee pleads. Those rulings say that a
+  mortgage creditor who continues foreclosure after bankruptcy
+  receives sums *provisionally* pending final bankruptcy ranking,
+  and that the finality of the foreclosure distribution does **not**
+  automatically protect the creditor. Acting on a 70–85% confidence
+  built on the wrong legal premise would lead to underpreparation.
+- **Misses the strong quantum attacks** (especially the €30,000
+  double-count — see 5.3 above).
+- **Builds no settlement groundwork.** If the finality argument
+  fails in court, there is no Plan B.
+
+**Probability estimate:** full win ~10–15%, partial win ~15–20%,
+full loss ~65–75%. **Unsafe to rely on in isolation.**
+
+### 6.3 Approach C — Avv. Belardi's line ("errore materiale + Fiorilli PI fallback")
+
+**The position (from Belardi's 17.04.2026 email)**
+
+Primary: rely on the documents attached to Fiorilli's 2018 Istanza
+(which consistently show €1,188,438.29) and ask the court to read
+the Istanza's €577,199.76 figure as a clerical error (*errore
+materiale*), using "common sense" (*comune buonsenso*).
+Subordinate: if the error argument fails, pursue Fiorilli's
+professional-indemnity insurer. Tertiary: open settlement talks
+with the curator.
+
+**Pros.**
+
+- The Istanza **is** genuinely internally inconsistent (clause 3:
+  €1,118,438.29 vs clause 4 parenthetical: €1,188,438.29 — only
+  the latter reconciles). Belardi's clerical-error argument is
+  therefore on **much firmer ground** than it might first appear.
+- Preserves the Fiorilli professional-indemnity route as a
+  fallback.
+- Professionally credible in front of the judge.
+- Belardi is a local lawyer who knows the Siena court.
+
+**Cons.**
+
+- **The 2019 admission order** for €572,438.29 is now
+  **res judicata** (final as between the parties) regardless of
+  any typo in the underlying application. A clerical error in
+  the application does not automatically unpick the final order.
+- **Addresses the framing, not the substantive art. 110 L.F.
+  principle** the trustee relies on.
+- **Missing the finality argument** (the strongest substantive
+  attack) and the **€30,000 double-count** (the strongest quantum
+  attack).
+- **Leaves value on the table.** Executed as-is, this produces a
+  mid-range outcome when a better one is achievable.
+
+**Probability estimate:** full win ~15–20%, partial win ~25–35%,
+full loss ~45–60%. **Right direction, needs layering.**
+
+### 6.4 Approach D — Recommended hybrid (finality + quantum + Belardi's errore materiale as supporting + parallel settlement)
+
+**The position**
+
+A layered defence filed as a single memoria by 04.05.2026,
+combining the strongest elements of the above and adding the two
+that each of them misses, plus a parallel settlement channel.
+
+**Four tracks run together:**
+
+- **Track 1 — Finality of the 04.04.2019 distribution plan
+  (primary substantive).** Attack Cass. 23482/2018 and 12673/2022
+  on their own facts; demand document production under art. 210
+  c.p.c. (hearing minutes, distribution plan, attendance list);
+  plead inadmissibility / estoppel / untimeliness against the
+  trustee who did not challenge the plan when he could have.
+- **Track 2 — Quantum attack (primary quantitative).** Three
+  specific cuts to the €629,975.04 "received" figure:
+  - **€30,000 "refund" double-count** (the single biggest point —
+    closing this alone takes the claim to €27,536.75);
+  - **€3,932** that the trustee himself classifies as "legal
+    expenses not admitted to the bankruptcy liabilities" — by
+    definition outside the concorso and therefore outside the
+    restitution duty;
+  - **€4,761.47 prededuzione** wrongly excluded by the G.D. in
+    2019, to be offset against any restitution as an equitable
+    reservation.
+  Cumulative effect if all three succeed: claim drops to ~€18,843.
+- **Track 3 — Errore materiale (supporting).** Belardi's line,
+  retained as a supporting pillar — the Istanza's internal
+  inconsistency reinforces the finality argument (the entire
+  bankruptcy treatment is inconsistent with the attached
+  documents). Use as one strand of the defence, not as the
+  headline.
+- **Track 4 — Parallel settlement.** Authorise Belardi to open a
+  settlement channel with the curator as soon as the costituzione
+  is filed. Opening: €15–20k. Target: €20–30k. Walkaway: €45k.
+
+**Fiorilli is NOT joined to this proceeding.** A PEC diffida to
+preserve the limitation clock on any future professional-indemnity
+action is drafted this month and held in reserve.
+
+**Pros.**
+
+- Directly engages with the trustee's strongest authorities
+  rather than ducking them.
+- The €30,000 double-count alone is a more than 50% quantum win
+  before any other argument lands.
+- Layered fallbacks: win on finality → if not, win on quantum →
+  if not, settle.
+- Rooted in documentary evidence already on the record — no need
+  to prove facts Naissance cannot prove.
+
+**Cons.**
+
+- More expensive to run than Belardi-as-is (more legal work;
+  separate short engagement on the Fiorilli PEC).
+- Requires Belardi to pull the full text of both Cassazione
+  cases and the 04.04.2019 hearing minutes.
+- Requires you to commit the walkaway ceiling (€45k) privately
+  before negotiating.
+- Not a silver bullet — a material loss tail remains.
+
+**Probability estimate: full win 15–25%, partial win 40–50%,
+full loss 30–40%. Realistic target outcome: settlement at €20–30k
+all-in.**
+
+---
