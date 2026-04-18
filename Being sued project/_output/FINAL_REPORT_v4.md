@@ -291,7 +291,7 @@ trustee relies on. It gives Belardi's "*errore materiale*"
 (clerical error) argument genuine substance — more substance than
 a first reading suggests.
 
-### 5.3 The €30,000 "refund" is almost certainly double-counted
+### 5.3 The €30,000 "refund" is almost certainly double-counted — and this is the single biggest quantum lever, but it is not automatic
 
 The trustee includes **€30,000** in his €629,975.04 "received" figure,
 calling it a "refund of procedural expense advance previously paid
@@ -303,13 +303,29 @@ by Naissance". The documentary record shows:
 - The 04.04.2019 distribution plan returned €30,000 to Naissance.
 
 Those are almost certainly the same €30,000 — money out in 2018,
-same money back in 2019. It is not a payment from the estate to
-Naissance in any economically meaningful sense. Including it in the
-restitution claim is **double-counting**.
+same money back in 2019. In pure economic terms, it is not a
+payment from the estate to Naissance. The strong argument is that
+including it in the restitution claim is **double-counting**.
 
-**This is the single biggest quantum point.** Closing this line
-alone drops the claim from **€57,536.75 to €27,536.75** — more than
-half gone without winning anything else.
+**This is the single biggest quantum point.** If it lands, the claim
+drops from **€57,536.75 to €27,536.75** — more than half gone
+without winning anything else.
+
+**Important honesty note, though.** The trustee has an available
+counter-argument: "yes, it was a refund of Naissance's own money,
+but it was still *money received through the procedure*, so for
+ranking purposes it forms part of the total sums distributed". The
+real legal question therefore becomes:
+
+> *Is restitution under art. 110 L.F. / art. 2033 c.c. calculated
+> on gross flows through the procedure, or on the net economic
+> benefit to the creditor?*
+
+That question is not trivial, and is judge-dependent. The
+€30,000 double-count argument is **very strong but not guaranteed**.
+It should be treated as a high-probability quantum reduction, not a
+certainty. Belardi must put this point front and centre, with full
+authority on how Italian courts treat the gross-vs-net question.
 
 ### 5.4 Pre-auction offers confirm the €616k price was fair
 
@@ -477,72 +493,98 @@ with the curator.
 **Probability estimate:** full win ~15–20%, partial win ~25–35%,
 full loss ~45–60%. **Right direction, needs layering.**
 
-### 6.4 Approach D — Recommended hybrid (finality + quantum + Belardi's errore materiale as supporting + parallel settlement)
+### 6.4 Approach D — Recommended (three focused battlegrounds + Belardi's errore materiale as supporting + parallel settlement)
 
 **The position**
 
-A layered defence filed as a single memoria by 04.05.2026,
-combining the strongest elements of the above and adding the two
-that each of them misses, plus a parallel settlement channel.
+A focused defence filed as a single memoria by 04.05.2026,
+organised around the one question that actually matters: *did
+Naissance receive more than €572,438.29 through the procedure?*
+Three battlegrounds are run together as the core of the defence,
+with Belardi's clerical-error argument and a parallel settlement
+channel as supporting infrastructure.
 
-**Four tracks run together:**
+**The three core battlegrounds:**
 
-- **Track 1 — Finality of the 04.04.2019 distribution plan
-  (primary substantive).** Attack Cass. 23482/2018 and 12673/2022
-  on their own facts; demand document production under art. 210
-  c.p.c. (hearing minutes, distribution plan, attendance list);
-  plead inadmissibility / estoppel / untimeliness against the
-  trustee who did not challenge the plan when he could have.
-- **Track 2 — Quantum attack (primary quantitative).** Three
-  specific cuts to the €629,975.04 "received" figure:
-  - **€30,000 "refund" double-count** (the single biggest point —
-    closing this alone takes the claim to €27,536.75);
+- **Battleground 1 — The €30,000 accounting treatment (the
+  headline quantum point).** Same €30k went out in June 2018 and
+  came back at the 2019 distribution. The legal question is
+  whether art. 110 L.F. / art. 2033 c.c. restitution is calculated
+  on gross flows or net economic benefit. Belardi must plead this
+  front and centre, with full authority on how Italian courts
+  treat gross-vs-net in this context. **If this lands, claim drops
+  from €57,536.75 to €27,536.75.** It is a very strong argument
+  but judge-dependent — not a slam dunk.
+
+- **Battleground 2 — The rigidity of the €572,438.29 admission.**
+  The 2019 admission order is res judicata in formal terms. But
+  the Istanza's clause 3 vs clause 4 inconsistency
+  (€1,118,438.29 vs €1,188,438.29) and the fact that all the
+  *attached* documents in the bankruptcy file consistently show
+  €1,188,438.29 raise a legitimate question about the weight of
+  that admission in a restitution context. The finality of the
+  04.04.2019 distribution plan fits here too — but crucially, the
+  defence cannot rely on timing alone. Belardi must **distinguish
+  Cass. 23482/2018 and 12673/2022 on their facts**, not simply
+  invoke finality as a standalone principle; those cases
+  explicitly hold that foreclosure distributions are provisional
+  pending final ranking.
+
+- **Battleground 3 — Component-by-component challenge to the
+  trustee's €629,975.04 arithmetic.** Beyond the €30,000, two
+  further lines:
   - **€3,932** that the trustee himself classifies as "legal
     expenses not admitted to the bankruptcy liabilities" — by
     definition outside the concorso and therefore outside the
-    restitution duty;
+    restitution duty (moderate-strength).
   - **€4,761.47 prededuzione** wrongly excluded by the G.D. in
-    2019, to be offset against any restitution as an equitable
-    reservation.
-  Cumulative effect if all three succeed: claim drops to ~€18,843.
-- **Track 3 — Errore materiale (supporting).** Belardi's line,
-  retained as a supporting pillar — the Istanza's internal
-  inconsistency reinforces the finality argument (the entire
-  bankruptcy treatment is inconsistent with the attached
-  documents). Use as one strand of the defence, not as the
-  headline.
-- **Track 4 — Parallel settlement.** Authorise Belardi to open a
-  settlement channel with the curator as soon as the costituzione
-  is filed. Opening: €15–20k. Target: €20–30k. Walkaway: €45k.
+    2019, to be raised as an equitable offset (weak / discretionary;
+    the court may or may not entertain it).
 
-**Fiorilli is NOT joined to this proceeding.** A PEC diffida to
-preserve the limitation clock on any future professional-indemnity
-action is drafted this month and held in reserve.
+  **These three quantum items do not stack cleanly.** Realistic
+  expectation is that the €30,000 lands (probably — subject to the
+  gross-vs-net question), and one of the two smaller items lands.
+  The claim realistically ends up in the **€25,000–€35,000 range**,
+  not in the sub-€20k range that naive stacking suggests.
+
+**Supporting infrastructure:**
+
+- **Belardi's errore materiale (supporting, not headline).** The
+  Istanza's clause 3 vs clause 4 inconsistency helps attack the
+  weight of the admission under Battleground 2. Use as a strand,
+  not as the primary plea.
+- **Parallel settlement channel.** Authorise Belardi to open it as
+  soon as the costituzione is filed. Opening: **€15–20k**. Target:
+  **€25–35k**. Walkaway: **€45k**.
+- **Fiorilli PEC diffida prepared this month.** Not pleaded in this
+  proceeding, but drafted now so it can go out if limitation
+  matters. This is your recovery path if the main case is lost —
+  timing matters.
 
 **Pros.**
 
-- Directly engages with the trustee's strongest authorities
+- Directly engages Cass. 23482/2018 and 12673/2022 on their facts
   rather than ducking them.
-- The €30,000 double-count alone is a more than 50% quantum win
-  before any other argument lands.
-- Layered fallbacks: win on finality → if not, win on quantum →
-  if not, settle.
-- Rooted in documentary evidence already on the record — no need
-  to prove facts Naissance cannot prove.
+- Built around the one question that matters legally, not a
+  sprawling theory war.
+- The €30,000 double-count alone is a potential >50% quantum win.
+- Rooted in documentary evidence already on the record.
+- Settlement channel gives a second route to a good outcome.
 
 **Cons.**
 
-- More expensive to run than Belardi-as-is (more legal work;
-  separate short engagement on the Fiorilli PEC).
-- Requires Belardi to pull the full text of both Cassazione
-  cases and the 04.04.2019 hearing minutes.
-- Requires you to commit the walkaway ceiling (€45k) privately
-  before negotiating.
+- More expensive to run than Belardi-as-is.
+- Requires Belardi to research how Italian courts treat gross-
+  vs-net restitution under art. 2033 c.c. / art. 110 L.F. in this
+  specific context.
+- Requires Belardi to pull the full text of both Cassazione cases
+  and genuinely distinguish them on their facts.
+- Requires you to commit the walkaway ceiling (€45k) privately.
 - Not a silver bullet — a material loss tail remains.
 
-**Probability estimate: full win 15–25%, partial win 40–50%,
-full loss 30–40%. Realistic target outcome: settlement at €20–30k
-all-in.**
+**Probability estimate (grounded, incorporating external review):
+full win 10–20%, partial win 50–60%, full loss 25–35%. Realistic
+target outcome: settlement or ruling at €25–35k all-in.**
 
 ---
 
