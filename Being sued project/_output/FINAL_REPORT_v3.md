@@ -231,3 +231,92 @@ framing the case around a less accurate "€130k prededuzione surplus"
 story. That feedback was applied. This is the corrected version.
 
 ---
+
+## 5. Key findings — what the documents actually show
+
+Five findings emerge when the source documents are read together:
+
+### 5.1 The trustee's arithmetic is correct on the face of it
+
+€629,975.04 received minus €572,438.29 admitted = €57,536.75 claimed.
+That math is in the Ricorso itself. The trustee's cited case law
+(Cass. 23482/2018 and 12673/2022) does support the general
+proposition that foreclosure distributions to a mortgage creditor
+are *provisional* pending final bankruptcy ranking. Any strategy
+that does not engage with this proposition directly will lose.
+
+### 5.2 Fiorilli's 2018 Istanza is internally inconsistent
+
+Reading the full text of the 14.12.2018 Istanza (Fiorilli's
+application to admit Naissance to the bankruptcy's liabilities):
+
+- **Clause 3** asserts a credit of **€1,118,438.29**.
+- **Clause 4's parenthetical** writes out
+  "€572,438.29 (**1,188,438.29** sottratta la somma di assegnazione
+  pari ad euro 616,000.00)".
+
+Only €1,188,438.29 reconciles arithmetically (1,188,438.29 − 616,000
+= 572,438.29). €1,118,438.29 − 616,000 = €502,438.29, which matches
+nothing. The **documents attached to the Istanza** (the 28.07.2017
+credit-assignment contracts) consistently show €1,188,438.29. Clause
+3 is therefore almost certainly a typo.
+
+This is a **real internal inconsistency** in the document the
+trustee relies on. It gives Belardi's "*errore materiale*"
+(clerical error) argument genuine substance — more substance than
+a first reading suggests.
+
+### 5.3 The €30,000 "refund" is almost certainly double-counted
+
+The trustee includes **€30,000** in his €629,975.04 "received" figure,
+calling it a "refund of procedural expense advance previously paid
+by Naissance". The documentary record shows:
+
+- On **05.06.2018** Naissance issued a €30,000 cheque — executed as
+  an FX wire to Argo Ge.Re.Cre. the same day (same payment, not two
+  separate outflows).
+- The 04.04.2019 distribution plan returned €30,000 to Naissance.
+
+Those are almost certainly the same €30,000 — money out in 2018,
+same money back in 2019. It is not a payment from the estate to
+Naissance in any economically meaningful sense. Including it in the
+restitution claim is **double-counting**.
+
+**This is the single biggest quantum point.** Closing this line
+alone drops the claim from **€57,536.75 to €27,536.75** — more than
+half gone without winning anything else.
+
+### 5.4 Pre-auction offers confirm the €616k price was fair
+
+Three contemporaneous data points sitting in the evidence bundle:
+
+- 06.09.2017: expression of interest at **€550,000**.
+- 12.09.2017: upgraded expression of interest at **€620,000**.
+- Accepted pre-auction transaction at **€630,000** (per your
+  18.04.2026 email).
+- Auction clearing price: **€616,000**.
+
+Your voicemail noted that you didn't even remember the pre-auction
+offers when they came up — which is useful because it means they
+aren't manufactured. They are genuine period evidence. The
+€616,000 auction price is consistent with market. There is no
+"hidden value" narrative available to the trustee.
+
+### 5.5 Naissance's costs are well evidenced
+
+Total documented outflows to Argo Ge.Re.Cre. and to the procedure:
+
+| Date | Mode | € | Supporting evidence |
+|---|---|---|---|
+| 26.04.2018 | FX wire | 57,000 | Thomas Exchange confirmation; ties to €57,110 Gavioli cost schedule |
+| 01.05.2018 | FX wire | 20,000 | Thomas Exchange confirmation |
+| 05.06.2018 | €30,000 cheque, executed as FX wire (same payment) | 30,000 | Cheque image + FX confirmation |
+| Pre-auction | €45,000 cheque | 45,000 | Cheque image |
+| **Total** | | **~152,000** | |
+
+Your recollection of "around €130,000+" of costs is therefore
+fully in the documents. This matters because (a) it supports the
+fairness narrative around the auction price, and (b) it informs
+the €30k double-counting attack.
+
+---
