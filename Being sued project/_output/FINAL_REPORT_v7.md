@@ -744,98 +744,113 @@ Belardi's written opinion, once received, supersedes it.*
 
 ---
 
-## 9. The commercial reality — €130k already paid, the real risk, and why settlement is still sensible
+## 9. The commercial reality — Naissance is already c. €700k underwater on this recovery
 
-This section addresses a point you have raised directly (WhatsApp
-18.04.2026 20:25, 20:32): the "crux of the case" is that you
-have already paid roughly **€130,000** (actually **€152,000** on
-the documents currently in the bundle — €57k + €20k FX wires
-plus €30k + €45k cheques) out-of-pocket to recover on this
-credit, and the trustee is now asking for another €57,536.75.
-You have said a walkaway / settlement framing is "nonsense"
-because it fails to include that €130k.
+This is the argument that matters to you most, and it is the
+strongest lever the defence has. It has to be pleaded cleanly and
+it has to be foregrounded in the settlement conversation.
 
-That feeling is legitimate. The report takes it seriously. But it
-needs to be translated honestly into how it does and does not
-land in an Italian court.
+### The one-line version
 
-### 9.1 What your €152k in costs does legally
+Naissance paid **€1,188,438.29** for this credit in 2017. It has
+recovered, net, approximately **€488,000** against that credit
+(best market offer €620,000 minus €132,000 of recovery costs).
+That leaves Naissance **roughly €700,000 underwater** on a credit
+it acquired at face value. The trustee is now asking for another
+**€57,536.75** back on top.
 
-- **It does not offset the trustee's claim as a matter of law.**
-  **Art. 56 L.F.** blocks statutory compensation because the
-  trustee's restitution claim arose post-bankruptcy (from the
-  2019 distribution plan) while your out-of-pocket costs were
-  incurred pre-bankruptcy for a different procedure. Pleading
-  formal set-off would be struck out.
-- **It also cannot be put as a counterclaim.** Any attempt to
-  formally pursue the €152k in the same proceeding would trigger
-  *par condicio creditorum* objections under art. 2741 c.c. —
-  the trustee would argue it amounts to paying Naissance at
-  100 cents while other chirografari are paid pro rata.
+### Working the math
 
-### 9.2 What your €152k in costs does do in practice
+| Line | € |
+|---|---|
+| Credit acquired (double assignment, 28.07.2017) | 1,188,438.29 |
+| Best genuine market valuation at the time (pre-auction offer, 12.09.2017) | 620,000 |
+| Less: documented recovery costs paid by Naissance (FX wires + cheques, 2018) | (132,000) |
+| **Net recovery** | **~488,000** |
+| Shortfall against the credit Naissance paid €1,188,438.29 for | **~700,000** |
 
-- **It is a legitimate equitable argument.** The court can be
-  told — and Belardi should plead it clearly — that Naissance
-  has already borne €152k of out-of-pocket recovery costs to
-  obtain a property worth €616k in a market where contemporaneous
-  offers ranged €550–620k. Asking Naissance to return another
-  €57k on top would leave it €200k+ in the hole on a commercial
-  recovery that itself only netted the €572k residual claim
-  admitted to the passivo.
-- **It is your strongest settlement lever.** The curator knows
-  that if he refuses a reasonable deal and pushes to full hearing,
-  Naissance will plead this equitable argument hard, the case
-  will take 18+ months, and the curator's own legal costs will
-  eat into whatever recovery the estate makes. A 100% recovery
-  for the estate is not realistic; a 50–60% recovery with early
-  resolution is realistic.
-- **It gives Belardi cover to settle at a materially discounted
-  number.** Without this background, any settlement below €40k
-  might look like giving up. With it, a settlement at €30–35k
-  is defensible as rough equitable justice.
+Two points to notice:
 
-### 9.3 The risk arithmetic — why the walkaway exists
+- **The trustee's own "received" figure of €629,975.04 is higher
+  than any of the pre-auction offers** (€550k, €620k). If the
+  genuine market value of the asset in 2017 was at most €620k,
+  the trustee's €629,975.04 is itself inflated by a tail of
+  non-market-value components (exactly the €13,975.04 of "extra
+  sums" the defence is attacking in §5.3). In other words, the
+  trustee is effectively asking Naissance to account back sums
+  that the market itself never attributed to the asset.
+- **Even on the trustee's own admitted figure of €572,438.29**,
+  Naissance's net recovery after costs is ~€440k (572 − 132) —
+  still ~€750k short of the credit. Whichever figure you use,
+  Naissance is deep underwater.
 
-This is not a recommendation to settle at any cost. It is risk
-management. The four outcomes and their total cash impact for
-Naissance (counted from today, not including the €152k already
-paid):
+### What this argument does legally vs what it does commercially
+
+**Legally.** Under Italian law, the €132k of recovery costs and
+the €700k global shortfall do not formally offset the trustee's
+restitution claim: **Art. 56 L.F.** blocks statutory compensation
+because the trustee's claim arose post-bankruptcy while the
+underlying credit and costs were pre-bankruptcy. Pleading formal
+set-off would be struck out. Raising the €700k shortfall as a
+counterclaim would also trigger *par condicio creditorum*
+objections under art. 2741 c.c.
+
+**Commercially, and in equity — and these are different.** The
+court can and should be told, and Belardi should plead it
+clearly as part of the defence and the settlement position, that:
+
+- Naissance acquired a credit of €1,188,438.29 and has recovered
+  less than half of it, in-kind, from a procedure that itself
+  took seven years;
+- Naissance has paid €132k out-of-pocket to run that procedure;
+- The trustee's €57,536.75 claim — if it succeeds — leaves
+  Naissance roughly €700k worse off overall on a credit it paid
+  face value for;
+- Asking for €57k more on top of that is, commercially,
+  disproportionate.
+
+This does not win the case on its own. It is the **equitable
+frame** within which Belardi's technical points (the €3,932, the
+€4,761.47, the factual distinguishing of Cassazione, the
+errore-materiale support) are heard. It is also the strongest
+single lever in the settlement channel — the curator knows a
+100% recovery is not realistic against this background, and
+that litigating to final judgment will eat materially into
+whatever the estate recovers.
+
+### Why the walkaway number still exists
+
+This report is not recommending settlement at any cost. It is
+setting a walkaway ceiling because the **risk-adjusted cash
+cost of fighting** has to be weighed against the **known cash
+cost of settling**. Counted from today (ignoring the €132k
+already spent, which is sunk):
 
 | Outcome | Probability | Cash out today |
 |---|---|---|
-| Full win in court | 5–10% | €0 (plus possibly some costs recovered) |
-| Settlement at €30,000 | | €30,000 |
-| Settlement at €40,000 | | €40,000 |
+| Full win in court | 5–10% | €0 (possibly some costs recovered) |
+| Settlement at €30–40k | target | €30,000–€40,000 |
 | Full loss at hearing | 45–55% | €57,536.75 + interest (~€3–5k) + court costs + curator's legal fees (~€15–20k) = **€75,000–€85,000** |
 
-Expected-value cash out if you **fight and take the probability
-distribution as given**: roughly **€40–€55k** (5–10% × €0 +
-35–45% × €20k partial reduction + 45–55% × €80k full loss).
+Expected-value cash out of fighting: roughly **€40–€55k**.
+Expected-value cash out of settling at €35k: **€35,000** locked
+in.
 
-Expected-value cash out if you **settle at €35k**: **€35,000**
-(locked in).
+On the numbers, settlement at €30–40k is modestly cheaper in
+expectation than fighting, and it takes the 45–55% tail risk
+of an €80k loss off the table. **The €45,000 walkaway** is the
+ceiling on that trade-off: above €45k the EV of fighting
+overtakes the certainty of settling, below €45k settling is
+cheaper in expectation.
 
-In other words, on the numbers as honestly assessed, **settling
-at €35k is roughly €5–20k cheaper than fighting** — and it takes
-your risk tail (the 45–55% chance of paying €75–85k) off the
-table entirely. That is why the walkaway number exists. It is
-not acceptance of injustice; it is pricing the risk of a loss
-that, as the Cassazione case-law stands, is the most likely
-single outcome if the case goes to hearing.
+### The call is yours
 
-The **€45,000 walkaway** is the ceiling on that risk-management
-trade. Above €45k the expected value of fighting (~€40–55k)
-overtakes settlement; below €45k settlement is cheaper in
-expectation.
-
-### 9.4 The call is yours
-
-The risk arithmetic above is only one input. The other inputs
-are your own commercial position, how much you want to be
-finished with this, and how much you value the principle of
-fighting a case you think is fundamentally unfair. Those are
-legitimate factors and they are yours to weigh.
+The €132k you have already paid and the ~€700k shortfall on the
+underlying credit are valid and heavy reasons to want to fight
+rather than pay more. The risk-adjusted math above is only one
+input. Your own commercial position, your appetite for principle
+over certainty, and your view on how the curator is likely to
+behave are all legitimate factors you are entitled to weigh.
 
 What the report recommends is:
 
@@ -844,7 +859,7 @@ What the report recommends is:
    factual distinguishing of the two Cassazione cases, errore
    materiale as supporting context on the strengthened
    no-client-instruction ground from §5.2, and the commercial-
-   reality framing of §9 below).
+   reality framing of this §9).
 2. **Open the settlement channel in parallel.** You are not
    committing to settle; you are exploring what is on the table.
    If the curator will not come down to a number inside your
