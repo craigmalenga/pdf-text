@@ -282,20 +282,14 @@ other side; and (iii) a two-minute cold reader who formed their
 own view from the Ricorso and Istanza before being allowed to look
 at the report.
 
-The cold reader independently found — and the trustee-docx
-reconciler independently confirmed — that the €30,000 "refund"
-was not part of the trustee's €629,975.04 in the way an earlier
-draft of this report assumed. That is what Section 3 above now
-reflects.
-
-The trustee's-counsel agent also surfaced two structural points
-the previous draft had not fully answered: (a) art. 56 L.F. blocks
-any compensation between Naissance's pre-bankruptcy residual
-credit and the post-bankruptcy restitution claim; and (b) the 2019
+The trustee's-counsel agent surfaced two structural points that an
+earlier draft had not fully answered: (a) art. 56 L.F. blocks any
+compensation between Naissance's pre-bankruptcy residual credit
+and the post-bankruptcy restitution claim; and (b) the 2019
 admission decree is *res judicata endofallimentare* under Cass.
 4708/2020 and Cass. SS.UU. 4309/2010, which largely neutralises
-the errore-materiale route. Sections 5 and 6 reflect those
-findings.
+the errore-materiale route as a decree-reopener. Sections 5 and 6
+reflect those findings.
 
 ---
 
@@ -414,10 +408,10 @@ Total documented outflows to Argo Ge.Re.Cre. and to the procedure:
 | Pre-auction | €45,000 cheque | 45,000 | Cheque image |
 | **Total** | | **~152,000** | |
 
-Your recollection of "around €130,000+" of costs is therefore
-fully in the documents. This matters because (a) it supports the
-fairness narrative around the auction price, and (b) it informs
-the €30k double-counting attack.
+Your recollection of €130k+ of costs is therefore fully supported
+by the documents. This matters in two ways: it supports the
+fairness narrative around the auction price, and it is the
+foundation for the commercial-reality argument set out in §9.
 
 ---
 
@@ -504,8 +498,8 @@ shouldn't be necessary.
   and that the finality of the foreclosure distribution does **not**
   automatically protect the creditor. Acting on a 70–85% confidence
   built on the wrong legal premise would lead to underpreparation.
-- **Misses the strong quantum attacks** (especially the €30,000
-  double-count — see 5.3 above).
+- **Misses the component quantum challenges** (the €3,932 "not
+  admitted legal expenses" item and the €4,761.47 prededuzione).
 - **Builds no settlement groundwork.** If the finality argument
   fails in court, there is no Plan B.
 
@@ -543,9 +537,9 @@ with the curator.
   the application does not automatically unpick the final order.
 - **Addresses the framing, not the substantive art. 110 L.F.
   principle** the trustee relies on.
-- **Missing the finality argument** (the strongest substantive
-  attack) and the **€30,000 double-count** (the strongest quantum
-  attack).
+- **Missing the factual distinguishing of the two Cassazione
+  cases** on their facts and the component quantum challenges
+  (€3,932 and €4,761.47).
 - **Leaves value on the table.** Executed as-is, this produces a
   mid-range outcome when a better one is achievable.
 
@@ -559,8 +553,9 @@ full loss ~45–60%. **Right direction, needs layering.**
 A focused defence filed as a single memoria by 04.05.2026,
 organised around the one question that actually matters: *did
 Naissance receive more than €572,438.29 through the procedure?*
-The approach is narrower than the previous draft proposed, because
-the €30,000 argument does not exist.
+The approach is deliberately narrow: it engages the live levers,
+preserves Fiorilli PI as a fallback, and opens a parallel
+settlement channel.
 
 **What the defence actually has to work with:**
 
@@ -605,15 +600,13 @@ the €30,000 argument does not exist.
 
 **Deliberately NOT in the pleading:**
 
-- **€30,000 "double-count" attack** — does not exist; pleading it
-  risks inviting the trustee to gross-up and raise the claim by
-  €30,000.
 - **Compensazione ex art. 56 L.F.** — blocked because the
   trustee's claim is post-bankruptcy and the Naissance credit is
   pre-bankruptcy. Also violates *par condicio creditorum* under
   art. 2741 c.c. Keep the "we are net creditors of €572k" frame
   as a **private settlement lever only**, not in the court file.
-- **Reopening the 2019 admission decree** — procedurally foreclosed.
+- **Reopening the 2019 admission decree** — procedurally foreclosed
+  by res judicata endofallimentare.
 
 **Supporting infrastructure:**
 
@@ -636,7 +629,7 @@ the €30,000 argument does not exist.
 **Cons.**
 
 - Upside is modest — the live quantum attack is worth €3–8k of
-  reduction, not the €30k the earlier draft claimed.
+  reduction in the most likely case.
 - Belardi has to do real work distinguishing the Cassazione cases
   on their facts. If he can't, the defence weakens materially.
 - Settlement is now the most likely good outcome; a full win
