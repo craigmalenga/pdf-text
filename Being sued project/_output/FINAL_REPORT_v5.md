@@ -171,34 +171,55 @@ in the current lawsuit** — it is not in dispute.
 
 ## 3. The trustee's claim — how the €57,536.75 number is built
 
-The trustee's arithmetic is straightforward:
+The trustee's arithmetic, verified against the Ricorso directly, is:
 
 | Component | € |
 |---|---|
-| Property assigned to Naissance (26.06.2018 decree) | 616,000.00 |
-| Further sums distributed at the 04.04.2019 hearing (property "fruits" and legal fees, €10,043.04 higher distribution + €3,932 legal expenses not admitted in bankruptcy) | 13,975.04 |
-| "Refund" of procedural advance previously paid by Naissance | 30,000.00 |
+| Property assigned to Naissance (26.06.2018 decree of transfer) | 616,000.00 |
+| Further sums — €10,043.04 higher amount distributed **(already net of procedural expenses advanced by Naissance)** + €3,932.00 legal expenses not admitted to the bankruptcy | 13,975.04 |
 | **Trustee's figure for what Naissance received** | **629,975.04** |
-| Less: what Naissance was admitted for in the bankruptcy | (572,438.29) |
+| Less: amount Naissance was admitted for in the bankruptcy (mortgage claim) | (572,438.29) |
 | **= claim** | **57,536.75** |
 
-The trustee's **legal theory** is that even though the foreclosure
-distribution was approved by the Enforcement Judge in April 2019,
-it was only **provisional**. Under Italian law (**art. 110 Legge
-Fallimentare**, now arts. 230–232 CCII), the *final* ranking of a
-secured creditor is done inside the bankruptcy; anything received
-above that final ranking is an undue payment (*indebito oggettivo*
-under art. 2033 c.c.) and must be returned to the estate.
+**Important note on the €30,000.** Separately from the breakdown
+above, the Ricorso mentions that Naissance previously received
+€25,806.02 at the 04.04.2019 distribution hearing — comprising
+property "fruits", reimbursement of legal expenses, and the
+residual €30,000 of procedural expenses that Naissance had itself
+advanced (by wire on 05.06.2018) and which was refunded to it.
+
+The €30,000 is therefore **not a separate line in the €629,975.04**.
+The trustee has already netted it off — €10,043.04 is the higher
+distribution figure *after* subtracting that €30,000 advance.
+
+An earlier version of this report treated the €30,000 as a
+"double-count" in the trustee's claim. That reading was wrong.
+There is no double-count to attack.
+
+### The trustee's legal theory
+
+Under Italian law (**art. 110 Legge Fallimentare**, now arts.
+230–232 CCII), the *final* ranking of a secured creditor is done
+inside the bankruptcy. Anything received above that final ranking
+is an undue payment (*indebito oggettivo* under art. 2033 c.c.)
+and must be returned to the estate.
 
 The two Italian Supreme Court cases cited — **Cass. 23482/2018**
-and **Cass. 12673/2022** — do support this general proposition.
+and **Cass. 12673/2022** — state this general proposition
+explicitly and are directly on point for this case type. They hold
+that the foreclosure distribution to the fondiario creditor is
+**provisional** pending final bankruptcy ranking; "non-impugnation"
+of the distribution plan does not make it final against the
+bankruptcy estate.
+
 **Art. 41 TUB** is cited as the procedural basis that allowed
 Naissance to continue the foreclosure after the bankruptcy was
-declared, but that is a procedural privilege, not a substantive
+declared — but that is a procedural privilege, not a substantive
 answer on final ranking.
 
-**Bottom line:** the trustee's claim is legally coherent. It cannot
-be swept aside with "the distribution was final, end of story".
+**Bottom line:** the trustee's arithmetic is clean and the legal
+theory is well supported. The claim cannot be swept aside; it can
+only be chipped away.
 
 ---
 
@@ -279,7 +300,41 @@ to ChatGPT for an independent review. ChatGPT correctly identified
 that the very first draft narrative had drifted away from the actual
 claim arithmetic (€629,975.04 − €572,438.29 = €57,536.75) and was
 framing the case around a less accurate "€130k prededuzione surplus"
-story. That feedback was applied. This is the corrected version.
+story. That feedback was applied.
+
+### 4.5 Anti-collusion multi-agent critique
+
+After ChatGPT's feedback was applied, a further structured critique
+was run: eight independent AI agents, each reading the source
+Ricorso and other primary OCR material directly (not this report),
+each with a different narrow mandate, each graded on novel findings
+only and forbidden from citing this report as authority. The
+purpose was to avoid the collusion pattern the earlier critique
+rounds had shown, where every agent ended up reasoning inside the
+same frame.
+
+Five of the eight agents checked one source docx each against the
+original OCR. Three were lens-based critics: (i) an arithmetic
+auditor reconciling every euro in the report against source
+documents; (ii) a "trustee's counsel" agent playing to win for the
+other side; and (iii) a two-minute cold reader who formed their
+own view from the Ricorso and Istanza before being allowed to look
+at the report.
+
+The cold reader independently found — and the trustee-docx
+reconciler independently confirmed — that the €30,000 "refund"
+was not part of the trustee's €629,975.04 in the way an earlier
+draft of this report assumed. That is what Section 3 above now
+reflects.
+
+The trustee's-counsel agent also surfaced two structural points
+the previous draft had not fully answered: (a) art. 56 L.F. blocks
+any compensation between Naissance's pre-bankruptcy residual
+credit and the post-bankruptcy restitution claim; and (b) the 2019
+admission decree is *res judicata endofallimentare* under Cass.
+4708/2020 and Cass. SS.UU. 4309/2010, which largely neutralises
+the errore-materiale route. Sections 5 and 6 reflect those
+findings.
 
 ---
 
