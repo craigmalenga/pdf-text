@@ -1,0 +1,56 @@
+SOURCE: email 7 attachment.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  3068
+LINES:  92
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+
+
+===== [OCR page 1] =====
+
+Avv. PAOLO FIORILLI
+Patrocinonte in Cassazione
+Via Coto ci = Va 00192 ROMA
+7 * 538688
+
+TRIBUNALE CIVILE DI SIENA
+SEZIONE FALLIMENTARE
+ISTANZA DI AMMISSIONE AL PASSIVO DEL
+FALLIMENTO N.35/2018
+G.D. Marianna Serrao
+
+Curatore Dott. Stefano Scarpellini
+
+NAISSANCE (UK) LIMITED, con sede in Londra, United Kingdom, W8
+4NR, flat 2, 20 Hornton Strett, C.F./ PIVA 14766691001, IN PERSONA
+DEL LEGALE RAPPRESENTANTE Grahame George Scott Megirr, rap-
+presentata e difesa’ dall'Avv. PAOLO  FIORILLI, C.F.
+FRLPLA70D24L736E, elettivamente domiciliata presso lo studio di
+quest’ultimo in Roma, Via Cola di Rienzo 180 telefono 066861067, fax.
+
+066838888, pec: paolofiorilli@ordineavvocatiroma.org. giusta procura in
+
+calce al presente atto
+PREMESSO
+
+1. Che, con atto di cessione del credito del 28.7.2017 che si allega al presen-
+te atto, la Banca Cras — Credito Cooperativo Toscano-Sienza ha ceduto alla
+Argo Ge.Re.Cre. s.r.1. un portafoglio di crediti tra cui quello vantato nei co-
+fronti della AGRICOLA GAVIOLI s.r.l. ora fallita, che ha dato origine alla
+procedura esecutiva immobiliare RGE. 187/2015 innanzi al Tribunale Civile
+di Siena;
+
+2. Che, con atto di cessione del credito del 28.7.2017 che si allega al presen-
+te atto, a sua volta ARGO GE.RE.CRE s.r.l. ha ceduto alla odierna istante il
+
+credito vantato nei confronti della AGRICOLA GAVIOLI s.r.l.;
+
+
+===== [OCR page 2] =====
+
+3. Che, l’istante vantando un credito di €.1.118.438,29 nei confronti di
+quest’ultima ha chiesto ed Ottenuto in sede esecutiva l’assegnazione
+dell’immobile oggetto della citata esecuzione immobiliare per un importo di
+€.616.000,00;
+
+4. Che, il credito della istante relativamente al mutuo fondiario n.

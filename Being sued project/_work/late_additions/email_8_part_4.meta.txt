@@ -1,0 +1,7 @@
+SOURCE: email 8 part 4.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  0
+LINES:  0
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+

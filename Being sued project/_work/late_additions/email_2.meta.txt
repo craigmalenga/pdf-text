@@ -1,0 +1,56 @@
+SOURCE: email 2.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  1571
+LINES:  70
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+
+
+===== [OCR page 1] =====
+
+18/04/2026, 18:53 Email - Craig Malenga - Outlook
+
+® Outlook
+
+FW: Gavioli docs cheques for another 75,0000 paid for recovery The reasons for these payments to follow
+
+From Grahame McGirr <gmcgirr@naissance.co.uk>
+Date Sat 18/04/2026 17:20
+To Primo Belardi <avv.primobelardi@gmail.com>
+
+Cc Steve McGirr <steve.mcgirr@icloud.com>; Craig Malenga <craigm@mammothloans.com>
+
+https://outlook.office.com/maillinbox/id/AAKALgAAAAAAHYQDEapmEc2byACgAC%2FEWg0AbDA05rpjhUgXa1POWJ5tRQAB%2BBbNBWAA?N... 1/5
+
+
+===== [OCR page 2] =====
+
+18/04/2026, 18:53 Email - Craig Malenga - Outlook
+
+ch
+BEN
+
+7200105792-09
+
+https://outlook.office.com/maillinbox/id/AAKALgAAAAAAHYQDEapmEc2byACgAC%2FEWg0AbDA05rpjhUgXa1POWJ5tRQAB%2BBbNBWAA?N... 2/5
+
+
+===== [OCR page 3] =====
+
+18/04/2026, 18:53 Email - Craig Malenga - Outlook
+
+https://outlook.office.com/mail/inbox/id/AAkKALgAAAAAAHY QDEapmEc2byACqAC %2FEWg0AbDAOSrpjhUqxa1POWJ5tRQAB%2BBbNBWAA?n... 3/5
+
+
+===== [OCR page 4] =====
+
+18/04/2026, 18:53 Email - Craig Malenga - Outlook
+
+A CINQUANTAMILA EURO
+
+i. 7200105791-08
+
+NQUANTAMILA EURO
+
+N. 7200105792-09
+

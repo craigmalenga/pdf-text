@@ -98,6 +98,41 @@ the original `LEGAL_ANALYSIS.md` as the spine of v2**, then:
       corrected mechanics
 - [ ] Commit
 
+### Stage 6B — Anti-collusion multi-round critique (before Stage 7)
+
+The earlier critique rounds converged too quickly because every agent
+was briefed from the drifted `FINAL_REPORT.md` and reasoned inside
+that frame. ChatGPT found the drift in seconds because it was reading
+the source documents directly, not my report. The v2 critique round
+must be structurally different:
+
+- **Agents read the source OCR documents directly** (Ricorso, Istanza,
+  Belardi emails, Fiorilli emails, FX receipts, late-additions),
+  not the v2 report. They are given the v2 report's conclusions
+  *after* forming their own view.
+- **Each agent has a different primary lens, not overlapping**:
+  (a) **Arithmetic auditor** — reconcile every euro in the report
+      against the source documents; flag any figure that can't be
+      traced
+  (b) **Italian procedural / Cassazione check** — verify the two
+      cited cases say what they are said to say; verify the
+      procedural vehicle and deadline
+  (c) **Two-minute first reader** (ChatGPT analogue) — read only
+      the Ricorso and Istanza, write the case in 200 words, flag
+      what the report misses
+  (d) **Trustee's counsel** — take the trustee's side, attack every
+      defence line
+  (e) **Plain-English commercial reader** — would Grahame's cousin's
+      friend understand this and act on it? Where does it read like
+      lawyer-speak covering a weak case?
+- **Grading rule**: agent is explicitly told that finding overlap
+  with prior agents is worth nothing; novel issues only.
+- **No agent is allowed to cite the v2 report as authority** — only
+  the source documents.
+- **Red-team round** at the end: one agent's mandate is "assume the
+  report is wrong somewhere important; where?". If it finds nothing,
+  its brief was bad, re-run.
+
 ### Stage 7 — Deliver
 - [ ] Push final state
 - [ ] Mark v1 deliverables (FINAL_REPORT.pdf, prior emails) as

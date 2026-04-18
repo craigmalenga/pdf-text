@@ -1,0 +1,56 @@
+SOURCE: email 7 text.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  10237
+LINES:  258
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+
+
+===== [OCR page 1] =====
+
+18/04/2026, 18:56 Email - Craig Malenga - Outlook
+
+2 Outlook
+
+Re: Naissance Uk Ltd / Curatela fallimento S.A. Gavioli
+
+From Grahame McGirr <gmcgirr@naissance.co.uk>
+
+Date Sat 18/04/2026 16:36
+
+To Primo Belardi <avv.primobelardi@gmail.com>
+
+Cc megirrsteve@gmail.com <mcgirrsteve@gmail.com>
+
+Ù 1 attachment (724 KB)
+doc. 05a ISTANZA AMMISSIONE AL PASSIVO.pdf;
+
+Re: Procedimento Gavioli — Ulteriore documentazione e posizione
+Egregio Avv. Primo Belardi,
+La ringrazio nuovamente per la Sua precedente email.
+
+A seguito di quanto sopra, ho effettuato un'ulteriore revisione della documentazione storica e Le
+sto ora inoltrando, con email separate, ulteriore materiale di supporto per la Sua valutazione.
+
+In sintesi, la documentazione che Le trasmetto comprende:
+
+1. Evidenza dei costi già sostenuti nell'ambito della procedura Gavioli
+
+- costi già individuati per circa €57.100 (spese legali, d'asta e correlate), che sono stati saldati
+all'epoca;
+
+- ulteriori pagamenti per circa €75.000, inclusi importi di €30.000 e €45.000, supportati da dettagli
+relativi agli assegni e dai relativi prospetti;
+
+- evidenza dei bonifici bancari relativi ai suddetti importi.
+
+Tali somme sono state versate nei giorni immediatamente precedenti la decisione finale del
+Tribunale e fanno parte del complessivo processo di recupero e realizzazione dell'asset.
+
+Pertanto, il totale dei costi da me sostenuti in relazione alla vicenda supera i €130.000.
+
+2. Evidenza a supporto del valore di mercato
+
+Con separata comunicazione Le trasmetto inoltre le tre comunicazioni già individuate, ossia:
+- manifestazione di interesse per circa €550.000
+

@@ -1,0 +1,56 @@
+SOURCE: email 5.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  1361
+LINES:  52
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+
+
+===== [OCR page 1] =====
+
+18/04/2026, 18:55 Email - Craig Malenga - Outlook
+
+® Outlook
+
+FW: immobile agricola gavioli first offer
+
+From Grahame McGirr <gmcgirr@naissance.co.uk>
+
+Date Sat 18/04/2026 17:13
+
+To Primo Belardi <avv.primobelardi@gmail.com>
+
+Cc Steve McGirr <steve.mcgirr@icloud.com>; Craig Malenga <craigm@mammothloans.com>
+
+From: Gordana Lupi <lupigordana@gmail.com>
+Date: Wednesday, 6 September 2017 at 15:22
+To: Grahame McGirr <gmcgirr@naissance.co.uk>
+Subject: Fwd: immobile agricola gavioli
+
+—_-——- Messaggio inoltrato ---------
+
+Da: Cantine Gavioli snc <info@cantinegavioli.it>
+Data: mer 6 set 2017 alle 14:49
+
+Oggetto: immobile agricola gavioli
+
+A: <lupigordana@gmail.com>
+
+Spett.le
+ARGO GE.RE.CRE. SRL,
+
+Con la presente siamo ad informarvi dell’interessamento di un possibile acquirente per l'immobile
+sito in Chianciano Terme, Strada Statale 146 per I’ importo di € 550.000,00
+
+L'importo verrebbe pagato prima dell’asta della prossima asta.
+
+Nel momento in cui ci sarà un accettazione da parte vostra vi daremo il nome del cliente per
+continuare e ultimare l'eventuale vendita.
+
+Rimaniamo a completa disposizione per qualsiasi chiarimento o informazione .
+
+Cordiali saluti
+
+Marco Gavioli
+
+[Image removed by sender]

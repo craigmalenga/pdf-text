@@ -1,0 +1,56 @@
+SOURCE: email 3.pdf
+METHOD: tesseract OCR (eng+ita)
+CHARS:  4799
+LINES:  151
+PAGES (approx): 1
+---PREVIEW (first 50 lines)---
+
+
+===== [OCR page 1] =====
+
+18/04/2026, 18:54
+
+2 Outlook
+
+Email - Craig Malenga - Outlook
+
+FW: EUR transfer further 30,000 receipt
+
+From Grahame McGirr <gmcgirr@naissance.co.uk>
+
+Date Sat 18/04/2026 17:16
+
+To Primo Belardi <avv.primobelardi@gmail.com>
+
+Cc Steve McGirr <steve.mcgirr@icloud.com>; Craig Malenga <craigm@mammothloans.com>
+
+#5 Naissance’
+
+Grahame McGirr
+Director
+
+Naissance UK Limited
+Phone: 07930 473 842
+
+20 Hornton Street
+London
+W8 4NR
+
+www.naissance.co.uk
+
+Naissance UK Limited is a company registered in England and Wales under the number 06834203
+whose registered office is at 20 Hornton Street, London, W8 4NR.
+
+This email, including any attachments, is intended only for the person or entity to which it is
+addressed. It may contain confidential and privileged information. Any review, retransmission,
+dissemination, or other use of, or taking of any action in reliance upon this information by persons or
+entities other than the intended recipient is prohibited. This e-mail and everything contained within it
+is for discussion purposes only and is not intended to create a legally binding contract on Naissance
+UK Limited, or to vary the terms and conditions of any contract relating to its subject matter. If you
+
+received this email in error, please contact the sender and delete the email and any attachments. Any
+
+views or opinions represented in this email are solely of the author and do not necessarily represent
+those of Mammoth Finance. We take your security very seriously. Please note that all legitimate
+email correspondence from Naissance UK Limited will be sent from an authorised account ending
+@naissance.co.uk. Should you have any queries related to this, please call us on the office number

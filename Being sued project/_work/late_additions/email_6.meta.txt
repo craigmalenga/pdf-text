@@ -1,0 +1,22 @@
+SOURCE: email 6.pdf
+METHOD: pdftotext
+CHARS:  1142
+LINES:  16
+PAGES (approx): 2
+---PREVIEW (first 50 lines)---
+                GAVIOLI
+LAWYER                                                          €    21.691,78
+TRAVEL EXPENSES                                                 €     1.412,88
+SWORN TRANSLATION                      €       3.550,00    22% €      4.331,00
+CADASTRAL CERTIFICATES                                          €       864,26
+COURT LAWYER FOR AUCTION                                        €    17.152,19   € 12.152,19
+COURT EXPERT                                                    €          -     €       -
+AUCTION ADVERTISING                                             €    10.858,04   € 9.858,04
+CADASTRAL CERTIFICATES CLEANING                                 €       800,00   €    500,00
+GAVIOLI REVENUE DEBIT                                           €          -     €       -
+                                                           tot. €    57.110,15
+                BETTOLLE
+FRENCH NOTARY CADASTRAL CERTIFICATES   €   1.188.000,00   0,21% €     2.494,80
+TRAVEL EXPENSES                                                  €      706,44
+                                                            tot. €    3.201,24
+
