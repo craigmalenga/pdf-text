@@ -156,21 +156,6 @@ The trustee's arithmetic, verified against the Ricorso directly, is:
 | Less: amount Naissance was admitted for in the bankruptcy (mortgage claim) | (572,438.29) |
 | **= claim** | **57,536.75** |
 
-**Important note on the €30,000.** Separately from the breakdown
-above, the Ricorso mentions that Naissance previously received
-€25,806.02 at the 04.04.2019 distribution hearing — comprising
-property "fruits", reimbursement of legal expenses, and the
-residual €30,000 of procedural expenses that Naissance had itself
-advanced (by wire on 05.06.2018) and which was refunded to it.
-
-The €30,000 is therefore **not a separate line in the €629,975.04**.
-The trustee has already netted it off — €10,043.04 is the higher
-distribution figure *after* subtracting that €30,000 advance.
-
-An earlier version of this report treated the €30,000 as a
-"double-count" in the trustee's claim. That reading was wrong.
-There is no double-count to attack.
-
 ### The trustee's legal theory
 
 Under Italian law (**art. 110 Legge Fallimentare**, now arts.
