@@ -382,14 +382,138 @@ law as cited in the Ricorso.
 | **Estimated probability** | **Full win 15–25% · Partial win 40–50% · Full loss 30–40%.** Realistic target outcome: **settlement at €25–40k all-in.** |
 | **Verdict** | **Recommended.** Plan around these numbers. |
 
-### Summary table — all four approaches side-by-side
+<div class="landscape-page"></div>
 
-| # | Approach | Full win | Partial win | Full loss | Main cost if wrong |
-|---|---|---|---|---|---|
-| 1 | ChatGPT — "plan is final" | ~10–15% | ~15–20% | ~65–75% | Full €75–85k exposure; no settlement groundwork |
-| 2 | Belardi as-is — cautious defence | ~10–15% | ~25–35% | ~50–65% | Value left on the table; mid-range settlement only |
-| 3 | Net-position argument alone | <10% | ~10–20% | ~70–80% | Loss of credibility with judge; weakens Track 2 |
-| 4 | **Hybrid 3-track + settlement** | **15–25%** | **40–50%** | **30–40%** | Higher legal fees; still a real loss tail |
+### Final comparison table — all four approaches with pros, cons and probability
+
+<table class="compare">
+<colgroup>
+<col style="width:3%">
+<col style="width:17%">
+<col style="width:27%">
+<col style="width:31%">
+<col style="width:15%">
+<col style="width:7%">
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Approach</th>
+<th>Pros</th>
+<th>Cons / why it fails on its own</th>
+<th>My estimate of probability of success</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><b>ChatGPT</b><br>"Plan is final &mdash; claim is weak"</td>
+<td>
+<ul>
+<li>Simple to plead</li>
+<li>Riparto was court-approved &mdash; finality is a real Italian-law principle</li>
+<li>Low legal-fee footprint</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Ignores Cass. 23482/2018 &amp; 12673/2022 &mdash; the rulings the trustee relies on</li>
+<li>Those rulings say finality does <b>not</b> protect the guarantor from surplus-restitution</li>
+<li>Argues a case the trustee is not making</li>
+<li>Builds no settlement groundwork</li>
+</ul>
+</td>
+<td>
+Full win <b>~10&ndash;15%</b><br>
+Partial win <b>~15&ndash;20%</b><br>
+Full loss <b>~65&ndash;75%</b>
+</td>
+<td><b>Unsafe.</b></td>
+</tr>
+<tr>
+<td>2</td>
+<td><b>Avv. Belardi</b><br>Cautious defence + implicit settlement</td>
+<td>
+<ul>
+<li>Correctly sees the case law is against us on the headline point</li>
+<li>Focuses on quantum &amp; procedure &mdash; where value lies</li>
+<li>Professionally credible in front of the judge</li>
+<li>Opens a settlement channel implicitly</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Has not engaged the &euro;30k potential double-count</li>
+<li>Has not mapped alternative trustee theories (revocatoria, indebito, art. 2467 postergazione)</li>
+<li>Has not incorporated the net-position arithmetic from Approach 3</li>
+<li>Mid-range settlement only &mdash; leaves value on the table</li>
+</ul>
+</td>
+<td>
+Full win <b>~10&ndash;15%</b><br>
+Partial win <b>~25&ndash;35%</b><br>
+Full loss <b>~50&ndash;65%</b>
+</td>
+<td><b>Directionally right, incomplete.</b></td>
+</tr>
+<tr>
+<td>3</td>
+<td><b>Net-position</b><br>"Only ~half of the &euro;1.188m credit has been recovered"</td>
+<td>
+<ul>
+<li>Facts documented &amp; accepted by trustee</li>
+<li>Credit of <b>&euro;1,188,438.29</b> (2017 assignment)</li>
+<li>Only <b>&euro;616k</b> (auction) + <b>~&euro;130k</b> (riparto) recovered</li>
+<li><b>&euro;572,438.29</b> admitted to stato passivo, still unpaid</li>
+<li>Strong equitable force; excellent settlement lever</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Surplus-restitution under Cass. 23482/2018 is a <b>separate</b> accounting from guarantor's make-whole position</li>
+<li>Art. 56 L.F. set-off out of reach &mdash; trustee's claim arose post-bankruptcy</li>
+<li>Admitted &euro;572k ranks <i>pari passu</i> &mdash; not a euro-for-euro offset</li>
+<li>If pleaded as primary defence, signals misunderstanding &amp; risks judge's sympathy</li>
+</ul>
+</td>
+<td>
+<b>&lt;10%</b> as primary<br><br>
+Adds <b>~&euro;10&ndash;15k</b> of settlement discount used as counterclaim alongside Tracks 1&ndash;2
+</td>
+<td><b>Counterclaim / settlement lever only.</b></td>
+</tr>
+<tr class="recommended">
+<td>4</td>
+<td><b>Hybrid 3-track defence + parallel settlement</b><br>(recommended)</td>
+<td>
+<ul>
+<li>Combines strongest element of Approaches 1&ndash;3</li>
+<li>Adds &euro;30k double-counting challenge others miss</li>
+<li>Protective <i>messa in mora</i> to Fiorilli preserves negligence-claim clock</li>
+<li>Robust to trustee pivot (revocatoria / indebito / postergazione)</li>
+<li>Opens settlement channel at <b>&euro;25&ndash;40k</b></li>
+<li>Preserves net-position argument as counterclaim, not headline</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Higher legal fees &mdash; more Belardi work + short separate engagement on Fiorilli notice</li>
+<li>Requires Belardi to verify the two Cassazione citations and the &euro;30k accounting <b>before</b> filing</li>
+<li>Not a silver bullet &mdash; real loss tail remains</li>
+<li>Grahame must commit to private settlement range before negotiating</li>
+</ul>
+</td>
+<td>
+Full win <b>15&ndash;25%</b><br>
+Partial win <b>40&ndash;50%</b><br>
+Full loss <b>30&ndash;40%</b><br><br>
+Target: <b>settle &euro;25&ndash;40k all-in</b>
+</td>
+<td><b>Recommended.</b></td>
+</tr>
+</tbody>
+</table>
 
 **Bottom line:** the best realistic outcome is a **settlement at
 €25–40k all-in**, reached via the three-track defence in Section 3,

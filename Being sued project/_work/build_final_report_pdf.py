@@ -96,6 +96,71 @@ blockquote {
 table { page-break-inside: avoid; }
 h2 { page-break-after: avoid; }
 h3 { page-break-after: avoid; }
+
+/* Landscape page used only for the final comparison table */
+@page landscape {
+    size: A4 landscape;
+    margin: 1.2cm 1.5cm 1.8cm 1.5cm;
+    @bottom-right {
+        content: "Page " counter(page) " of " counter(pages);
+        font-family: Calibri, sans-serif;
+        font-size: 9pt;
+        color: #666;
+    }
+    @bottom-left {
+        content: "Naissance UK Ltd - Defence Strategy";
+        font-family: Calibri, sans-serif;
+        font-size: 9pt;
+        color: #666;
+    }
+}
+section.landscape-section {
+    page: landscape;
+    page-break-before: always;
+    page-break-after: always;
+}
+
+/* Comparison table styling */
+section.landscape-section h3 {
+    margin: 0 0 0.4em 0;
+    page-break-after: avoid;
+}
+table.compare {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 7.5pt;
+    page-break-inside: avoid;
+}
+table.compare th, table.compare td {
+    border: 1px solid #8a9bb3;
+    padding: 4px 6px;
+    vertical-align: top;
+    line-height: 1.25;
+}
+table.compare th {
+    background-color: #1a365d;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8.5pt;
+}
+table.compare td:first-child {
+    text-align: center;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #1a365d;
+}
+table.compare ul {
+    margin: 0;
+    padding-left: 12px;
+}
+table.compare li { margin-bottom: 2px; }
+table.compare tr.recommended {
+    background-color: #e8f4e8;
+}
+table.compare tr.recommended td {
+    border-color: #2f7a2f;
+}
 """
 
 COVER_HTML = """
@@ -113,9 +178,40 @@ COVER_HTML = """
 """
 
 
+def wrap_landscape_section(html: str) -> str:
+    """Wrap the 'Final comparison table' h3 and the table that follows
+    inside a <section class="landscape-section"> so it renders on its
+    own landscape page."""
+    import re
+    marker_div = '<div class="landscape-page"></div>'
+    if marker_div not in html:
+        return html
+    # Find the comparison table (table.compare)
+    parts = html.split(marker_div, 1)
+    before, after = parts[0], parts[1]
+    # Find the end of the comparison table in 'after'
+    end_idx = after.find("</table>")
+    if end_idx == -1:
+        return html
+    end_idx += len("</table>")
+    section_inner = after[:end_idx]
+    rest = after[end_idx:]
+    wrapped = (
+        before
+        + '<section class="landscape-section">'
+        + section_inner
+        + "</section>"
+        + rest
+    )
+    return wrapped
+
+
 def build():
     md_text = (OUT / "FINAL_REPORT.md").read_text(encoding="utf-8")
-    html_body = markdown.markdown(md_text, extensions=["tables", "fenced_code"])
+    html_body = markdown.markdown(
+        md_text, extensions=["tables", "fenced_code", "md_in_html"]
+    )
+    html_body = wrap_landscape_section(html_body)
     full_html = (
         "<!DOCTYPE html><html><head><meta charset='utf-8'>"
         "<title>Defence Strategy Report</title></head><body>"
