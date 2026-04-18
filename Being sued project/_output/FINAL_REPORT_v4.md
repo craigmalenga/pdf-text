@@ -594,13 +594,14 @@ target outcome: settlement or ruling at €25–35k all-in.**
    Belardi.eml` with an English translation PDF alongside). The
    email:
    - approves Belardi's strategic direction;
-   - adds the finality and quantum layers on top;
+   - sharpens the defence around the **three focused
+     battlegrounds** (€30k accounting / rigidity of €572k admission /
+     component-by-component arithmetic attack);
    - authorises him to open parallel settlement talks;
-   - requests his written probability estimate on each track, his
-     drafting timetable, and confirmation of the procedural
+   - requests his written probability estimate on each battleground,
+     his drafting timetable, and confirmation of the procedural
      vehicle.
-2. **Ask Belardi to confirm four procedural points** before
-   drafting:
+2. **Ask Belardi to confirm five points** before drafting:
    - that 04.05.2026 is the costituzione deadline and 14.05.2026
      is the hearing;
    - whether the correct pleading is a *memoria difensiva* or a
@@ -609,14 +610,17 @@ target outcome: settlement or ruling at €25–35k all-in.**
    - the full text of **Cass. 23482/2018** and **Cass. 12673/2022**
      — so we know which facts are distinguishable;
    - whether the 04.04.2019 distribution-plan hearing minutes
-     show the curator was present or properly notified.
-3. **Authorise Belardi to draft a PEC diffida to Avv. Fiorilli**
-   this month — to preserve (interrompere la prescrizione) the
-   limitation clock on any future professional-negligence claim.
-   Do not serve it yet; hold in reserve.
+     show the curator was present or properly notified;
+   - **his authority on how Italian courts treat gross-vs-net
+     restitution** under art. 110 L.F. / art. 2033 c.c. — this is
+     the decisive legal question for the €30,000 double-count.
+3. **Authorise Belardi to prepare a PEC diffida to Avv. Fiorilli
+   this month.** Draft it now, ready to go. Limitation timing
+   matters. Whether to serve it before the main case resolves is a
+   tactical call — but the draft must exist.
 4. **Agree a private settlement mandate:** opening €15–20k, target
-   €20–30k, walkaway **€45,000** all-in. (Total exposure if we lose
-   outright is roughly €70–85k — capital + interest + costs +
+   **€25–35k**, walkaway **€45,000** all-in. (Total exposure if we
+   lose outright is roughly €70–85k — capital + interest + costs +
    curator's legal fees — so €45k is well inside the break-even
    zone.)
 5. **Do NOT join Fiorilli to this proceeding.** Preserve the
@@ -784,31 +788,33 @@ Full loss <b>~45&ndash;60%</b>
 </tr>
 <tr class="recommended">
 <td>D</td>
-<td><b>Recommended hybrid</b><br>Finality + Quantum + Errore materiale supporting + Parallel settlement</td>
+<td><b>Recommended</b><br>Three focused battlegrounds + errore materiale supporting + parallel settlement</td>
 <td>
 <ul>
-<li>Directly engages Cass. 23482/2018 &amp; 12673/2022 via finality attack</li>
-<li><b>&euro;30k refund double-count</b> alone drops the claim to &euro;27,536.75</li>
-<li>Quantum ladder: &euro;30k + &euro;3,932 + &euro;4,761.47 = claim drops to ~&euro;18,843</li>
-<li>Belardi's errore-materiale retained as supporting pillar</li>
-<li>Fiorilli PI preserved via PEC diffida without pleading him in</li>
-<li>Parallel settlement channel at <b>&euro;20&ndash;30k</b> target</li>
-<li>Robust to trustee pivot to revocatoria / indebito</li>
+<li>Built around the <b>one question that matters</b>: did Naissance receive more than &euro;572,438.29?</li>
+<li>Battleground 1: <b>&euro;30k accounting</b> - if it lands, claim drops to &euro;27,536.75</li>
+<li>Battleground 2: rigidity of &euro;572k admission + distinguishing Cassazione on facts, not timing</li>
+<li>Battleground 3: component-by-component challenge to &euro;629,975.04</li>
+<li>Belardi's errore-materiale retained as supporting strand</li>
+<li>Fiorilli PEC diffida prepared this month, held ready</li>
+<li>Parallel settlement channel at <b>&euro;25&ndash;35k</b> target</li>
 </ul>
 </td>
 <td>
 <ul>
 <li>Higher legal fees than Belardi-as-is</li>
-<li>Requires Belardi to verify the two Cassazione citations in full</li>
-<li>Requires you to commit walkaway ceiling privately before negotiating</li>
+<li>Requires Belardi's authority on gross-vs-net restitution under art. 110 LF / art. 2033 cc</li>
+<li>Requires Belardi to distinguish Cassazione 23482/2018 &amp; 12673/2022 on their facts, not invoke finality alone</li>
+<li>&euro;30k argument is strong but judge-dependent, not a slam dunk</li>
+<li>Three quantum cuts don't stack cleanly - realistic landing is &euro;25-35k, not sub-&euro;20k</li>
 <li>Material loss tail remains</li>
 </ul>
 </td>
 <td>
-Full win <b>15&ndash;25%</b><br>
-Partial win <b>40&ndash;50%</b><br>
-Full loss <b>30&ndash;40%</b><br><br>
-Target: <b>settle &euro;20&ndash;30k all-in</b>
+Full win <b>10&ndash;20%</b><br>
+Partial win <b>50&ndash;60%</b><br>
+Full loss <b>25&ndash;35%</b><br><br>
+Target: <b>settle &euro;25&ndash;35k all-in</b>
 </td>
 <td><b>Recommended.</b></td>
 </tr>
@@ -816,9 +822,17 @@ Target: <b>settle &euro;20&ndash;30k all-in</b>
 </table>
 
 **Bottom line:** the highest-probability route is **Approach D** —
-finality + quantum attack (the €30,000 refund double-count is the
-single highest-leverage point), layered with Belardi's errore-
-materiale argument as a supporting pillar, plus a parallel settlement
-channel targeting €20–30k all-in. Your own instinct (Approach A) is
-preserved as a counterclaim and settlement lever. Fiorilli is kept in
-reserve via a PEC diffida, not joined to this proceeding.
+three focused battlegrounds (the €30,000 accounting treatment is
+the single highest-leverage point, but judge-dependent; the rigidity
+of the €572,438.29 admission; and a component-by-component challenge
+to the trustee's €629,975.04 arithmetic). Belardi's errore-materiale
+argument is retained as a supporting strand. A parallel settlement
+channel targets **€25–35k all-in**. Your own instinct (Approach A)
+is preserved as a counterclaim and settlement lever. Fiorilli is
+kept in reserve via a PEC diffida prepared this month, not joined
+to this proceeding.
+
+Realistic probability: **full win 10–20%, partial win 50–60%, full
+loss 25–35%**. This case will in practice turn on the €30,000
+gross-vs-net question and how rigidly the court treats the
+€572,438.29 admission. Everything else is supporting.
