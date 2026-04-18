@@ -197,5 +197,35 @@ transparently for Belardi.
   by strength; settlement mandate €15-20 / 25-35 / 45 walkaway.
 - **Stage 6 done** (commit 8f0605c): `17_CHATGPT_REVIEW_PROMPT_v3.md`
   — self-contained prompt for ChatGPT to audit v3 / v4.
-- **Stage 6B in progress**: anti-collusion multi-round critique.
+- **Stage 6B done** (commit 8c7c306): anti-collusion critique with
+  8 parallel agents (5 per-docx reconcilers + 3 lens critics reading
+  source OCR directly). **Headline finding:** Agents L3 and D5
+  independently identified that the €30,000 argument — the
+  centrepiece of Approach D in v4 — does not exist. The Ricorso
+  builds €629,975.04 as €616,000 + €13,975.04 (which is itself
+  €10,043.04 already net of procedural expenses advanced +
+  €3,932.00 legal expenses not admitted). The €30,000 is separately
+  mentioned as a component of Naissance's earlier €25,806.02
+  distribution award and is already netted off. Pleading a
+  "double-count" would either fail or let the trustee gross it up
+  and increase the claim by €30,000. Other findings: Art. 56 L.F.
+  blocks net-position counterclaim; Cass. 4708/2020 + SS.UU.
+  4309/2010 make the 2019 admission order res judicata
+  endofallimentare, neutralising the errore-materiale route as a
+  decree-reopener; €45,000 cheque and €630,000 pre-auction
+  transaction lack independent documentary OCR support.
+  See `21_Stage_6B_Critique_Findings.md`.
+- **v5 report done** (commit 2065681, `22_FINAL_REPORT_v5.pdf`, 19
+  pages): full rewrite after the anti-collusion critique. Key
+  changes vs v4: Approach D reworked to drop the €30k battleground;
+  live quantum levers are €3,932 + €4,761.47 only; probabilities
+  revised to 5-10% full / 35-45% partial / 45-55% loss; settlement
+  target €30-40k; walkaway €45k unchanged. Landscape comparison
+  table updated accordingly. New Section 10 at the very end:
+  5 targeted questions for Grahame — each one materially affecting
+  the analysis, not padding.
+- **Stage 7 (delivery) in progress:** v5 PDF + Section 10 questions
+  awaiting Grahame's answers. Belardi email v3 still needs a short
+  post-critique update to remove the €30k gross-vs-net framing and
+  replace with the narrower quantum + distinguishing brief.
 
