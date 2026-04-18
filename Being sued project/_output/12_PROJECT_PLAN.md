@@ -167,7 +167,35 @@ transparently for Belardi.
   ~€182k (was €77k); €30,000 refund is almost certainly the same
   €30k Naissance wired on 05.06.2018, making the trustee's inclusion
   of it double-counting (drops claim from €57,536.75 → €27,536.75).
-- **Stage 4 in progress**: building `FINAL_REPORT_v2.md` on the
-  `LEGAL_ANALYSIS.md` spine, with the 3 late-addition findings and
-  the landscape 4-strategy pros/cons/probability comparison page.
+- **Stage 4 done** (commit 4049b84): v2 report + PDF built.
+- **Extra iteration** — Grahame requested a standalone fresh
+  report readable by a cold reader. Produced **v3** (commit
+  387a4de, `16_FINAL_REPORT_v3.pdf`) with 4 approaches (A: Grahame's
+  instinct, B: ChatGPT, C: Belardi, D: Recommended hybrid), full
+  pros/cons/probability, landscape comparison on p14.
+- **External review by ChatGPT** applied (see
+  `17_CHATGPT_REVIEW_PROMPT_v3.md` for the prompt that was used).
+  Headline feedback: v3 is directionally sound and usable but still
+  over-structured. €30k double-count is strong but judge-dependent
+  (trustee can argue gross-flow). Probabilities revise to 10-20%
+  full / 50-60% partial / 25-35% loss. Settlement target slides
+  to €25-35k. Finality argument must distinguish Cass. on facts,
+  not rely on timing. Three quantum cuts don't stack cleanly.
+- **Stage 4 refinement → v4** (commit 08e6313,
+  `18_FINAL_REPORT_v4.pdf`): ChatGPT refinements applied. Approach
+  D reframed from "4 tracks" to 3 focused battlegrounds:
+  (1) €30k accounting, (2) rigidity of €572k admission with
+  Cassazione distinguished on facts, (3) component-by-component
+  arithmetic challenge. "One question to hold in your head"
+  framing added up front: did Naissance receive more than
+  €572,438.29?
+- **Stage 5 done** (commit cf2dcd4):
+  `19_Draft_email_to_Belardi_v3.eml` +
+  `20_Draft_email_to_Belardi_v3_ENGLISH.pdf`. Email v3 flags the
+  €30k gross-vs-net legal question as decisive and asks Belardi
+  for his authority on it; differentiates the three quantum items
+  by strength; settlement mandate €15-20 / 25-35 / 45 walkaway.
+- **Stage 6 done** (commit 8f0605c): `17_CHATGPT_REVIEW_PROMPT_v3.md`
+  — self-contained prompt for ChatGPT to audit v3 / v4.
+- **Stage 6B in progress**: anti-collusion multi-round critique.
 
