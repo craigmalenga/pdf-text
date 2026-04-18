@@ -177,9 +177,12 @@ Naissance to continue the foreclosure after the bankruptcy was
 declared — but that is a procedural privilege, not a substantive
 answer on final ranking.
 
-**Bottom line:** the trustee's arithmetic is clean and the legal
-theory is well supported. The claim cannot be swept aside; it can
-only be chipped away.
+**Bottom line on the trustee's case.** The trustee's subtraction is
+internally consistent but rests on a €629,975.04 "received" figure
+that is itself higher than any of the pre-auction offers made on the
+asset (€550k, €620k). The claim has to be fought on substance
+(§5 below) and framed commercially (§9 below) — it cannot be swept
+aside on a pure legal-theory attack.
 
 ---
 
@@ -234,11 +237,10 @@ clarifying the cost picture. These added material new information:
   to be internally inconsistent — clause 3 cites €1,118,438.29 while
   clause 4's parenthetical cites €1,188,438.29; only the latter
   reconciles arithmetically with the €572,438.29 residual).
-- **A third FX wire** — €30,000 to Argo Ge.Re.Cre. on 05.06.2018.
-  Your WhatsApp clarified that **this wire is the FX execution of
-  one of the two cheques you paid** (the €30k cheque), not an
-  additional outflow. So the total documented outflows are
-  €57,000 + €20,000 + €30,000 + €45,000 = **€152,000**.
+- **A third FX wire of €30,000** to Argo Ge.Re.Cre. on 05.06.2018,
+  and two cost cheques totalling €75,000. Together with the earlier
+  €57,000 + €20,000 wires, the total documented recovery spend is
+  **€132,000** (taking the WhatsApp clarification at face value).
 - **Cheque images** for the €30k and €45k cost cheques (together
   making up your €75k cost tranche) — with the reasons for each
   payment shown.
@@ -297,14 +299,17 @@ reflect those findings.
 
 Five findings emerge when the source documents are read together:
 
-### 5.1 The trustee's arithmetic is correct on the face of it
+### 5.1 The trustee's arithmetic is internally consistent — but built on an inflated "received" figure
 
 €629,975.04 received minus €572,438.29 admitted = €57,536.75 claimed.
-That math is in the Ricorso itself. The trustee's cited case law
-(Cass. 23482/2018 and 12673/2022) does support the general
-proposition that foreclosure distributions to a mortgage creditor
-are *provisional* pending final bankruptcy ranking. Any strategy
-that does not engage with this proposition directly will lose.
+The subtraction is correct. But the €629,975.04 itself exceeds every
+pre-auction market indication of the asset's value (€550k, €620k —
+see §5.4) and so contains a tail of non-market-value components.
+The trustee's cited case law (Cass. 23482/2018 and 12673/2022)
+supports the general proposition that foreclosure distributions to a
+mortgage creditor are *provisional* pending final bankruptcy
+ranking, and any defence must engage with that proposition on its
+facts.
 
 ### 5.2 Fiorilli's 2018 Istanza is internally inconsistent
 
@@ -744,133 +749,98 @@ Belardi's written opinion, once received, supersedes it.*
 
 ---
 
-## 9. The commercial reality — Naissance is already c. €700k underwater on this recovery
+## 9. The commercial reality — Naissance is already €80k short on the numbers the trustee himself accepts
 
-This is the argument that matters to you most, and it is the
-strongest lever the defence has. It has to be pleaded cleanly and
-it has to be foregrounded in the settlement conversation.
+This is the pitch. It is built only on figures the trustee and the
+bankruptcy court have already accepted. It does not rely on the
+€1.188m face value or on any unknown number. It is the argument
+Belardi should use to frame the defence and to run the settlement.
 
-### The one-line version
+### The argument in one paragraph
 
-Naissance paid **€1,188,438.29** for this credit in 2017. It has
-recovered, net, approximately **€488,000** against that credit
-(best market offer €620,000 minus €132,000 of recovery costs).
-That leaves Naissance **roughly €700,000 underwater** on a credit
-it acquired at face value. The trustee is now asking for another
-**€57,536.75** back on top.
+The bankruptcy itself admitted Naissance to the passivo for a
+residual mortgage claim of **€572,438.29** — that is what the
+court confirmed Naissance was still owed after the property
+assignment. On top of that, Naissance paid **€132,000** out of
+pocket to run the recovery (wires + cheques). Naissance's
+documented, bankruptcy-admitted exposure is therefore
+**€572,438.29 + €132,000 ≈ €700,000**. The best genuine
+pre-auction offer on the asset — made by the debtor's own family
+— was **€620,000**. So even at the highest price the market itself
+ever put on the asset, Naissance is still **~€80,000 short** of
+being made whole on the exposure the bankruptcy court itself
+admitted. Asking Naissance to hand back another **€57,536.75** on
+top, on an indebito theory, turns an €80k gap into a **~€140k
+gap** — a commercial outcome that cannot be called just.
 
-### Working the math
+### The numbers, on one line each
 
-| Line | € |
-|---|---|
-| Credit acquired (double assignment, 28.07.2017) | 1,188,438.29 |
-| Best genuine market valuation at the time (pre-auction offer, 12.09.2017) | 620,000 |
-| Less: documented recovery costs paid by Naissance (FX wires + cheques, 2018) | (132,000) |
-| **Net recovery** | **~488,000** |
-| Shortfall against the credit Naissance paid €1,188,438.29 for | **~700,000** |
+| Line | € | Source |
+|---|---|---|
+| Residual mortgage claim admitted to the bankruptcy | 572,438.29 | Ricorso §3, conceded by trustee |
+| Out-of-pocket recovery costs paid by Naissance | 132,000 | FX wires + cheques (Thomas Exchange + UBI) |
+| **Total Naissance exposure admitted / documented** | **~700,000** | |
+| Best genuine pre-auction offer on the asset | 620,000 | Marco Gavioli email, 12.09.2017 |
+| **Shortfall at best market view** | **~80,000** | |
+| Further amount the trustee now asks Naissance to return | 57,536.75 | Ricorso prayer |
+| **Shortfall if the trustee wins** | **~140,000** | |
 
-Two points to notice:
+### Who is actually out of pocket
 
-- **The trustee's own "received" figure of €629,975.04 is higher
-  than any of the pre-auction offers** (€550k, €620k). If the
-  genuine market value of the asset in 2017 was at most €620k,
-  the trustee's €629,975.04 is itself inflated by a tail of
-  non-market-value components (exactly the €13,975.04 of "extra
-  sums" the defence is attacking in §5.3). In other words, the
-  trustee is effectively asking Naissance to account back sums
-  that the market itself never attributed to the asset.
-- **Even on the trustee's own admitted figure of €572,438.29**,
-  Naissance's net recovery after costs is ~€440k (572 − 132) —
-  still ~€750k short of the credit. Whichever figure you use,
-  Naissance is deep underwater.
+- **The bankrupt estate.** The estate had an asset. The asset was
+  sold through a judicial procedure. The estate received, in cash,
+  what the court said it was entitled to receive. It has not lost
+  anything the procedure did not itself deliver.
+- **Naissance.** Naissance has paid €132,000 out of pocket, holds
+  a €572,438.29 residual claim that will pay at most cents on the
+  euro in the chirografario, and is now facing a further €57,536.75
+  demand.
 
-### What this argument does legally vs what it does commercially
+On a pragmatic view of who is worse off because this case happened,
+the answer is: Naissance. By roughly €80k at best market view, or
+roughly €140k if the trustee wins. The estate is not out of pocket.
 
-**Legally.** Under Italian law, the €132k of recovery costs and
-the €700k global shortfall do not formally offset the trustee's
-restitution claim: **Art. 56 L.F.** blocks statutory compensation
-because the trustee's claim arose post-bankruptcy while the
-underlying credit and costs were pre-bankruptcy. Pleading formal
-set-off would be struck out. Raising the €700k shortfall as a
-counterclaim would also trigger *par condicio creditorum*
-objections under art. 2741 c.c.
+### How this argument is to be used
 
-**Commercially, and in equity — and these are different.** The
-court can and should be told, and Belardi should plead it
-clearly as part of the defence and the settlement position, that:
+- **In the defence (comparsa).** As the equitable frame around the
+  two live technical points (the €3,932 and the €4,761.47) and the
+  factual distinguishing of Cass. 23482/2018 and 12673/2022. The
+  frame is: "the trustee is pursuing a narrow restitution theory
+  that would leave Naissance €140k short on numbers the bankruptcy
+  itself already accepts."
+- **In the parallel settlement channel.** This is the decisive
+  lever. The curator cannot credibly expect 100% recovery from a
+  counterparty already €80k short on admitted numbers. A 50–60%
+  recovery with early resolution is the realistic target.
 
-- Naissance acquired a credit of €1,188,438.29 and has recovered
-  less than half of it, in-kind, from a procedure that itself
-  took seven years;
-- Naissance has paid €132k out-of-pocket to run that procedure;
-- The trustee's €57,536.75 claim — if it succeeds — leaves
-  Naissance roughly €700k worse off overall on a credit it paid
-  face value for;
-- Asking for €57k more on top of that is, commercially,
-  disproportionate.
+### The risk trade-off (why the walkaway number exists)
 
-This does not win the case on its own. It is the **equitable
-frame** within which Belardi's technical points (the €3,932, the
-€4,761.47, the factual distinguishing of Cassazione, the
-errore-materiale support) are heard. It is also the strongest
-single lever in the settlement channel — the curator knows a
-100% recovery is not realistic against this background, and
-that litigating to final judgment will eat materially into
-whatever the estate recovers.
+This is not a recommendation to settle at any cost. It is pricing
+the risk that the case goes to hearing and is lost. Counted on a
+forward-looking basis (what happens from today):
 
-### Why the walkaway number still exists
-
-This report is not recommending settlement at any cost. It is
-setting a walkaway ceiling because the **risk-adjusted cash
-cost of fighting** has to be weighed against the **known cash
-cost of settling**. Counted from today (ignoring the €132k
-already spent, which is sunk):
-
-| Outcome | Probability | Cash out today |
+| Outcome | Probability | Cash out from today |
 |---|---|---|
 | Full win in court | 5–10% | €0 (possibly some costs recovered) |
-| Settlement at €30–40k | target | €30,000–€40,000 |
-| Full loss at hearing | 45–55% | €57,536.75 + interest (~€3–5k) + court costs + curator's legal fees (~€15–20k) = **€75,000–€85,000** |
+| Settlement in the €30–40k range | target | €30,000–€40,000 |
+| Full loss at hearing | 45–55% | ~€75,000–€85,000 (claim + interest + curator's costs + our costs) |
 
-Expected-value cash out of fighting: roughly **€40–€55k**.
-Expected-value cash out of settling at €35k: **€35,000** locked
-in.
+On those probabilities, settlement at €30–40k is modestly cheaper
+in expectation than fighting and takes the tail risk off the
+table. **€45,000 is the walkaway ceiling** above which fighting
+becomes the better trade. Below €45k, settling is cheaper in
+expectation.
 
-On the numbers, settlement at €30–40k is modestly cheaper in
-expectation than fighting, and it takes the 45–55% tail risk
-of an €80k loss off the table. **The €45,000 walkaway** is the
-ceiling on that trade-off: above €45k the EV of fighting
-overtakes the certainty of settling, below €45k settling is
-cheaper in expectation.
+### The recommendation
 
-### The call is yours
-
-The €132k you have already paid and the ~€700k shortfall on the
-underlying credit are valid and heavy reasons to want to fight
-rather than pay more. The risk-adjusted math above is only one
-input. Your own commercial position, your appetite for principle
-over certainty, and your view on how the curator is likely to
-behave are all legitimate factors you are entitled to weigh.
-
-What the report recommends is:
-
-1. **File the defence** — Approach D, which gives the strongest
-   available fight on the live points (the €3,932, the €4,761.47,
-   factual distinguishing of the two Cassazione cases, errore
-   materiale as supporting context on the strengthened
-   no-client-instruction ground from §5.2, and the commercial-
-   reality framing of this §9).
-2. **Open the settlement channel in parallel.** You are not
-   committing to settle; you are exploring what is on the table.
-   If the curator will not come down to a number inside your
-   walkaway, you fight — and you fight with a much better
-   evidential record than if you had not explored settlement.
-3. **Decide the walkaway privately, before the conversation
-   starts.** If €45k feels too high given the €152k you have
-   already paid, tell me and we lower it — but you then need to
-   accept that below the walkaway the EV of fighting may be
-   higher than the EV of settling. That is a call you make with
-   eyes open.
+1. **File the defence** around §9's commercial-reality frame plus
+   the two live technical points (§5.3) plus the factual
+   distinguishing of Cassazione (§6.4).
+2. **Open the settlement channel in parallel** using §9 as the
+   primary pitch: Naissance is already €80k short on the
+   bankruptcy's own admitted numbers.
+3. **Decide the walkaway privately.** €45k is the ceiling. If you
+   want it lower, tell Belardi before negotiations open.
 
 ---
 
