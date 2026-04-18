@@ -89,34 +89,32 @@ argument is that the G.D.'s 2019 admission order itself is res
 judicata for €572,438.29, regardless of what Fiorilli wrote), but it
 is a stronger platform than first assessed.
 
-### 2. Evidenced cost outflows move from €77k towards €182k
+### 2. Evidenced cost outflows move from €77k to ~€152k
 
 The earlier FX bundle summary evidenced only two wires (€57,000 on
 26.04.2018 and €20,000 on 01.05.2018 = €77,000). The late additions
-add:
-
-- **€30,000 wire on 05.06.2018** to Argo Ge.Re.Cre. (email 3.pdf):
-  Ricky Ratnam confirms rate €1 = GBP 1.1210, total GBP 26,773.82
-  (€26,761.82 plus £12 fee). Instruction sent 05.06.2018 10:38 BST;
-  confirmation 11:39 BST same day.
-- **Two cheques totalling ~€75,000** (email 2.pdf): cheque numbers
-  7200105791-08 and 7200105792-09 visible; the word "CINQUANTAMILA
-  EURO" (fifty thousand) appears on one. Grahame's 18.04.2026 email
-  (email 7 text, in Italian) explicitly states the two cheques are
-  "di €30.000 e €45.000".
-
-So the cost picture is now:
+add one more wire and two cheques, but — **important correction per
+Grahame's confirmation (WhatsApp 18.04.2026 19:29)** — the €30,000
+FX wire of 05.06.2018 is **the same payment** as one of the two
+cheques. The wire is the FX execution of that cheque, not a separate
+outflow. So the real picture is:
 
 | Outflow | Evidence | €  |
 |---|---|---|
-| Wire 26.04.2018 | FX confirmation + email 8 part 1 | 57,000.00 |
-| Wire 01.05.2018 | FX confirmation + email 8 parts 2–5 | 20,000.00 |
-| Wire 05.06.2018 | FX confirmation (email 3) | 30,000.00 |
-| Cheque 7200105791-08 | Cheque image (email 2) + Grahame statement | ~30,000.00 |
-| Cheque 7200105792-09 | Cheque image (email 2) + Grahame statement | ~45,000.00 |
-| **Total evidenced** | | **~182,000** |
+| Wire 26.04.2018 to Argo Ge.Re.Cre. | FX confirmation (Thomas Exchange) — corresponds to the €57,110.15 Gavioli cost schedule in email 6 | 57,000.00 |
+| Wire 01.05.2018 to Argo Ge.Re.Cre. | FX confirmation | 20,000.00 |
+| €30,000 cheque / wire 05.06.2018 *(same payment)* | Cheque image (email 2) + FX confirmation (email 3) | 30,000.00 |
+| €45,000 cheque | Cheque image (email 2) | 45,000.00 |
+| **Total evidenced** | | **~152,000** |
 
-But see the important caveat below on the €30k refund.
+This is still consistent with Grahame's "€130,000+ costs" position
+in his 18.04.2026 email to Belardi, and decisively defeats the prior
+analysis's evidentiary gap — but it is **not** cumulative with the
+€30k wire, which had been mistakenly counted twice in an earlier
+draft. The €30,000 refund point in §3 below is therefore clearer
+and cleaner: one €30,000 went out from Naissance in 2018 and the
+same €30,000 came back via the 2019 distribution. That is the
+double-count.
 
 ### 3. The €30,000 "refund" in the trustee's claim is now much more concrete
 
@@ -125,8 +123,11 @@ The trustee's Ricorso includes a €30,000 figure described as a
 in its calculation of what Naissance received via the enforcement
 route. The late additions show:
 
-- Grahame wired **€30,000** to Argo Ge.Re.Cre. on 05.06.2018.
-- The 04.04.2019 distribution plan then refunded €30,000 to Naissance.
+- Naissance issued a **€30,000 cheque** to the procedure, executed
+  as an FX wire to Argo Ge.Re.Cre. on **05.06.2018** (the cheque
+  and wire are the same payment — confirmed by Grahame).
+- The **04.04.2019 distribution plan then refunded €30,000 to
+  Naissance.**
 
 That is almost certainly the same €30,000. This strengthens the
 quantum-attack argument materially: the €30,000 in the trustee's

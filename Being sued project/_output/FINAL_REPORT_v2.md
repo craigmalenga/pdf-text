@@ -147,21 +147,23 @@ Two important things follow:
 ### 3.4 What the cost evidence shows (including the late additions)
 
 Naissance's documented outflows in connection with the enforcement
-and related work are now:
+and related work, after reconciling the wires and cheques
+(the **€30,000 FX wire of 05.06.2018 is the same payment as the
+€30,000 cheque** — not an additional outflow):
 
 | Date | Mode | € | Evidence |
 |---|---|---|---|
-| 26.04.2018 | Wire to Argo Ge.Re.Cre. | 57,000 | FX confirmation (Thomas Exchange UK) |
+| 26.04.2018 | Wire to Argo Ge.Re.Cre. | 57,000 | FX confirmation (Thomas Exchange UK); ties to the itemised €57,110.15 Gavioli cost list in email 6 |
 | 01.05.2018 | Wire to Argo Ge.Re.Cre. | 20,000 | FX confirmation |
-| 05.06.2018 | Wire to Argo Ge.Re.Cre. | 30,000 | FX confirmation (late additions) |
-| Pre-auction | Cheque (no. 7200105791-08) | ~30,000 | Cheque image (late additions) |
-| Pre-auction | Cheque (no. 7200105792-09) | ~45,000 | Cheque image (late additions) |
-| **Total** | | **~182,000** | |
+| 05.06.2018 | €30,000 cheque executed as FX wire | 30,000 | Cheque image + FX confirmation (same payment) |
+| Pre-auction | €45,000 cheque | 45,000 | Cheque image |
+| **Total evidenced** | | **~152,000** | |
 
-Of which **€30,000** was refunded to Naissance via the 04.04.2019
-distribution plan — see §4.3 below. **Net evidenced outflow:
-~€152,000.** The client's claim of €130,000+ in costs is therefore
-now documentarily supported.
+Of which **€30,000** was subsequently refunded to Naissance via the
+04.04.2019 distribution plan — see §4.2 below (this is the central
+double-counting point). The client's claim of €130,000+ in costs is
+now documentarily supported, and there is no overlap between the
+wires and the cheques.
 
 ### 3.5 What the market-value evidence shows
 
