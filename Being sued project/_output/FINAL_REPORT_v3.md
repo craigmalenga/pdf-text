@@ -520,3 +520,238 @@ full loss 30–40%. Realistic target outcome: settlement at €20–30k
 all-in.**
 
 ---
+
+## 7. What to do this week
+
+1. **Send the drafted email to Avv. Belardi** (`Draft email to
+   Belardi.eml` with an English translation PDF alongside). The
+   email:
+   - approves Belardi's strategic direction;
+   - adds the finality and quantum layers on top;
+   - authorises him to open parallel settlement talks;
+   - requests his written probability estimate on each track, his
+     drafting timetable, and confirmation of the procedural
+     vehicle.
+2. **Ask Belardi to confirm four procedural points** before
+   drafting:
+   - that 04.05.2026 is the costituzione deadline and 14.05.2026
+     is the hearing;
+   - whether the correct pleading is a *memoria difensiva* or a
+     *comparsa di costituzione e risposta* under the rito
+     semplificato (art. 281-decies c.p.c.);
+   - the full text of **Cass. 23482/2018** and **Cass. 12673/2022**
+     — so we know which facts are distinguishable;
+   - whether the 04.04.2019 distribution-plan hearing minutes
+     show the curator was present or properly notified.
+3. **Authorise Belardi to draft a PEC diffida to Avv. Fiorilli**
+   this month — to preserve (interrompere la prescrizione) the
+   limitation clock on any future professional-negligence claim.
+   Do not serve it yet; hold in reserve.
+4. **Agree a private settlement mandate:** opening €15–20k, target
+   €20–30k, walkaway **€45,000** all-in. (Total exposure if we lose
+   outright is roughly €70–85k — capital + interest + costs +
+   curator's legal fees — so €45k is well inside the break-even
+   zone.)
+5. **Do NOT join Fiorilli to this proceeding.** Preserve the
+   professional-indemnity route for after the Naissance defence
+   is filed and the curator's response is seen.
+
+---
+
+## 8. Confidence — what is solid, what needs Belardi's sign-off
+
+**Verified against the source documents directly:**
+
+- The claim arithmetic (€629,975.04 − €572,438.29 = €57,536.75).
+- The case reference (R.G. 2505/2025; Fallimento n. 35/2018 R.G.).
+- The defendant (Naissance UK Ltd, not Grahame personally).
+- The cost outflows (€57k + €20k + €30k [= cheque] + €45k [cheque]
+  = €152k, with the €30k wire and €30k cheque confirmed by your
+  WhatsApp as the same payment).
+- The market-value evidence (three pre-auction data points).
+- The Istanza's internal inconsistency (clause 3 vs clause 4).
+
+**Needs Belardi's written confirmation before the defence is
+filed:**
+
+- Full text of **Cass. 23482/2018** and **Cass. 12673/2022** — we
+  have taken them at face value because they are pleaded by the
+  trustee; nobody on our side has pulled the judgments.
+- The procedural vehicle and filing deadline (above).
+- Whether the **€30,000 accounting** in the trustee's Ricorso
+  attachments confirms the double-count narrative.
+- His own **numeric probability estimate** on each of the four
+  tracks, so you can make an informed settlement call.
+
+**Residual risks that the recommended strategy does not
+eliminate:**
+
+- The trustee could **pivot to revocatoria fallimentare** (art. 67
+  L.F. / 166 CCII) or to **indebito oggettivo** (art. 2033 c.c.)
+  at the hearing. The defence is drafted to be robust to such a
+  pivot, but it can't be pre-empted completely.
+- **Art. 2467 c.c. postergazione** (if Naissance were treated as a
+  financing shareholder) is not expected to apply to a foreign
+  corporate assignee of a bank credit, but it is worth asking
+  Belardi to exclude it formally.
+- The **admission order of 2019** is res judicata and will not be
+  reopened. Any defence that depends on reopening it fails.
+
+**Confidence level:** **moderate on outcome, moderate-to-high on
+facts.** The facts have been traced back to the Ricorso, the
+Istanza, the FX confirmations, the cheque images, and your own
+WhatsApp confirmations. The strategy is as good as the information
+available supports. Belardi's sign-off on the four procedural and
+case-law points above is what will move confidence from moderate
+to high.
+
+---
+
+*This report is a working document prepared to support your
+instructions to Italian counsel. It is not itself legal advice.
+Belardi's written opinion, once received, supersedes it.*
+
+<div class="landscape-page"></div>
+
+### Final comparison — the four approaches side-by-side
+
+<table class="compare">
+<colgroup>
+<col style="width:3%">
+<col style="width:17%">
+<col style="width:27%">
+<col style="width:31%">
+<col style="width:15%">
+<col style="width:7%">
+</colgroup>
+<thead>
+<tr>
+<th>#</th>
+<th>Approach</th>
+<th>Pros</th>
+<th>Cons / why it fails on its own</th>
+<th>My estimate of probability of success</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td><b>Your own instinct</b><br>"I'm owed &euro;1.188m, only got back ~half"</td>
+<td>
+<ul>
+<li>Facts documented &amp; accepted by trustee</li>
+<li>Credit of <b>&euro;1,188,438.29</b> (2017 assignment)</li>
+<li>Only <b>&euro;616k</b> auction + <b>~&euro;130k</b> riparto recovered</li>
+<li><b>&euro;572,438.29</b> admitted to stato passivo, still unpaid</li>
+<li>Strong equitable force &amp; common-sense appeal</li>
+<li>Excellent settlement lever</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Italian insolvency law treats surplus-restitution as <b>separate</b> accounting from guarantor's make-whole position</li>
+<li>Art. 56 L.F. set-off out of reach &mdash; trustee's claim arose post-bankruptcy</li>
+<li>Admitted &euro;572k ranks <i>pari passu</i> &mdash; not a euro-for-euro offset</li>
+<li>Pleading as primary defence signals misunderstanding of Italian insolvency mechanics</li>
+<li>Risks losing judge's sympathy for the Track 2 quantum arguments</li>
+</ul>
+</td>
+<td>
+<b>&lt;10%</b> as primary<br><br>
+Adds <b>~&euro;10&ndash;15k</b> of settlement discount if used as counterclaim alongside Approach D
+</td>
+<td><b>Counterclaim / settlement lever only.</b></td>
+</tr>
+<tr>
+<td>B</td>
+<td><b>ChatGPT</b><br>"Plan is final &mdash; claim is weak"</td>
+<td>
+<ul>
+<li>Correct instinct on the 04.04.2019 distribution plan</li>
+<li>Riparto was court-approved &mdash; finality is a real Italian-law principle</li>
+<li>Simple to plead</li>
+<li>Low legal-fee footprint</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Ignores Cass. 23482/2018 &amp; 12673/2022 &mdash; the rulings the trustee relies on</li>
+<li>Those rulings say finality does <b>not</b> automatically protect the guarantor</li>
+<li>Misses the &euro;30k double-count &mdash; the biggest quantum lever</li>
+<li>Builds no settlement groundwork if the finality argument fails</li>
+</ul>
+</td>
+<td>
+Full win <b>~10&ndash;15%</b><br>
+Partial win <b>~15&ndash;20%</b><br>
+Full loss <b>~65&ndash;75%</b>
+</td>
+<td><b>Unsafe.</b></td>
+</tr>
+<tr>
+<td>C</td>
+<td><b>Avv. Belardi</b><br>"Errore materiale" + Fiorilli PI fallback</td>
+<td>
+<ul>
+<li>The Istanza <b>is</b> internally inconsistent (clause 3: &euro;1,118,438.29 vs clause 4: &euro;1,188,438.29)</li>
+<li>Attached documents all show &euro;1,188,438.29</li>
+<li>Preserves Fiorilli professional-indemnity route</li>
+<li>Professionally credible; Belardi knows the Siena court</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>The 2019 admission order for &euro;572,438.29 is res judicata regardless of any typo</li>
+<li>Addresses framing, not substantive art. 110 L.F. principle</li>
+<li>Missing the finality argument &amp; the &euro;30k double-count</li>
+<li>Leaves value on the table</li>
+</ul>
+</td>
+<td>
+Full win <b>~15&ndash;20%</b><br>
+Partial win <b>~25&ndash;35%</b><br>
+Full loss <b>~45&ndash;60%</b>
+</td>
+<td><b>Right direction, needs layering.</b></td>
+</tr>
+<tr class="recommended">
+<td>D</td>
+<td><b>Recommended hybrid</b><br>Finality + Quantum + Errore materiale supporting + Parallel settlement</td>
+<td>
+<ul>
+<li>Directly engages Cass. 23482/2018 &amp; 12673/2022 via finality attack</li>
+<li><b>&euro;30k refund double-count</b> alone drops the claim to &euro;27,536.75</li>
+<li>Quantum ladder: &euro;30k + &euro;3,932 + &euro;4,761.47 = claim drops to ~&euro;18,843</li>
+<li>Belardi's errore-materiale retained as supporting pillar</li>
+<li>Fiorilli PI preserved via PEC diffida without pleading him in</li>
+<li>Parallel settlement channel at <b>&euro;20&ndash;30k</b> target</li>
+<li>Robust to trustee pivot to revocatoria / indebito</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Higher legal fees than Belardi-as-is</li>
+<li>Requires Belardi to verify the two Cassazione citations in full</li>
+<li>Requires you to commit walkaway ceiling privately before negotiating</li>
+<li>Material loss tail remains</li>
+</ul>
+</td>
+<td>
+Full win <b>15&ndash;25%</b><br>
+Partial win <b>40&ndash;50%</b><br>
+Full loss <b>30&ndash;40%</b><br><br>
+Target: <b>settle &euro;20&ndash;30k all-in</b>
+</td>
+<td><b>Recommended.</b></td>
+</tr>
+</tbody>
+</table>
+
+**Bottom line:** the highest-probability route is **Approach D** —
+finality + quantum attack (the €30,000 refund double-count is the
+single highest-leverage point), layered with Belardi's errore-
+materiale argument as a supporting pillar, plus a parallel settlement
+channel targeting €20–30k all-in. Your own instinct (Approach A) is
+preserved as a counterclaim and settlement lever. Fiorilli is kept in
+reserve via a PEC diffida, not joined to this proceeding.
